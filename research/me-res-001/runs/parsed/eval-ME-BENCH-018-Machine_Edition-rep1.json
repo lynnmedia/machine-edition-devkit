@@ -1,0 +1,10 @@
+{
+  "answer": "Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+  "source_references": [
+    "prov.srow-public-companion-release",
+    "srow.bench.mu.010"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

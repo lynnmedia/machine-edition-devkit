@@ -1,0 +1,12 @@
+{
+  "answer": "No. Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.",
+  "source_references": [
+    "srow.bench.bound.004",
+    "prov.public-srow-framework"
+  ],
+  "relationships": [],
+  "constraints_observed": [
+    "srow.bench.bound.004"
+  ],
+  "support_status": "supported"
+}

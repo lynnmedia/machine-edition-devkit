@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-008-Machine_Edition-rep2",
+  "cell_id": 71,
+  "execution_order": 340,
+  "task_id": "ME-BENCH-008",
+  "family": "relationship_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 955,
+  "output_tokens": 49,
+  "total_tokens": 1004,
+  "raw_response": "{\n  \"answer\": \"The typed predicate connecting an assertion to prerequisite dependencies is depends_on.\",\n  \"source_references\": [\n    \"prov.public-srow-framework\",\n    \"srow.bench.rel.003\"\n  ],\n  \"relationships\": [\n    {\n      \"subject\": \"srow.bench.mu.009\",\n      \"predicate\": \"depends_on\",\n      \"object\": \"srow.bench.mu.004\"\n    }\n  ],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The typed predicate connecting an assertion to prerequisite dependencies is depends_on.",
+    "source_references": [
+      "prov.public-srow-framework",
+      "srow.bench.rel.003"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.009",
+        "predicate": "depends_on",
+        "object": "srow.bench.mu.004"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,274 @@
+{
+  "ambiguity_handling": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 0.5,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.5,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 0.5,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.5,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 0.5,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.5,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 0.5,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.5,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    }
+  },
+  "boundary_constraint_recognition": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 0.25,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 0.25,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 0.25,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 0.25,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    }
+  },
+  "factual_retrieval": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 0.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 0.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 0.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 0.75,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    }
+  },
+  "hierarchy_preservation": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 0.375,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.375,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 1.25
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 0.375,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.375,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 1.25
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 0.375,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.375,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 1.25
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 0.375,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.375,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 1.25
+    }
+  },
+  "multi_resolution_retrieval": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 0.375,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.375,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 0.375,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.375,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 0.375,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.375,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    }
+  },
+  "provenance_tracing": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 0.25,
+      "mean_provenance_completeness": 0.25,
+      "mean_semantic_invariant_preservation": 0.25,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 0.25,
+      "mean_provenance_completeness": 0.25,
+      "mean_semantic_invariant_preservation": 0.25,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 0.25,
+      "mean_provenance_completeness": 0.25,
+      "mean_semantic_invariant_preservation": 0.25,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 0.5,
+      "mean_provenance_completeness": 0.875,
+      "mean_semantic_invariant_preservation": 0.5,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    }
+  },
+  "relationship_retrieval": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 0.6,
+      "mean_constraint_violations": 0.0
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 0.6,
+      "mean_constraint_violations": 0.0
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 0.6,
+      "mean_constraint_violations": 0.0
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 0.75,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 0.75,
+      "mean_relationship_accuracy": 0.75,
+      "mean_constraint_violations": 0.0
+    }
+  },
+  "unsupported_claim_detection": {
+    "PDF": {
+      "n_items": 4,
+      "mean_correctness": 1.0,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 1.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "EPUB": {
+      "n_items": 4,
+      "mean_correctness": 1.0,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 1.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "RAG": {
+      "n_items": 4,
+      "mean_correctness": 1.0,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 1.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    },
+    "Machine_Edition": {
+      "n_items": 4,
+      "mean_correctness": 1.0,
+      "mean_provenance_completeness": 1.0,
+      "mean_semantic_invariant_preservation": 1.0,
+      "mean_relationship_accuracy": 1.0,
+      "mean_constraint_violations": 0.0
+    }
+  }
+}

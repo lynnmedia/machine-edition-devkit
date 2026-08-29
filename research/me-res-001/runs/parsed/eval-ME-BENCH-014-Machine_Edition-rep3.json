@@ -1,0 +1,10 @@
+{
+  "answer": "In the SROW hierarchy, L3 corresponds to technical verification records.",
+  "source_references": [
+    "srow.bench.mu.006",
+    "srow.bench.mu.004"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

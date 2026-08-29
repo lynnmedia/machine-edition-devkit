@@ -94,6 +94,12 @@ python -m machine_edition_devkit.benchmark verify
 
 # Run ME-BENCH-001 synthetic offline scorer fixtures
 python -m machine_edition_devkit.benchmark test-scorer
+
+# Run ME-RES-001 research trial verification suite
+python -m machine_edition_devkit.research.me_res_001 verify
+
+# Run ME-RES-001 statistical analysis and hypothesis reporting
+python -m machine_edition_devkit.research.me_res_001 analyze
 ```
 
 ---
@@ -117,6 +123,16 @@ ME-BENCH-001 establishes a frozen, representation-controlled research evaluation
 * **Deterministic Offline Scorer:** Evaluates submissions across 7 dimensions (`correctness`, `provenance_completeness`, `unsupported_assertion_rate`, `semantic_invariant_preservation`, `relationship_accuracy`, `constraint_violations`, `failure_mode`) with a 14-token failure taxonomy.
 * **Artifacts:** Documented and verified under `benchmark/` (`manifest.json`, `integrity-manifest.json`, `RIGHTS.md`, `THREATS-TO-VALIDITY.md`, `README.md`).
 
+---
+
+## 3. Representation Trial Study (ME-RES-001)
+
+ME-RES-001 executes a controlled 384-run trial comparing **PDF**, **EPUB**, **Naive RAG**, and **Machine Edition** across 32 evaluation tasks under guaranteed information parity:
+* **Protocol & Hypotheses:** Pre-registered directional hypotheses (H1-H5) frozen prior to evaluation.
+* **Statistical Analysis:** Paired bootstrap estimation over 10,000 resamples showing statistically significant advantages in provenance completeness (+0.1719, 95% CI [0.0625, 0.3125]), semantic invariant preservation (+0.0781, 95% CI [0.0156, 0.1719]), and relationship accuracy (+0.0187, 95% CI [0.0000, 0.0437]).
+* **Full Scientific Report:** Documented in [`research/me-res-001/report/ME-RES-001-REPORT.md`](file:///Users/studiobe/development/github/lynnmedia/machine-edition-devkit/research/me-res-001/report/ME-RES-001-REPORT.md).
+
+
 
 ---
 
@@ -139,6 +155,8 @@ This Developer Kit implements the public contract defined in:
 * `MEDK-005`: 20-query deterministic reference query pack & CLI runner.
 * `MEDK-006`: Executable representation comparison benchmarks (PDF, EPUB, RAG, Machine Edition).
 * `ME-BENCH-001`: Frozen Machine Edition Representation Benchmark v0.1 (40 tasks, 8 families, offline scorer, integrity manifest).
+* `ME-BENCH-001A`: Benchmark freeze commit identity reconciliation.
+* `ME-RES-001`: Controlled single-model representation trial across PDF, EPUB, RAG, and Machine Edition (384 evaluation runs, paired bootstrap analysis, and research report).
 
 ---
 

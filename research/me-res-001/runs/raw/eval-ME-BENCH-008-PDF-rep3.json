@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-008-PDF-rep3",
+  "cell_id": 63,
+  "execution_order": 248,
+  "task_id": "ME-BENCH-008",
+  "family": "relationship_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 12.51,
+  "input_tokens": 421,
+  "output_tokens": 37,
+  "total_tokens": 458,
+  "raw_response": "{\n  \"answer\": \"The typed predicate connecting an assertion to prerequisite dependencies is depends_on.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The typed predicate connecting an assertion to prerequisite dependencies is depends_on.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

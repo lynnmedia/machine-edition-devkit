@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-034-Machine_Edition-rep1",
+  "cell_id": 322,
+  "execution_order": 23,
+  "task_id": "ME-BENCH-034",
+  "family": "multi_resolution_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 958,
+  "output_tokens": 44,
+  "total_tokens": 1002,
+  "raw_response": "{\n  \"answer\": \"L3 technical verification: Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.\",\n  \"source_references\": [\n    \"srow.bench.mu.006\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L3 technical verification: Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.",
+    "source_references": [
+      "srow.bench.mu.006"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

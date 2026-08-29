@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-033-PDF-rep3",
+  "cell_id": 303,
+  "execution_order": 53,
+  "task_id": "ME-BENCH-033",
+  "family": "multi_resolution_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 12.51,
+  "input_tokens": 421,
+  "output_tokens": 44,
+  "total_tokens": 465,
+  "raw_response": "{\n  \"answer\": \"The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

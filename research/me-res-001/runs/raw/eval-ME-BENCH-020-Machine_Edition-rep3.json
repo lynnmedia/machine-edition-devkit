@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-020-Machine_Edition-rep3",
+  "cell_id": 192,
+  "execution_order": 228,
+  "task_id": "ME-BENCH-020",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+  "context_sha256": "781d3b6fa09285494cdd80f5f0ab7540b68b2f470f14a10f9f8ce63eb0c3aa66",
+  "context_length": 9580,
+  "latency_ms": 12.51,
+  "input_tokens": 929,
+  "output_tokens": 45,
+  "total_tokens": 974,
+  "raw_response": "{\n  \"answer\": \"Fabricated provenance is penalized more severely than omitted provenance under the PROVENANCE_FABRICATED failure mode because false provenance destroys auditability.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Fabricated provenance is penalized more severely than omitted provenance under the PROVENANCE_FABRICATED failure mode because false provenance destroys auditability.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

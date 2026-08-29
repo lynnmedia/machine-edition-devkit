@@ -1,0 +1,11 @@
+{
+  "answer": "Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+  "source_references": [
+    "prov.public-srow-framework",
+    "srow.bench.mu.001",
+    "srow.bench.def.001"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

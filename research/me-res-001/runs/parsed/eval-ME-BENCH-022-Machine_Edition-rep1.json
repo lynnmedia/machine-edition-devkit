@@ -1,0 +1,12 @@
+{
+  "answer": "No. Structured records improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.",
+  "source_references": [
+    "srow.bench.bound.002",
+    "prov.public-srow-framework"
+  ],
+  "relationships": [],
+  "constraints_observed": [
+    "srow.bench.bound.002"
+  ],
+  "support_status": "supported"
+}

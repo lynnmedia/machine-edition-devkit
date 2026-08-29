@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-028-RAG-rep2",
+  "cell_id": 260,
+  "execution_order": 205,
+  "task_id": "ME-BENCH-028",
+  "family": "ambiguity_handling",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+  "context_sha256": "598e331690816390418d3808e1dbb01d8fcb42027d30b770ab07ece1f92c73a2",
+  "context_length": 950,
+  "latency_ms": 12.51,
+  "input_tokens": 189,
+  "output_tokens": 50,
+  "total_tokens": 239,
+  "raw_response": "{\n  \"answer\": \"SROW does not mandate a specific third-party retrieval algorithm; the public contract does not restrict third-party retrieval, so qualification is required as implementations vary.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "SROW does not mandate a specific third-party retrieval algorithm; the public contract does not restrict third-party retrieval, so qualification is required as implementations vary.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "calib-ME-BENCH-011-RAG",
+  "task_id": "ME-BENCH-011",
+  "family": "hierarchy_preservation",
+  "condition": "RAG",
+  "replicate": 1,
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "model_version": "2026-08-29",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 600,
+    "seed": 44527555,
+    "tools_enabled": false,
+    "web_enabled": false,
+    "memory_enabled": false
+  },
+  "question": "What is the five-tier resolution level hierarchy in SROW from lowest to highest granularity?",
+  "context_sha256": "796f8927eddcc767277afa0b7e436aa1cda156e4982f9c7c26494e7fe15c4363",
+  "context_length": 890,
+  "latency_ms": 12.51,
+  "input_tokens": 177,
+  "output_tokens": 49,
+  "total_tokens": 226,
+  "raw_response": "{\n  \"answer\": \"Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.\",\n  \"source_references\": [\n    \"RAG chunk-000\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+    "source_references": [
+      "RAG chunk-000"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "status": "SUCCESS"
+}

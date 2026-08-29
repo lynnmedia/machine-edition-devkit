@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-022-EPUB-rep2",
+  "cell_id": 197,
+  "execution_order": 86,
+  "task_id": "ME-BENCH-022",
+  "family": "boundary_constraint_recognition",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 12.51,
+  "input_tokens": 432,
+  "output_tokens": 49,
+  "total_tokens": 481,
+  "raw_response": "{\n  \"answer\": \"No. Structured records improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [\n    \"Chapter 4 Epistemic Boundary\"\n  ],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "No. Structured records improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [
+      "Chapter 4 Epistemic Boundary"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

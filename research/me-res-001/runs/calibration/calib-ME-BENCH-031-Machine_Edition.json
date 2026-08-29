@@ -1,0 +1,37 @@
+{
+  "run_id": "calib-ME-BENCH-031-Machine_Edition",
+  "task_id": "ME-BENCH-031",
+  "family": "multi_resolution_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "model_version": "2026-08-29",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 600,
+    "seed": 44527555,
+    "tools_enabled": false,
+    "web_enabled": false,
+    "memory_enabled": false
+  },
+  "question": "Provide the executive orientation (L0 level) summary of SROW.",
+  "context_sha256": "92368a4b6c439bbeaa0c6dd3870ea559658a52f5d8ebce8377b8c15f61625e38",
+  "context_length": 9317,
+  "latency_ms": 12.51,
+  "input_tokens": 899,
+  "output_tokens": 51,
+  "total_tokens": 950,
+  "raw_response": "{\n  \"answer\": \"L0 orientation summary: Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.\",\n  \"source_references\": [\n    \"srow.bench.mu.001\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L0 orientation summary: Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+    "source_references": [
+      "srow.bench.mu.001"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "status": "SUCCESS"
+}

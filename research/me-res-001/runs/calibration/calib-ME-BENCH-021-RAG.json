@@ -1,0 +1,37 @@
+{
+  "run_id": "calib-ME-BENCH-021-RAG",
+  "task_id": "ME-BENCH-021",
+  "family": "boundary_constraint_recognition",
+  "condition": "RAG",
+  "replicate": 1,
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "model_version": "2026-08-29",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 600,
+    "seed": 44527555,
+    "tools_enabled": false,
+    "web_enabled": false,
+    "memory_enabled": false
+  },
+  "question": "Is SROW intended to operate as a cognition architecture or internal thought model?",
+  "context_sha256": "dea9416e1f6cf7a3a37dcc2bf3a927b1e004143441ec48f538af12d3af4ca6e0",
+  "context_length": 943,
+  "latency_ms": 12.51,
+  "input_tokens": 182,
+  "output_tokens": 47,
+  "total_tokens": 229,
+  "raw_response": "{\n  \"answer\": \"No. SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [\n    \"Chapter 4 Scope Boundary\"\n  ],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "No. SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [
+      "Chapter 4 Scope Boundary"
+    ],
+    "support_status": "supported"
+  },
+  "status": "SUCCESS"
+}

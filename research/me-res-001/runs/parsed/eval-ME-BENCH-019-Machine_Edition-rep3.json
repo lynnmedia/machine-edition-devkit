@@ -1,0 +1,10 @@
+{
+  "answer": "The provenance record governing the public companion release is prov.srow-public-companion-release (https://winmedia.com/machine-editions/editions/srow).",
+  "source_references": [
+    "prov.srow-public-companion-release",
+    "https://winmedia.com/machine-editions/editions/srow"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

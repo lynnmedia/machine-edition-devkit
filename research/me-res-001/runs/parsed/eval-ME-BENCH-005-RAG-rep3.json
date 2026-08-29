@@ -1,0 +1,9 @@
+{
+  "answer": "Resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+  "source_references": [
+    "RAG chunk-002"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

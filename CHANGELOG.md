@@ -30,3 +30,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Strict gold firewall separating public task inputs (`tasks.jsonl`) from adjudication ledgers (`gold/`).
   - Offline deterministic scoring engine evaluating 7 dimensions with a 14-token failure taxonomy and 13 synthetic validation fixtures.
   - Cryptographic integrity manifest (`benchmark/integrity-manifest.json`), rights manifest (`benchmark/RIGHTS.md`), threats-to-validity registry (`benchmark/THREATS-TO-VALIDITY.md`), and comprehensive CLI tooling (`verify`, `rebuild`, `test-scorer`, `parity`).
+- Benchmark freeze identity reconciliation (`ME-BENCH-001A`) confirming zero benchmark-critical content divergence between lineage commits.
+- Structured publication representation trial study (`ME-RES-001`):
+  - Pre-registered protocol and directional hypotheses (H1-H5) frozen prior to execution (`research/me-res-001/PROTOCOL.md`, `HYPOTHESES.md`).
+  - Executed controlled 384-run evaluation matrix (32 tasks × 4 conditions × 3 replicates) with deterministic pseudo-random scheduling (seed `44527555`).
+  - Enforced strict gold firewall isolating generation runtime from adjudication standards.
+  - Paired bootstrap statistical analysis over 10,000 resamples confirming significant advantages for Machine Edition in provenance completeness, relationship accuracy, and semantic invariant preservation under factual neutrality.
+  - Comprehensive scientific research report (`research/me-res-001/report/ME-RES-001-REPORT.md`) and CLI suite (`machine_edition_devkit.research.me_res_001`).

@@ -1,0 +1,10 @@
+{
+  "answer": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+  "source_references": [
+    "prov.public-srow-framework",
+    "srow.bench.mu.003"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

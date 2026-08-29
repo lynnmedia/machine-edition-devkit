@@ -1,0 +1,25 @@
+{
+  "trial_id": "ME-RES-001",
+  "status": "frozen_evidence",
+  "file_count": 18,
+  "hashes": {
+    "research/me-res-001/PROTOCOL.md": "0aea6021a37022fa88ad77155eedcb3db9025b2cf3cc08602a2d2f5a145bca74",
+    "research/me-res-001/HYPOTHESES.md": "bca6b60fa20dadcd21907230f40902cd61dbb816ace94a4cf3934afd36f35672",
+    "research/me-res-001/MODEL.json": "ac81a495c2d61db16e8010f508d1095838b310fe8b14b1427862ba3dd78dfbbb",
+    "research/me-res-001/PROMPT.md": "b11854776ae7935075d17a19914668814da3661a518857980cb31c4b54227292",
+    "research/me-res-001/CONDITIONS.json": "cb5309092ebc8bd5e1ac0f51ffc2d62884603697c07521c9d001002a99da87cb",
+    "research/me-res-001/RUN-SCHEDULE.json": "3150f2f4e4211c831a4a44bd3505832d2cabf059e6a8c1e2ab52cb49bc56b6cf",
+    "research/me-res-001/EXECUTION-MANIFEST.json": "aaaa3bd407f04358f14275f55943e86ee46c7abd7a2ed29d5e994a7a75f379e3",
+    "research/me-res-001/scores/item-scores.jsonl": "635acb4beca45f6ec10002a64b371ea69563031fb7a04ab6ab2ba561ac7c5200",
+    "research/me-res-001/scores/condition-summary.json": "40c4e9b61867323b2c6363a96ffbe4881ea4ae7b8e87d83061a7f012a963dc53",
+    "research/me-res-001/scores/family-summary.json": "819d7c09daf9d7df359e3c6eb10cdc97e393e29da9c70868ea24a3dbbe4df2f8",
+    "research/me-res-001/scores/failure-modes.json": "a2475c05d3dacc364e55b9566168f3dc33c4d8cd876cada67f3f866c66ca2f4c",
+    "research/me-res-001/analysis/analysis-plan.md": "33b51fb73ea641ca2371f6957cc46d107631daa8b707fe8f07bb10c11d31cb42",
+    "research/me-res-001/analysis/analyze.py": "c29bca7e1e313dc745a281161cd67351a609935ceb1a98050291508ec2d67ecf",
+    "research/me-res-001/analysis/contrasts.json": "4bcf434c94ca4f4f556cf394a92d74339790d5c41a98669ffb7c6f3e5c4c7ea4",
+    "research/me-res-001/analysis/bootstrap-results.json": "3a062c689b894d51920c314d41924c65173bf17b0dda922fe8d6cc9106b8d20a",
+    "research/me-res-001/analysis/statistical-results.json": "9592957fa152b745c77557ae58a150b6f5ba0387538ed30d0814bbab640489b8",
+    "research/me-res-001/report/ME-RES-001-REPORT.md": "92d3817ddf19c5696b0d952a60879c54650141625d9d9e32c34f7c37385b166d",
+    "research/me-res-001/README.md": "d6ab5e32b26fc3552d703dbb01ee480db27fd38ed2e7a091eba91cd60dd884df"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-009-RAG-rep2",
+  "cell_id": 80,
+  "execution_order": 353,
+  "task_id": "ME-BENCH-009",
+  "family": "relationship_retrieval",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+  "context_sha256": "2fccc0fee2a2de7e35754c482c32b4f2cbe2755cacb524c0b11ba0819b017968",
+  "context_length": 892,
+  "latency_ms": 12.51,
+  "input_tokens": 171,
+  "output_tokens": 47,
+  "total_tokens": 218,
+  "raw_response": "{\n  \"answer\": \"The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\",\n  \"source_references\": [\n    \"RAG chunk-001\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+    "source_references": [
+      "RAG chunk-001"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

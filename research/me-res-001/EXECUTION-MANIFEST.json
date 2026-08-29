@@ -1,0 +1,35 @@
+{
+  "trial_id": "ME-RES-001",
+  "title": "Machine-Oriented Publication Structures: Controlled Comparative Evaluation of PDF, EPUB, RAG, and Governed Machine Edition Representations",
+  "status": "completed",
+  "execution_date": "2026-08-29",
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "parameters": {
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_output_tokens": 600,
+      "seed": 44527555
+    }
+  },
+  "run_counts": {
+    "calibration_runs": 32,
+    "evaluation_runs": 384,
+    "total_runs": 416,
+    "successful_runs": 416,
+    "failed_runs": 0
+  },
+  "benchmark_binding": {
+    "benchmark_id": "winmedia.machine-edition-representation-benchmark.v0.1",
+    "version": "0.1.0",
+    "tasks_evaluated": 32,
+    "replicates_per_cell": 3,
+    "conditions": [
+      "PDF",
+      "EPUB",
+      "RAG",
+      "Machine_Edition"
+    ]
+  }
+}

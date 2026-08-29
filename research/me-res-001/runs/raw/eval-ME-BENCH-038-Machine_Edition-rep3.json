@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-038-Machine_Edition-rep3",
+  "cell_id": 360,
+  "execution_order": 158,
+  "task_id": "ME-BENCH-038",
+  "family": "unsupported_claim_detection",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+  "context_sha256": "9b8b0bf544430f6229875f54461bfb0eba83294a66b3784024e79b4986ea46e0",
+  "context_length": 8920,
+  "latency_ms": 12.52,
+  "input_tokens": 859,
+  "output_tokens": 47,
+  "total_tokens": 906,
+  "raw_response": "{\n  \"answer\": \"The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

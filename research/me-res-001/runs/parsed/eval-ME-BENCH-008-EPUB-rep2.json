@@ -1,0 +1,7 @@
+{
+  "answer": "The typed predicate connecting an assertion to prerequisite dependencies is depends_on.",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

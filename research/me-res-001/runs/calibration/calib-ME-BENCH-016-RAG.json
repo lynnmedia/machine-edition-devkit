@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-016-RAG",
+  "task_id": "ME-BENCH-016",
+  "family": "provenance_tracing",
+  "condition": "RAG",
+  "replicate": 1,
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "model_version": "2026-08-29",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 600,
+    "seed": 44527555,
+    "tools_enabled": false,
+    "web_enabled": false,
+    "memory_enabled": false
+  },
+  "question": "What is the authoritative release archive hash supporting the SROW public companion sample records?",
+  "context_sha256": "e3d1105a7d3b2b5d9b05627e2abb3820733abf24757649d7a42a0c36c56b1329",
+  "context_length": 912,
+  "latency_ms": 12.51,
+  "input_tokens": 179,
+  "output_tokens": 39,
+  "total_tokens": 218,
+  "raw_response": "{\n  \"answer\": \"The supplied source context does not contain sufficient information to answer the question.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The supplied source context does not contain sufficient information to answer the question.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "unsupported"
+  },
+  "status": "SUCCESS"
+}

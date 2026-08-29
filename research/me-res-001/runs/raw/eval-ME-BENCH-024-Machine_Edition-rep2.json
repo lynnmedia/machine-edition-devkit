@@ -1,0 +1,32 @@
+{
+  "run_id": "eval-ME-BENCH-024-Machine_Edition-rep2",
+  "cell_id": 227,
+  "execution_order": 194,
+  "task_id": "ME-BENCH-024",
+  "family": "boundary_constraint_recognition",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+  "context_sha256": "504399c03ce81a053beb2f0bc2c05f28c02f968111a6aadb7b8e60317254e27d",
+  "context_length": 9010,
+  "latency_ms": 12.51,
+  "input_tokens": 875,
+  "output_tokens": 53,
+  "total_tokens": 928,
+  "raw_response": "{\n  \"answer\": \"No. Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.\",\n  \"source_references\": [\n    \"srow.bench.bound.004\",\n    \"prov.public-srow-framework\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [\n    \"srow.bench.bound.004\"\n  ],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "No. Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.",
+    "source_references": [
+      "srow.bench.bound.004",
+      "prov.public-srow-framework"
+    ],
+    "relationships": [],
+    "constraints_observed": [
+      "srow.bench.bound.004"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-ME-BENCH-019-Machine_Edition-rep3",
+  "cell_id": 180,
+  "execution_order": 318,
+  "task_id": "ME-BENCH-019",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What provenance record governs the public companion release metadata?",
+  "context_sha256": "92368a4b6c439bbeaa0c6dd3870ea559658a52f5d8ebce8377b8c15f61625e38",
+  "context_length": 9317,
+  "latency_ms": 12.51,
+  "input_tokens": 899,
+  "output_tokens": 40,
+  "total_tokens": 939,
+  "raw_response": "{\n  \"answer\": \"The provenance record governing the public companion release is prov.srow-public-companion-release (https://winmedia.com/machine-editions/editions/srow).\",\n  \"source_references\": [\n    \"prov.srow-public-companion-release\",\n    \"https://winmedia.com/machine-editions/editions/srow\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The provenance record governing the public companion release is prov.srow-public-companion-release (https://winmedia.com/machine-editions/editions/srow).",
+    "source_references": [
+      "prov.srow-public-companion-release",
+      "https://winmedia.com/machine-editions/editions/srow"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

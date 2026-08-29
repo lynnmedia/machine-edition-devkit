@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-014-RAG-rep2",
+  "cell_id": 128,
+  "execution_order": 132,
+  "task_id": "ME-BENCH-014",
+  "family": "hierarchy_preservation",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Which resolution level corresponds to technical verification records in SROW?",
+  "context_sha256": "67e20bbc954c1838e153074486efab00d4039b413b6ae1c9db220830bea11724",
+  "context_length": 890,
+  "latency_ms": 12.51,
+  "input_tokens": 173,
+  "output_tokens": 36,
+  "total_tokens": 209,
+  "raw_response": "{\n  \"answer\": \"In the SROW hierarchy, L3 corresponds to technical verification records.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "In the SROW hierarchy, L3 corresponds to technical verification records.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-005-EPUB-rep2",
+  "cell_id": 41,
+  "execution_order": 148,
+  "task_id": "ME-BENCH-005",
+  "family": "factual_retrieval",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What does resolution monotonicity require across detail levels?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 12.51,
+  "input_tokens": 428,
+  "output_tokens": 48,
+  "total_tokens": 476,
+  "raw_response": "{\n  \"answer\": \"Resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.\",\n  \"source_references\": [\n    \"EPUB Document Chapter 3\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+    "source_references": [
+      "EPUB Document Chapter 3"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

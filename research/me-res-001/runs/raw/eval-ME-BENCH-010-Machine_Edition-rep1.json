@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-010-Machine_Edition-rep1",
+  "cell_id": 94,
+  "execution_order": 328,
+  "task_id": "ME-BENCH-010",
+  "family": "relationship_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 962,
+  "output_tokens": 53,
+  "total_tokens": 1015,
+  "raw_response": "{\n  \"answer\": \"The typed predicate used when a meaning unit provides a concrete application instance is exemplifies.\",\n  \"source_references\": [\n    \"prov.public-srow-framework\",\n    \"srow.bench.rel.004\"\n  ],\n  \"relationships\": [\n    {\n      \"subject\": \"srow.bench.mu.006\",\n      \"predicate\": \"exemplifies\",\n      \"object\": \"srow.bench.mu.001\"\n    }\n  ],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The typed predicate used when a meaning unit provides a concrete application instance is exemplifies.",
+    "source_references": [
+      "prov.public-srow-framework",
+      "srow.bench.rel.004"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.006",
+        "predicate": "exemplifies",
+        "object": "srow.bench.mu.001"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-027-Machine_Edition-rep3",
+  "cell_id": 252,
+  "execution_order": 76,
+  "task_id": "ME-BENCH-027",
+  "family": "ambiguity_handling",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 960,
+  "output_tokens": 51,
+  "total_tokens": 1011,
+  "raw_response": "{\n  \"answer\": \"When source evidence is underspecified or accommodates multiple valid interpretations, an agent must provide explicit qualification rather than collapsing ambiguity into ungrounded certainty.\",\n  \"source_references\": [\n    \"srow.bench.mu.011\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "When source evidence is underspecified or accommodates multiple valid interpretations, an agent must provide explicit qualification rather than collapsing ambiguity into ungrounded certainty.",
+    "source_references": [
+      "srow.bench.mu.011"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

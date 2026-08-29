@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-006-RAG",
+  "task_id": "ME-BENCH-006",
+  "family": "relationship_retrieval",
+  "condition": "RAG",
+  "replicate": 1,
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "model_version": "2026-08-29",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 600,
+    "seed": 44527555,
+    "tools_enabled": false,
+    "web_enabled": false,
+    "memory_enabled": false
+  },
+  "question": "What typed predicate indicates source lineage between meaning units?",
+  "context_sha256": "aeff6c29dc42e4d8598d647c23b6acb4cba489a99569642d55c5266952263858",
+  "context_length": 955,
+  "latency_ms": 12.51,
+  "input_tokens": 171,
+  "output_tokens": 37,
+  "total_tokens": 208,
+  "raw_response": "{\n  \"answer\": \"The typed predicate indicating source lineage between meaning units is derives_from.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The typed predicate indicating source lineage between meaning units is derives_from.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "status": "SUCCESS"
+}

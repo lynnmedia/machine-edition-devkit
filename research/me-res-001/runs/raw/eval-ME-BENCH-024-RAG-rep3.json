@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-024-RAG-rep3",
+  "cell_id": 225,
+  "execution_order": 218,
+  "task_id": "ME-BENCH-024",
+  "family": "boundary_constraint_recognition",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+  "context_sha256": "0adea2245b18c062cfccd5cdf9dd6ca2f164da8e7ab468af69afa830a09e7057",
+  "context_length": 918,
+  "latency_ms": 12.51,
+  "input_tokens": 181,
+  "output_tokens": 53,
+  "total_tokens": 234,
+  "raw_response": "{\n  \"answer\": \"No. Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [\n    \"Chapter 4 Governance Boundary\"\n  ],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "No. Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [
+      "Chapter 4 Governance Boundary"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,7 @@
+{
+  "answer": "SROW does not mandate a specific third-party retrieval algorithm; the public contract does not restrict third-party retrieval, so qualification is required as implementations vary.",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

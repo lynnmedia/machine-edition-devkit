@@ -1,0 +1,9 @@
+{
+  "answer": "Contextual scope tags define the operational domain enclosing individual assertions, separating universal core invariants from provisional public companion samples.",
+  "source_references": [
+    "srow.bench.mu.012"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

@@ -1,0 +1,7 @@
+{
+  "answer": "The supplied source context does not contain sufficient information to answer the question.",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "unsupported"
+}

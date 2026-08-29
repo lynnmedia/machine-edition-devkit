@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-002-Machine_Edition-rep1",
+  "cell_id": 10,
+  "execution_order": 61,
+  "task_id": "ME-BENCH-002",
+  "family": "factual_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What is the algorithm used to compute stable IDs for meaning units?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 957,
+  "output_tokens": 39,
+  "total_tokens": 996,
+  "raw_response": "{\n  \"answer\": \"The supplied source context does not contain sufficient information to answer the question.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The supplied source context does not contain sufficient information to answer the question.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

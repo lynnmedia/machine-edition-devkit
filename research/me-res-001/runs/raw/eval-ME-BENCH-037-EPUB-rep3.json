@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-037-EPUB-rep3",
+  "cell_id": 342,
+  "execution_order": 89,
+  "task_id": "ME-BENCH-037",
+  "family": "unsupported_claim_detection",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 12.51,
+  "input_tokens": 433,
+  "output_tokens": 47,
+  "total_tokens": 480,
+  "raw_response": "{\n  \"answer\": \"The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

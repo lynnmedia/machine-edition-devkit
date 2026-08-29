@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-003-RAG-rep2",
+  "cell_id": 20,
+  "execution_order": 253,
+  "task_id": "ME-BENCH-003",
+  "family": "factual_retrieval",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What is progressive disclosure according to the source?",
+  "context_sha256": "512ac0a6269441c406fcafd06bb08ceacc05c07145c2d4eb007df860c67b2f31",
+  "context_length": 852,
+  "latency_ms": 12.51,
+  "input_tokens": 163,
+  "output_tokens": 48,
+  "total_tokens": 211,
+  "raw_response": "{\n  \"answer\": \"Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.\",\n  \"source_references\": [\n    \"RAG chunk-000\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+    "source_references": [
+      "RAG chunk-000"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

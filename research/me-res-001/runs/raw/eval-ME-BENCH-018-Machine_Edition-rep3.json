@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-ME-BENCH-018-Machine_Edition-rep3",
+  "cell_id": 168,
+  "execution_order": 159,
+  "task_id": "ME-BENCH-018",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "How does epistemic authority bind atomic assertions to source verification?",
+  "context_sha256": "0f5571089d5544ed44646988b6508a2c258e35bfaf6157c4d4f34834f920313f",
+  "context_length": 9301,
+  "latency_ms": 12.51,
+  "input_tokens": 899,
+  "output_tokens": 48,
+  "total_tokens": 947,
+  "raw_response": "{\n  \"answer\": \"Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.\",\n  \"source_references\": [\n    \"prov.srow-public-companion-release\",\n    \"srow.bench.mu.010\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+    "source_references": [
+      "prov.srow-public-companion-release",
+      "srow.bench.mu.010"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,10 @@
+{
+  "answer": "Explicit structural hierarchy reduces cognitive friction, but does not guarantee factual truth or eliminate model error.",
+  "source_references": [
+    "srow.bench.mu.002",
+    "srow.bench.bound.002"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

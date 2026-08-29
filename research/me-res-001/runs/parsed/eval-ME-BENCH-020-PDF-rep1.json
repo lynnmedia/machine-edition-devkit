@@ -1,0 +1,7 @@
+{
+  "answer": "Fabricated provenance is penalized more severely than omitted provenance under the PROVENANCE_FABRICATED failure mode because false provenance destroys auditability.",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

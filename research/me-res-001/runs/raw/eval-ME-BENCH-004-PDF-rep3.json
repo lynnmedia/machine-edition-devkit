@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-004-PDF-rep3",
+  "cell_id": 27,
+  "execution_order": 123,
+  "task_id": "ME-BENCH-004",
+  "family": "factual_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 12.51,
+  "input_tokens": 425,
+  "output_tokens": 49,
+  "total_tokens": 474,
+  "raw_response": "{\n  \"answer\": \"A conformant Machine Edition package comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.\",\n  \"source_references\": [\n    \"PDF Document Chapter 2\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "A conformant Machine Edition package comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.",
+    "source_references": [
+      "PDF Document Chapter 2"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

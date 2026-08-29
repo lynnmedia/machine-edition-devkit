@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-001-RAG",
+  "task_id": "ME-BENCH-001",
+  "family": "factual_retrieval",
+  "condition": "RAG",
+  "replicate": 1,
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "model_version": "2026-08-29",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 600,
+    "seed": 44527555,
+    "tools_enabled": false,
+    "web_enabled": false,
+    "memory_enabled": false
+  },
+  "question": "What is the definition of SROW according to Chapter 1?",
+  "context_sha256": "b334b2201255efd728d80f65e3caa71111ff3ae4ae654a29c268496a0bee47f4",
+  "context_length": 873,
+  "latency_ms": 12.51,
+  "input_tokens": 171,
+  "output_tokens": 39,
+  "total_tokens": 210,
+  "raw_response": "{\n  \"answer\": \"The supplied source context does not contain sufficient information to answer the question.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The supplied source context does not contain sufficient information to answer the question.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "unsupported"
+  },
+  "status": "SUCCESS"
+}

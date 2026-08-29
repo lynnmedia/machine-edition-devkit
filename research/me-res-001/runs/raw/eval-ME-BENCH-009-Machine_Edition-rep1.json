@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-ME-BENCH-009-Machine_Edition-rep1",
+  "cell_id": 82,
+  "execution_order": 356,
+  "task_id": "ME-BENCH-009",
+  "family": "relationship_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 957,
+  "output_tokens": 47,
+  "total_tokens": 1004,
+  "raw_response": "{\n  \"answer\": \"The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\",\n  \"source_references\": [\n    \"prov.srow-public-companion-release\",\n    \"srow.bench.mu.005\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+    "source_references": [
+      "prov.srow-public-companion-release",
+      "srow.bench.mu.005"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

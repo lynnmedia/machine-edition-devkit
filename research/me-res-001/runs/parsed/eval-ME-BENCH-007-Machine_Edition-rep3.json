@@ -1,0 +1,16 @@
+{
+  "answer": "The typed predicate used to establish architectural elaboration between concepts is clarifies.",
+  "source_references": [
+    "prov.public-srow-framework",
+    "srow.bench.rel.002"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.006",
+      "predicate": "clarifies",
+      "object": "srow.bench.mu.002"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

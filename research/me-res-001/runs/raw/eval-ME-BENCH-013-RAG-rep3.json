@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-013-RAG-rep3",
+  "cell_id": 117,
+  "execution_order": 75,
+  "task_id": "ME-BENCH-013",
+  "family": "hierarchy_preservation",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+  "context_sha256": "fc826e41563bfb09b994705c372b027d1be6bc1465d74f119a175fd2721bb73f",
+  "context_length": 890,
+  "latency_ms": 12.51,
+  "input_tokens": 174,
+  "output_tokens": 55,
+  "total_tokens": 229,
+  "raw_response": "{\n  \"answer\": \"The five-tier resolution hierarchy in SROW from lowest to highest granularity is: L0 orientation summaries, L1 core principles, L2 functional architecture, L3 technical verification records, and L4 forensic ledgers.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The five-tier resolution hierarchy in SROW from lowest to highest granularity is: L0 orientation summaries, L1 core principles, L2 functional architecture, L3 technical verification records, and L4 forensic ledgers.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

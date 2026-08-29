@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-032-Machine_Edition-rep3",
+  "cell_id": 300,
+  "execution_order": 27,
+  "task_id": "ME-BENCH-032",
+  "family": "multi_resolution_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 956,
+  "output_tokens": 52,
+  "total_tokens": 1008,
+  "raw_response": "{\n  \"answer\": \"L1 core principle: Structure is a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.\",\n  \"source_references\": [\n    \"srow.bench.mu.002\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L1 core principle: Structure is a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.",
+    "source_references": [
+      "srow.bench.mu.002"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

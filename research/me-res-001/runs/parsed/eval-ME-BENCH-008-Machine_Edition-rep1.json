@@ -1,0 +1,16 @@
+{
+  "answer": "The typed predicate connecting an assertion to prerequisite dependencies is depends_on.",
+  "source_references": [
+    "prov.public-srow-framework",
+    "srow.bench.rel.003"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.009",
+      "predicate": "depends_on",
+      "object": "srow.bench.mu.004"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

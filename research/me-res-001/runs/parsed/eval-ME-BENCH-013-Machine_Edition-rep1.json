@@ -1,0 +1,10 @@
+{
+  "answer": "The five-tier resolution hierarchy in SROW from lowest to highest granularity is: L0 orientation summaries, L1 core principles, L2 functional architecture, L3 technical verification records, and L4 forensic ledgers.",
+  "source_references": [
+    "prov.public-srow-framework",
+    "srow.bench.mu.004"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

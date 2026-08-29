@@ -1,0 +1,9 @@
+{
+  "answer": "When source evidence is underspecified or accommodates multiple valid interpretations, an agent must provide explicit qualification rather than collapsing ambiguity into ungrounded certainty.",
+  "source_references": [
+    "srow.bench.mu.011"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

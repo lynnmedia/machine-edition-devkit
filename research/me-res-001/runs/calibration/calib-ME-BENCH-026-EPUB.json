@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-026-EPUB",
+  "task_id": "ME-BENCH-026",
+  "family": "ambiguity_handling",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model": {
+    "provider": "local-deterministic-reference",
+    "model_id": "eval-model-v01-deterministic",
+    "model_version": "2026-08-29",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_output_tokens": 600,
+    "seed": 44527555,
+    "tools_enabled": false,
+    "web_enabled": false,
+    "memory_enabled": false
+  },
+  "question": "Does the public specification define the internal neural architecture of an automated inference agent?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 12.51,
+  "input_tokens": 434,
+  "output_tokens": 53,
+  "total_tokens": 487,
+  "raw_response": "{\n  \"answer\": \"The public specification does not define the internal neural architecture of an automated inference agent; it defines external expression and structuring protocols, so explicit qualification is required.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The public specification does not define the internal neural architecture of an automated inference agent; it defines external expression and structuring protocols, so explicit qualification is required.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "status": "SUCCESS"
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-003-EPUB-rep1",
+  "cell_id": 16,
+  "execution_order": 8,
+  "task_id": "ME-BENCH-003",
+  "family": "factual_retrieval",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What is progressive disclosure according to the source?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 12.51,
+  "input_tokens": 428,
+  "output_tokens": 50,
+  "total_tokens": 478,
+  "raw_response": "{\n  \"answer\": \"Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.\",\n  \"source_references\": [\n    \"EPUB Document Chapter 1\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+    "source_references": [
+      "EPUB Document Chapter 1"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

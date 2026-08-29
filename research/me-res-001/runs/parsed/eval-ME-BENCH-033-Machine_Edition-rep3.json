@@ -1,0 +1,9 @@
+{
+  "answer": "L2 functional architecture: The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+  "source_references": [
+    "srow.bench.mu.005"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

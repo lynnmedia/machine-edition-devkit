@@ -1,0 +1,10 @@
+{
+  "answer": "L0 provides high-level orientation summaries, whereas L4 contains complete forensic ledgers, adhering to resolution monotonicity without semantic contradiction.",
+  "source_references": [
+    "srow.bench.mu.004",
+    "srow.bench.mu.009"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

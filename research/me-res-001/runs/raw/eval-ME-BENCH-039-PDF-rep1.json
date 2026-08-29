@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-039-PDF-rep1",
+  "cell_id": 361,
+  "execution_order": 102,
+  "task_id": "ME-BENCH-039",
+  "family": "unsupported_claim_detection",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What is the author's personal home address and phone number?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 12.52,
+  "input_tokens": 421,
+  "output_tokens": 47,
+  "total_tokens": 468,
+  "raw_response": "{\n  \"answer\": \"The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-012-Machine_Edition-rep2",
+  "cell_id": 107,
+  "execution_order": 140,
+  "task_id": "ME-BENCH-012",
+  "family": "hierarchy_preservation",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 961,
+  "output_tokens": 50,
+  "total_tokens": 1011,
+  "raw_response": "{\n  \"answer\": \"The boundary between SROW and cognitive architectures is located in Chapter 4 (Boundaries, Scope, and Epistemic Limitations), following Chapter 2 (Technical Architecture).\",\n  \"source_references\": [\n    \"srow.bench.bound.001\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The boundary between SROW and cognitive architectures is located in Chapter 4 (Boundaries, Scope, and Epistemic Limitations), following Chapter 2 (Technical Architecture).",
+    "source_references": [
+      "srow.bench.bound.001"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

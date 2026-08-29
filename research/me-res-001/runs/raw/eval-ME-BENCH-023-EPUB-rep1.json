@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-023-EPUB-rep1",
+  "cell_id": 208,
+  "execution_order": 259,
+  "task_id": "ME-BENCH-023",
+  "family": "boundary_constraint_recognition",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 12.51,
+  "input_tokens": 434,
+  "output_tokens": 54,
+  "total_tokens": 488,
+  "raw_response": "{\n  \"answer\": \"No. This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [\n    \"Chapter 4 Public Scope Boundary\"\n  ],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "No. This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [
+      "Chapter 4 Public Scope Boundary"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

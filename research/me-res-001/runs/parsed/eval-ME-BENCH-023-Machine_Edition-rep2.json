@@ -1,0 +1,12 @@
+{
+  "answer": "No. This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.",
+  "source_references": [
+    "srow.bench.bound.003",
+    "prov.srow-public-companion-release"
+  ],
+  "relationships": [],
+  "constraints_observed": [
+    "srow.bench.bound.003"
+  ],
+  "support_status": "supported"
+}

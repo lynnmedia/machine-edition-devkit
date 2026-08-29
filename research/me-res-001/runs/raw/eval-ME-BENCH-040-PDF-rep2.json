@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-040-PDF-rep2",
+  "cell_id": 374,
+  "execution_order": 283,
+  "task_id": "ME-BENCH-040",
+  "family": "unsupported_claim_detection",
+  "condition": "PDF",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 12.52,
+  "input_tokens": 424,
+  "output_tokens": 59,
+  "total_tokens": 483,
+  "raw_response": "{\n  \"answer\": \"The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope. Specifically, the mathematical algorithm has no hardware thermal throttling specifications (category error).\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The supplied source context does not contain evidence or support for this claim; the requested information is outside the source scope. Specifically, the mathematical algorithm has no hardware thermal throttling specifications (category error).",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

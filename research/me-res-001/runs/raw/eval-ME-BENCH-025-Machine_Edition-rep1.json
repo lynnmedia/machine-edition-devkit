@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-ME-BENCH-025-Machine_Edition-rep1",
+  "cell_id": 238,
+  "execution_order": 316,
+  "task_id": "ME-BENCH-025",
+  "family": "boundary_constraint_recognition",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 958,
+  "output_tokens": 45,
+  "total_tokens": 1003,
+  "raw_response": "{\n  \"answer\": \"Explicit structural hierarchy reduces cognitive friction, but does not guarantee factual truth or eliminate model error.\",\n  \"source_references\": [\n    \"srow.bench.mu.002\",\n    \"srow.bench.bound.002\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Explicit structural hierarchy reduces cognitive friction, but does not guarantee factual truth or eliminate model error.",
+    "source_references": [
+      "srow.bench.mu.002",
+      "srow.bench.bound.002"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

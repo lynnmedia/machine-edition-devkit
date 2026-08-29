@@ -1,0 +1,31 @@
+{
+  "run_id": "eval-ME-BENCH-017-Machine_Edition-rep3",
+  "cell_id": 156,
+  "execution_order": 47,
+  "task_id": "ME-BENCH-017",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 958,
+  "output_tokens": 50,
+  "total_tokens": 1008,
+  "raw_response": "{\n  \"answer\": \"Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.\",\n  \"source_references\": [\n    \"prov.public-srow-framework\",\n    \"srow.bench.mu.001\",\n    \"srow.bench.def.001\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+    "source_references": [
+      "prov.public-srow-framework",
+      "srow.bench.mu.001",
+      "srow.bench.def.001"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-029-RAG-rep1",
+  "cell_id": 271,
+  "execution_order": 50,
+  "task_id": "ME-BENCH-029",
+  "family": "ambiguity_handling",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+  "context_sha256": "1945ce8d59e24d12051171d6871d8709b049727567b8b052ed3017c23bca71bc",
+  "context_length": 1017,
+  "latency_ms": 12.51,
+  "input_tokens": 191,
+  "output_tokens": 46,
+  "total_tokens": 237,
+  "raw_response": "{\n  \"answer\": \"Contextual scope tags separate universal core invariants from provisional public companion samples into distinct operational domains, requiring explicit scope qualification.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Contextual scope tags separate universal core invariants from provisional public companion samples into distinct operational domains, requiring explicit scope qualification.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

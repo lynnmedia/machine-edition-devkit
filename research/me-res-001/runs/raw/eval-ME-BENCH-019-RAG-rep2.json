@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-019-RAG-rep2",
+  "cell_id": 176,
+  "execution_order": 347,
+  "task_id": "ME-BENCH-019",
+  "family": "provenance_tracing",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What provenance record governs the public companion release metadata?",
+  "context_sha256": "c2c774b3c7041afa7e4dcfbe2f65f09bb744b3785206cda637f2227acc1871bf",
+  "context_length": 986,
+  "latency_ms": 12.51,
+  "input_tokens": 182,
+  "output_tokens": 39,
+  "total_tokens": 221,
+  "raw_response": "{\n  \"answer\": \"The unstructured document references the public release but lacks formal provenance record IDs.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "The unstructured document references the public release but lacks formal provenance record IDs.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -78,22 +78,24 @@ def build_condition_context(task: Dict[str, Any], condition: str, repo_root: Pat
         if not bounds:
             bounds = list(adapter.edition.boundaries())
         rels = list(adapter.edition.relationships())
-        provs = list(adapter.edition.provenance_records().values())
+        provs = list(adapter.edition.provenance_records())
+
+        import dataclasses
 
         lines = [
             "--- BEGIN MACHINE EDITION PACKAGE CONTEXT ---",
             "=== MANIFEST ===",
-            json.dumps(adapter.edition.manifest_data, indent=2),
+            json.dumps(adapter.edition.manifest, indent=2),
             "=== MEANING UNITS ===",
-            "\n".join([json.dumps(u.raw_record) for u in units]),
+            "\n".join([json.dumps(dataclasses.asdict(u)) for u in units]),
             "=== DEFINITIONS ===",
-            "\n".join([json.dumps(d.raw_record) for d in defs]),
+            "\n".join([json.dumps(dataclasses.asdict(d)) for d in defs]),
             "=== BOUNDARIES ===",
-            "\n".join([json.dumps(b.raw_record) for b in bounds]),
+            "\n".join([json.dumps(dataclasses.asdict(b)) for b in bounds]),
             "=== RELATIONSHIPS ===",
-            "\n".join([json.dumps(r.raw_record) for r in rels]),
+            "\n".join([json.dumps(dataclasses.asdict(r)) for r in rels]),
             "=== PROVENANCE LEDGER ===",
-            "\n".join([json.dumps(p.raw_record) for p in provs]),
+            "\n".join([json.dumps(dataclasses.asdict(p)) for p in provs]),
             "--- END MACHINE EDITION PACKAGE CONTEXT ---",
         ]
         ctx = "\n".join(lines)

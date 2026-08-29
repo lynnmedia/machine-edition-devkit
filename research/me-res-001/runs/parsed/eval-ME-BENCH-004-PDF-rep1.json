@@ -1,0 +1,9 @@
+{
+  "answer": "A conformant Machine Edition package comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.",
+  "source_references": [
+    "PDF Document Chapter 2"
+  ],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

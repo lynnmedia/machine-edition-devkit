@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-007-RAG-rep3",
+  "cell_id": 57,
+  "execution_order": 372,
+  "task_id": "ME-BENCH-007",
+  "family": "relationship_retrieval",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+  "context_sha256": "5f8d443146075d1833d974b464fadc27868a1125c77af225e35bfe7aa24a62ee",
+  "context_length": 863,
+  "latency_ms": 12.51,
+  "input_tokens": 163,
+  "output_tokens": 38,
+  "total_tokens": 201,
+  "raw_response": "{\n  \"answer\": \"The typed predicate used to establish architectural elaboration between concepts is clarifies.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The typed predicate used to establish architectural elaboration between concepts is clarifies.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

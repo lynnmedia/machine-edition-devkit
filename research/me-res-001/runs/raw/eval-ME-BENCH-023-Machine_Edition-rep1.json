@@ -1,0 +1,32 @@
+{
+  "run_id": "eval-ME-BENCH-023-Machine_Edition-rep1",
+  "cell_id": 214,
+  "execution_order": 273,
+  "task_id": "ME-BENCH-023",
+  "family": "boundary_constraint_recognition",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 959,
+  "output_tokens": 53,
+  "total_tokens": 1012,
+  "raw_response": "{\n  \"answer\": \"No. This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.\",\n  \"source_references\": [\n    \"srow.bench.bound.003\",\n    \"prov.srow-public-companion-release\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [\n    \"srow.bench.bound.003\"\n  ],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "No. This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.",
+    "source_references": [
+      "srow.bench.bound.003",
+      "prov.srow-public-companion-release"
+    ],
+    "relationships": [],
+    "constraints_observed": [
+      "srow.bench.bound.003"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

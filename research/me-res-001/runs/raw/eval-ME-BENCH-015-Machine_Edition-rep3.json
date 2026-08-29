@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-015-Machine_Edition-rep3",
+  "cell_id": 144,
+  "execution_order": 274,
+  "task_id": "ME-BENCH-015",
+  "family": "hierarchy_preservation",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 12.51,
+  "input_tokens": 957,
+  "output_tokens": 47,
+  "total_tokens": 1004,
+  "raw_response": "{\n  \"answer\": \"Contextual scope tags define the operational domain enclosing individual assertions, separating universal core invariants from provisional public companion samples.\",\n  \"source_references\": [\n    \"srow.bench.mu.012\"\n  ],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Contextual scope tags define the operational domain enclosing individual assertions, separating universal core invariants from provisional public companion samples.",
+    "source_references": [
+      "srow.bench.mu.012"
+    ],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

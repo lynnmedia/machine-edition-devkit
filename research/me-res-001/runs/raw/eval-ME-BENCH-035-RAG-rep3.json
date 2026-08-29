@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-035-RAG-rep3",
+  "cell_id": 333,
+  "execution_order": 145,
+  "task_id": "ME-BENCH-035",
+  "family": "multi_resolution_retrieval",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "eval-model-v01-deterministic",
+  "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+  "context_sha256": "69a9f2c89e639d57910cd0225c12cdf036ba508c529f1a5e3ab670d297989bbd",
+  "context_length": 966,
+  "latency_ms": 12.51,
+  "input_tokens": 181,
+  "output_tokens": 44,
+  "total_tokens": 225,
+  "raw_response": "{\n  \"answer\": \"L0 provides high-level orientation summaries, whereas L4 contains complete forensic ledgers, adhering to resolution monotonicity without semantic contradiction.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L0 provides high-level orientation summaries, whereas L4 contains complete forensic ledgers, adhering to resolution monotonicity without semantic contradiction.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}
