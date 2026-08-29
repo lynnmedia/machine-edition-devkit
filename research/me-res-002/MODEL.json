@@ -1,0 +1,19 @@
+{
+  "provider": "ollama",
+  "runtime": "ollama-local",
+  "model_id": "qwen2.5:0.5b",
+  "model_version": "qwen2.5:0.5b-instruct-q4_k_m",
+  "architecture_family": "qwen2",
+  "parameter_count": "490M",
+  "neural_language_model": true,
+  "arbitrary_unseen_text_capability": true,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_output_tokens": 600,
+  "seed": 2476533847,
+  "endpoint": "http://localhost:11434/api/generate",
+  "tools_enabled": false,
+  "web_enabled": false,
+  "memory_enabled": false,
+  "incremental_cost": "$0.00"
+}

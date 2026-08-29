@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "condition_id": "cond-pdf-v0.1",
+      "name": "PDF",
+      "type": "fixed_layout_document",
+      "artifact": "benchmark/representations/pdf/benchmark-document.pdf",
+      "adapter": "BenchmarkPDFAdapter"
+    },
+    {
+      "condition_id": "cond-epub-v0.1",
+      "name": "EPUB",
+      "type": "reflowable_ebook",
+      "artifact": "benchmark/representations/epub/benchmark-document.epub",
+      "adapter": "BenchmarkEPUBAdapter"
+    },
+    {
+      "condition_id": "cond-rag-v0.1",
+      "name": "RAG",
+      "type": "retrieval_corpus",
+      "artifact": "benchmark/representations/rag/rag-corpus.json",
+      "adapter": "BenchmarkNaiveRAGAdapter",
+      "parameters": {
+        "chunk_size": 250,
+        "overlap": 40,
+        "top_k": 4
+      }
+    },
+    {
+      "condition_id": "cond-machine-edition-v0.1",
+      "name": "Machine_Edition",
+      "type": "governed_package",
+      "artifact": "benchmark/representations/machine-edition/package",
+      "adapter": "BenchmarkMachineEditionAdapter"
+    }
+  ]
+}
