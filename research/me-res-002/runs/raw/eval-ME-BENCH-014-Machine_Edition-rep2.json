@@ -1,0 +1,40 @@
+{
+  "run_id": "eval-ME-BENCH-014-Machine_Edition-rep2",
+  "cell_id": 131,
+  "execution_order": 96,
+  "task_id": "ME-BENCH-014",
+  "family": "hierarchy_preservation",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which resolution level corresponds to technical verification records in SROW?",
+  "context_sha256": "f91f7af89e980cc085a030ea049ab2571cfe85c6d85794b452c4b75398db3c1f",
+  "context_length": 9579,
+  "latency_ms": 3160.42,
+  "input_tokens": 2752,
+  "output_tokens": 117,
+  "total_tokens": 2869,
+  "raw_response": "{\n  \"answer\": \"L3\",\n  \"source_references\": [\"prov.public-srow-framework\", \"prov.srow-public-companion-release\"],\n  \"relationships\": [{\"subject\": \"srow.bench.mu.006\", \"predicate\": \"exemplifies\", \"object\": \"srow.bench.mu.001\", \"provenance_id\": \"prov.public-srow-framework\", \"scope\": \"structural relationship\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L3",
+    "source_references": [
+      "prov.public-srow-framework",
+      "prov.srow-public-companion-release"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.006",
+        "predicate": "exemplifies",
+        "object": "srow.bench.mu.001",
+        "provenance_id": "prov.public-srow-framework",
+        "scope": "structural relationship"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

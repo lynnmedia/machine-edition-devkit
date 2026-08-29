@@ -1,0 +1,17 @@
+{
+  "answer": "partially_supported",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "explicit structure",
+      "predicate": "ranges from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides technical verification records, and L4 contains complete forensic ledgers.",
+      "object": "cognitive friction"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

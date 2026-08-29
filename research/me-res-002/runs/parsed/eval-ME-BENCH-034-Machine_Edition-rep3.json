@@ -1,0 +1,15 @@
+{
+  "id": "srow.bench.mu.005",
+  "record_type": "meaning_unit",
+  "version": "0.1.0",
+  "resolution_level": "L3",
+  "title": "SROW Validation Compliance Sample",
+  "claim": "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.",
+  "provenance_id": "prov.srow-public-companion-release",
+  "scope": "technical verification",
+  "answer": "{'id': 'srow.bench.mu.005', 'record_type': 'meaning_unit', 'version': '0.1.0', 'resolution_level': 'L3', 'title': 'SROW Validation Compliance Sample', 'claim': 'Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.', 'provenance_id': 'prov.srow-public-companion-release', 'scope': 'technical verification'}",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

@@ -1,0 +1,22 @@
+{
+  "answer": "epistemic authority binds atomic assertions directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "epistemic authority",
+      "predicate": "binds",
+      "object": "atomic assertions"
+    },
+    {
+      "subject": "verifiable cryptographic release hashes",
+      "predicate": "to source verification",
+      "object": "canonical publication provenance URLs"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

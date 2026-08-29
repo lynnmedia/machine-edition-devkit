@@ -1,0 +1,17 @@
+{
+  "answer": "resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "resolution monotonicity",
+      "predicate": "requires",
+      "object": "that higher detail levels preserve all invariants of lower detail levels without semantic contradiction."
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

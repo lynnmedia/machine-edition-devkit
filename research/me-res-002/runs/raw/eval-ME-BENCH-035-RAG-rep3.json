@@ -1,0 +1,40 @@
+{
+  "run_id": "eval-ME-BENCH-035-RAG-rep3",
+  "cell_id": 333,
+  "execution_order": 265,
+  "task_id": "ME-BENCH-035",
+  "family": "multi_resolution_retrieval",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+  "context_sha256": "69a9f2c89e639d57910cd0225c12cdf036ba508c529f1a5e3ab670d297989bbd",
+  "context_length": 966,
+  "latency_ms": 2366.05,
+  "input_tokens": 420,
+  "output_tokens": 100,
+  "total_tokens": 520,
+  "raw_response": "{\n  \"answer\": \"L0 provides orientation summaries, while L4 contains complete forensic ledgers.\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"orientation summaries\", \"predicate\": \"provide\", \"object\": \"L0\"}, {\"subject\": \"complete forensic ledgers\", \"predicate\": \"contain\", \"object\": \"L4\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L0 provides orientation summaries, while L4 contains complete forensic ledgers.",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "orientation summaries",
+        "predicate": "provide",
+        "object": "L0"
+      },
+      {
+        "subject": "complete forensic ledgers",
+        "predicate": "contain",
+        "object": "L4"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

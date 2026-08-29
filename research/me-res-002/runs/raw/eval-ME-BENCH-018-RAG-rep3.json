@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-ME-BENCH-018-RAG-rep3",
+  "cell_id": 165,
+  "execution_order": 287,
+  "task_id": "ME-BENCH-018",
+  "family": "provenance_tracing",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "How does epistemic authority bind atomic assertions to source verification?",
+  "context_sha256": "ca0dd4bbca54ce27bb7dc2b2e44938d5e8c26e6a64853229151f98412d677a72",
+  "context_length": 840,
+  "latency_ms": 3521.89,
+  "input_tokens": 407,
+  "output_tokens": 127,
+  "total_tokens": 534,
+  "raw_response": "{\n  \"answer\": \"epistemic authority binds atomic assertions directly to verifiable cryptographic release hashes or canonical publication provenance URLs.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"epistemic authority\", \"predicate\": \"binds\", \"object\": \"atomic assertions\"}, {\"subject\": \"verifiable cryptographic release hashes\", \"predicate\": \"to source verification\", \"object\": \"canonical publication provenance URLs\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "epistemic authority binds atomic assertions directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "epistemic authority",
+        "predicate": "binds",
+        "object": "atomic assertions"
+      },
+      {
+        "subject": "verifiable cryptographic release hashes",
+        "predicate": "to source verification",
+        "object": "canonical publication provenance URLs"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

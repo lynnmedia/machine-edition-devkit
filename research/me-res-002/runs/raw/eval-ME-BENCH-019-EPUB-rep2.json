@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-019-EPUB-rep2",
+  "cell_id": 173,
+  "execution_order": 180,
+  "task_id": "ME-BENCH-019",
+  "family": "provenance_tracing",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What provenance record governs the public companion release metadata?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2714.27,
+  "input_tokens": 762,
+  "output_tokens": 118,
+  "total_tokens": 880,
+  "raw_response": "{\n  \"answer\": \"manifest\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"manifest\", \"predicate\": \"contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.\", \"object\": \"schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "manifest",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "manifest",
+        "predicate": "contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.",
+        "object": "schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

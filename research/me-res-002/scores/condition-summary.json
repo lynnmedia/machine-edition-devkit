@@ -1,0 +1,54 @@
+{
+  "PDF": {
+    "n_items": 32,
+    "mean_correctness": 0.2969,
+    "mean_provenance_completeness": 0.7812,
+    "mean_unsupported_assertion_rate": 0.0,
+    "mean_semantic_invariant_preservation": 0.2969,
+    "mean_relationship_accuracy": 0.875,
+    "mean_constraint_violations": 0.0,
+    "mean_latency_ms": 2312.19,
+    "mean_input_tokens": 712.88,
+    "mean_output_tokens": 93.59,
+    "mean_total_tokens": 806.47
+  },
+  "EPUB": {
+    "n_items": 32,
+    "mean_correctness": 0.2656,
+    "mean_provenance_completeness": 0.7812,
+    "mean_unsupported_assertion_rate": 0.0,
+    "mean_semantic_invariant_preservation": 0.2656,
+    "mean_relationship_accuracy": 0.875,
+    "mean_constraint_violations": 0.0,
+    "mean_latency_ms": 2477.55,
+    "mean_input_tokens": 757.12,
+    "mean_output_tokens": 98.5,
+    "mean_total_tokens": 855.62
+  },
+  "RAG": {
+    "n_items": 32,
+    "mean_correctness": 0.2188,
+    "mean_provenance_completeness": 0.7812,
+    "mean_unsupported_assertion_rate": 0.0,
+    "mean_semantic_invariant_preservation": 0.2188,
+    "mean_relationship_accuracy": 0.875,
+    "mean_constraint_violations": 0.0,
+    "mean_latency_ms": 2471.02,
+    "mean_input_tokens": 415.25,
+    "mean_output_tokens": 102.22,
+    "mean_total_tokens": 517.47
+  },
+  "Machine_Edition": {
+    "n_items": 32,
+    "mean_correctness": 0.2344,
+    "mean_provenance_completeness": 0.849,
+    "mean_unsupported_assertion_rate": 0.0,
+    "mean_semantic_invariant_preservation": 0.2344,
+    "mean_relationship_accuracy": 0.875,
+    "mean_constraint_violations": 0.0,
+    "mean_latency_ms": 3047.37,
+    "mean_input_tokens": 2789.09,
+    "mean_output_tokens": 110.94,
+    "mean_total_tokens": 2900.03
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "eval-ME-BENCH-007-EPUB-rep3",
+  "cell_id": 54,
+  "execution_order": 284,
+  "task_id": "ME-BENCH-007",
+  "family": "relationship_retrieval",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2393.49,
+  "input_tokens": 763,
+  "output_tokens": 79,
+  "total_tokens": 842,
+  "raw_response": "{\n  \"answer\": \"clarifies\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"typed predicate\", \"predicate\": \"clarifies\"}, {\"object\": \"structured resolution-oriented writing (srow)\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "clarifies",
+    "source_references": [
+      "SROW Public Reference Benchmark Document"
+    ],
+    "relationships": [
+      {
+        "subject": "typed predicate",
+        "predicate": "clarifies"
+      },
+      {
+        "object": "structured resolution-oriented writing (srow)"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

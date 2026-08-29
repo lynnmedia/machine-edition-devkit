@@ -1,0 +1,17 @@
+{
+  "answer": "Progressive disclosure",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "stable-ID algorithm",
+      "predicate": "uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+      "object": "the stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key."
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

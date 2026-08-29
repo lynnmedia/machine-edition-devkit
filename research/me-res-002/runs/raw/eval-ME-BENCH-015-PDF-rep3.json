@@ -1,0 +1,33 @@
+{
+  "run_id": "eval-ME-BENCH-015-PDF-rep3",
+  "cell_id": 135,
+  "execution_order": 308,
+  "task_id": "ME-BENCH-015",
+  "family": "hierarchy_preservation",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2571.34,
+  "input_tokens": 711,
+  "output_tokens": 104,
+  "total_tokens": 815,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"Contextual scope tags\", \"predicate\": \"defines the operational domain of each assertion, separating universal core invariants from provisional public companion samples.\", \"object\": \"Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "Contextual scope tags",
+        "predicate": "defines the operational domain of each assertion, separating universal core invariants from provisional public companion samples.",
+        "object": "Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions."
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

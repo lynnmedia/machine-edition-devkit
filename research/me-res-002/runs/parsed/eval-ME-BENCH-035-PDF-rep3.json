@@ -1,0 +1,17 @@
+{
+  "answer": "Progressive disclosure",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "...",
+      "predicate": "...",
+      "object": "..."
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

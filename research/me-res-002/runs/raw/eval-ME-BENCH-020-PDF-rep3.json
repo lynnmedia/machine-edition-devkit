@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-020-PDF-rep3",
+  "cell_id": 183,
+  "execution_order": 355,
+  "task_id": "ME-BENCH-020",
+  "family": "provenance_tracing",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 1613.36,
+  "input_tokens": 715,
+  "output_tokens": 68,
+  "total_tokens": 783,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"citation provenance\", \"predicate\": \"fabrication\", \"object\": \"missing\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "citation provenance",
+        "predicate": "fabrication",
+        "object": "missing"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

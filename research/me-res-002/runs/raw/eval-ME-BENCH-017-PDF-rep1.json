@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-017-PDF-rep1",
+  "cell_id": 145,
+  "execution_order": 24,
+  "task_id": "ME-BENCH-017",
+  "family": "provenance_tracing",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2020.26,
+  "input_tokens": 713,
+  "output_tokens": 87,
+  "total_tokens": 800,
+  "raw_response": "{\n  \"answer\": \"manifest\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"manifest\", \"predicate\": \"serves as the authority for the core SROW framework definitions\", \"object\": \"canonical URL\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "manifest",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "manifest",
+        "predicate": "serves as the authority for the core SROW framework definitions",
+        "object": "canonical URL"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

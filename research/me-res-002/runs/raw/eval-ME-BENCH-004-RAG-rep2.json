@@ -1,0 +1,56 @@
+{
+  "run_id": "eval-ME-BENCH-004-RAG-rep2",
+  "cell_id": 32,
+  "execution_order": 297,
+  "task_id": "ME-BENCH-004",
+  "family": "factual_retrieval",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+  "context_sha256": "f73a2193ca8c47b6ca3cdee5e90844cd7128d80a547bad5bfe914a4b1f078d9b",
+  "context_length": 979,
+  "latency_ms": 5464.21,
+  "input_tokens": 436,
+  "output_tokens": 190,
+  "total_tokens": 626,
+  "raw_response": "{\n  \"answer\": \"manifest, meaning_unit, definition, relationship, boundary, provenance\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"manifest\", \"predicate\": \"comprises six core record types: manifest\"}, {\"subject\": \"meaning_unit\", \"predicate\": \"comprises six core record types: meaning_unit\"}, {\"subject\": \"definition\", \"predicate\": \"comprises six core record types: definition\"}, {\"subject\": \"relationship\", \"predicate\": \"comprises six core record types: relationship\"}, {\"subject\": \"boundary\", \"predicate\": \"comprises six core record types: boundary\"}, {\"subject\": \"provenance\", \"predicate\": \"comprises six core record types: provenance\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "manifest, meaning_unit, definition, relationship, boundary, provenance",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "manifest",
+        "predicate": "comprises six core record types: manifest"
+      },
+      {
+        "subject": "meaning_unit",
+        "predicate": "comprises six core record types: meaning_unit"
+      },
+      {
+        "subject": "definition",
+        "predicate": "comprises six core record types: definition"
+      },
+      {
+        "subject": "relationship",
+        "predicate": "comprises six core record types: relationship"
+      },
+      {
+        "subject": "boundary",
+        "predicate": "comprises six core record types: boundary"
+      },
+      {
+        "subject": "provenance",
+        "predicate": "comprises six core record types: provenance"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

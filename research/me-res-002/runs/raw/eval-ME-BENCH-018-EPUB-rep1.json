@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-ME-BENCH-018-EPUB-rep1",
+  "cell_id": 160,
+  "execution_order": 173,
+  "task_id": "ME-BENCH-018",
+  "family": "provenance_tracing",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "How does epistemic authority bind atomic assertions to source verification?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2236.72,
+  "input_tokens": 763,
+  "output_tokens": 96,
+  "total_tokens": 859,
+  "raw_response": "{\n  \"answer\": \"explicit qualification\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"Epistemic Authority\", \"predicate\": \"binds\", \"object\": \"atomic assertions\"},\n                    {\"subject\": \"Atomic Assertions\", \"predicate\": \"binds\", \"object\": \"source evidence\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "explicit qualification",
+    "source_references": [
+      "SROW Public Reference Benchmark Document"
+    ],
+    "relationships": [
+      {
+        "subject": "Epistemic Authority",
+        "predicate": "binds",
+        "object": "atomic assertions"
+      },
+      {
+        "subject": "Atomic Assertions",
+        "predicate": "binds",
+        "object": "source evidence"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

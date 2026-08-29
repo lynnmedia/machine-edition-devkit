@@ -1,0 +1,36 @@
+{
+  "answer": "manifest, meaning_unit, definition, relationship, boundary, provenance",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "manifest",
+      "predicate": "comprises six core record types: manifest"
+    },
+    {
+      "subject": "meaning_unit",
+      "predicate": "comprises six core record types: meaning_unit"
+    },
+    {
+      "subject": "definition",
+      "predicate": "comprises six core record types: definition"
+    },
+    {
+      "subject": "relationship",
+      "predicate": "comprises six core record types: relationship"
+    },
+    {
+      "subject": "boundary",
+      "predicate": "comprises six core record types: boundary"
+    },
+    {
+      "subject": "provenance",
+      "predicate": "comprises six core record types: provenance"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

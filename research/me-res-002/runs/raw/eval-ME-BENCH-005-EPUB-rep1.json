@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-005-EPUB-rep1",
+  "cell_id": 40,
+  "execution_order": 322,
+  "task_id": "ME-BENCH-005",
+  "family": "factual_retrieval",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What does resolution monotonicity require across detail levels?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2256.81,
+  "input_tokens": 761,
+  "output_tokens": 94,
+  "total_tokens": 855,
+  "raw_response": "{\n  \"answer\": \"that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"Resolution monotonicity\", \"predicate\": \"requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+    "source_references": [
+      "SROW Public Reference Benchmark Document"
+    ],
+    "relationships": [
+      {
+        "subject": "Resolution monotonicity",
+        "predicate": "requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction."
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-032-PDF-rep3",
+  "cell_id": 291,
+  "execution_order": 294,
+  "task_id": "ME-BENCH-032",
+  "family": "multi_resolution_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2955.36,
+  "input_tokens": 713,
+  "output_tokens": 103,
+  "total_tokens": 816,
+  "raw_response": "{\n  \"answer\": \"Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"establishes explicit structural compliance\", \"object\": \"software and AI validation.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "establishes explicit structural compliance",
+        "object": "software and AI validation."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

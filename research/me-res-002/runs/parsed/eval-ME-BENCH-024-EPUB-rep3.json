@@ -1,0 +1,16 @@
+{
+  "answer": "unsupported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "JSON Schema validation",
+      "predicate": "conformance implies epistemic endorsement of the truth of external assertions"
+    },
+    {
+      "subject": "epistemic endorsement",
+      "predicate": "does not imply that JSON Schema validation conformance guarantees the truth of external assertions"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

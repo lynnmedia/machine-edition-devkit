@@ -1,0 +1,19 @@
+{
+  "answer": "Contextual scope tags define the operational domain of each assertion, separating universal core invariants from provisional public companion samples.",
+  "source_references": [
+    "prov.public-srow-framework",
+    "prov.srow-public-companion-release"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.005",
+      "predicate": "exemplifies",
+      "object": "srow.bench.mu.006",
+      "provenance_id": "prov.public-srow-framework"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

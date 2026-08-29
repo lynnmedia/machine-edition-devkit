@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-005-RAG-rep1",
+  "cell_id": 43,
+  "execution_order": 94,
+  "task_id": "ME-BENCH-005",
+  "family": "factual_retrieval",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What does resolution monotonicity require across detail levels?",
+  "context_sha256": "b86bc8bfcfeeb0b99be448155d60b86cddafb72d5766372965c774db723745bd",
+  "context_length": 888,
+  "latency_ms": 2725.12,
+  "input_tokens": 420,
+  "output_tokens": 111,
+  "total_tokens": 531,
+  "raw_response": "{\n  \"answer\": \"resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"resolution monotonicity\", \"predicate\": \"requires\", \"object\": \"that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "resolution monotonicity",
+        "predicate": "requires",
+        "object": "that higher detail levels preserve all invariants of lower detail levels without semantic contradiction."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

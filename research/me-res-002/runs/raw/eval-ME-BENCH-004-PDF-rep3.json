@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-004-PDF-rep3",
+  "cell_id": 27,
+  "execution_order": 244,
+  "task_id": "ME-BENCH-004",
+  "family": "factual_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2473.9,
+  "input_tokens": 714,
+  "output_tokens": 100,
+  "total_tokens": 814,
+  "raw_response": "{\n  \"answer\": \"manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"manifest\", \"predicate\": \"comprises six core record types\", \"object\": \"a conformant Machine Edition package\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "manifest",
+        "predicate": "comprises six core record types",
+        "object": "a conformant Machine Edition package"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

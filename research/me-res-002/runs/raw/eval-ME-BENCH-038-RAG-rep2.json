@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-038-RAG-rep2",
+  "cell_id": 356,
+  "execution_order": 252,
+  "task_id": "ME-BENCH-038",
+  "family": "unsupported_claim_detection",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+  "context_sha256": "2bfba87fc5524a8056a35a78a2d32805335ebb88e7a6494d73e9cae77bbc995d",
+  "context_length": 726,
+  "latency_ms": 2242.87,
+  "input_tokens": 380,
+  "output_tokens": 97,
+  "total_tokens": 477,
+  "raw_response": "{\n  \"answer\": \"Structured Resolution-Oriented Writing (SROW)\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"mandates\", \"object\": \"neural network fine-tuning\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Structured Resolution-Oriented Writing (SROW)",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "mandates",
+        "object": "neural network fine-tuning"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

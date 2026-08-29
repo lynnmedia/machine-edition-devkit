@@ -1,0 +1,15 @@
+{
+  "answer": "unsupported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "citation provenance",
+      "predicate": "fabrication",
+      "object": "missing"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

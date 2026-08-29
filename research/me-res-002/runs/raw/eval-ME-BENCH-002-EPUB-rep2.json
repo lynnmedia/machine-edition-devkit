@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-002-EPUB-rep2",
+  "cell_id": 5,
+  "execution_order": 227,
+  "task_id": "ME-BENCH-002",
+  "family": "factual_retrieval",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the algorithm used to compute stable IDs for meaning units?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2888.62,
+  "input_tokens": 763,
+  "output_tokens": 119,
+  "total_tokens": 882,
+  "raw_response": "{\n  \"answer\": \"The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"stable-ID algorithm\", \"predicate\": \"uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "stable-ID algorithm",
+        "predicate": "uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

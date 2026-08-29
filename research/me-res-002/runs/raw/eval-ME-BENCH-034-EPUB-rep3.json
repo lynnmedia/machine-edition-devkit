@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-ME-BENCH-034-EPUB-rep3",
+  "cell_id": 318,
+  "execution_order": 147,
+  "task_id": "ME-BENCH-034",
+  "family": "multi_resolution_retrieval",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 3372.11,
+  "input_tokens": 767,
+  "output_tokens": 139,
+  "total_tokens": 906,
+  "raw_response": "{\n  \"answer\": \"Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.\",\n  \"source_references\": [\"Chapter 2: Technical Architecture, Stable Identity, and Data Model\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing\", \"predicate\": \"establishes explicit structural compliance\", \"object\": \"software and AI validation\"},\n   {\"subject\": \"SROW\", \"predicate\": \"establishes explicit structural compliance for software and AI validation\", \"object\": \"software and AI validation\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.",
+    "source_references": [
+      "Chapter 2: Technical Architecture, Stable Identity, and Data Model"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing",
+        "predicate": "establishes explicit structural compliance",
+        "object": "software and AI validation"
+      },
+      {
+        "subject": "SROW",
+        "predicate": "establishes explicit structural compliance for software and AI validation",
+        "object": "software and AI validation"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

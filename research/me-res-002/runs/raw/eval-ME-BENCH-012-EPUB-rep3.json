@@ -1,0 +1,38 @@
+{
+  "run_id": "eval-ME-BENCH-012-EPUB-rep3",
+  "cell_id": 102,
+  "execution_order": 274,
+  "task_id": "ME-BENCH-012",
+  "family": "hierarchy_preservation",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2798.65,
+  "input_tokens": 768,
+  "output_tokens": 102,
+  "total_tokens": 870,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW Public Reference Benchmark Document\", \"predicate\": \"contains only authorized public companion samples\", \"object\": \"technical architecture\"},\n                  {\"subject\": \"Technical Architecture\", \"predicate\": \"does not include the complete manuscript or governed meaning-unit database\", \"object\": \"complete meaning-unit database\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW Public Reference Benchmark Document",
+        "predicate": "contains only authorized public companion samples",
+        "object": "technical architecture"
+      },
+      {
+        "subject": "Technical Architecture",
+        "predicate": "does not include the complete manuscript or governed meaning-unit database",
+        "object": "complete meaning-unit database"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

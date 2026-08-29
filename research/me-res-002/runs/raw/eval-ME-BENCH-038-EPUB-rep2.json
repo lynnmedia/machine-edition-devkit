@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-038-EPUB-rep2",
+  "cell_id": 353,
+  "execution_order": 55,
+  "task_id": "ME-BENCH-038",
+  "family": "unsupported_claim_detection",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 1938.14,
+  "input_tokens": 764,
+  "output_tokens": 84,
+  "total_tokens": 848,
+  "raw_response": "{\n  \"answer\": \"PyTorch\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"mandates\", \"object\": \"neural network fine-tuning\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "PyTorch",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "mandates",
+        "object": "neural network fine-tuning"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

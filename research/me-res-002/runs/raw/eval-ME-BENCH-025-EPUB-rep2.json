@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-025-EPUB-rep2",
+  "cell_id": 233,
+  "execution_order": 332,
+  "task_id": "ME-BENCH-025",
+  "family": "boundary_constraint_recognition",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2890.67,
+  "input_tokens": 764,
+  "output_tokens": 123,
+  "total_tokens": 887,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"explicit structure\", \"predicate\": \"ranges from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides technical verification records, and L4 contains complete forensic ledgers.\", \"object\": \"cognitive friction\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "explicit structure",
+        "predicate": "ranges from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides technical verification records, and L4 contains complete forensic ledgers.",
+        "object": "cognitive friction"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

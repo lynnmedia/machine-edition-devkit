@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-023-Machine_Edition-rep1",
+  "cell_id": 214,
+  "execution_order": 302,
+  "task_id": "ME-BENCH-023",
+  "family": "boundary_constraint_recognition",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 2542.95,
+  "input_tokens": 2833,
+  "output_tokens": 74,
+  "total_tokens": 2907,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"...\", \"predicate\": \"...\", \"object\": \"...\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "...",
+        "predicate": "...",
+        "object": "..."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

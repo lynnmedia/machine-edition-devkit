@@ -1,0 +1,9 @@
+{
+  "answer": "The SROW stable-ID hashing algorithm experiences thermal throttling at a CPU temperature of 105 degrees Celsius.",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [
+    "CPU temperature range observed"
+  ],
+  "support_status": "partially_supported"
+}

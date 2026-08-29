@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-024-RAG-rep1",
+  "cell_id": 223,
+  "execution_order": 71,
+  "task_id": "ME-BENCH-024",
+  "family": "boundary_constraint_recognition",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+  "context_sha256": "0adea2245b18c062cfccd5cdf9dd6ca2f164da8e7ab468af69afa830a09e7057",
+  "context_length": 918,
+  "latency_ms": 1113.76,
+  "input_tokens": 421,
+  "output_tokens": 47,
+  "total_tokens": 468,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

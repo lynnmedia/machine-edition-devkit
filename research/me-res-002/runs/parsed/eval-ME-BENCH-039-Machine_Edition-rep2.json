@@ -1,0 +1,18 @@
+{
+  "answer": "The author's personal home address and phone number are not provided in the given context.",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "author",
+      "predicate": "has no information about personal addresses or phones"
+    },
+    {
+      "subject": "author",
+      "predicate": "is not provided"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries observed"
+  ],
+  "support_status": "not supported"
+}

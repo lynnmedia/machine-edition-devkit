@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-ME-BENCH-022-Machine_Edition-rep2",
+  "cell_id": 203,
+  "execution_order": 50,
+  "task_id": "ME-BENCH-022",
+  "family": "boundary_constraint_recognition",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+  "context_sha256": "cbc527eed9d8393274a63239d768c25d41ce45e0cae3e818d46002bc3088acbe",
+  "context_length": 9527,
+  "latency_ms": 3391.23,
+  "input_tokens": 2732,
+  "output_tokens": 125,
+  "total_tokens": 2857,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"structured Machine Edition records\", \"predicate\": \"does not guarantee factual truth or eliminate model error\", \"object\": \"model error\"},\n                    {\"subject\": \"structured Machine Edition records\", \"predicate\": \"guarantee factual truth\", \"object\": \"factual response string or explicit statement of lack of support\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "structured Machine Edition records",
+        "predicate": "does not guarantee factual truth or eliminate model error",
+        "object": "model error"
+      },
+      {
+        "subject": "structured Machine Edition records",
+        "predicate": "guarantee factual truth",
+        "object": "factual response string or explicit statement of lack of support"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

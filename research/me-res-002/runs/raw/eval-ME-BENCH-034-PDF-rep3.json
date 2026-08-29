@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-034-PDF-rep3",
+  "cell_id": 315,
+  "execution_order": 111,
+  "task_id": "ME-BENCH-034",
+  "family": "multi_resolution_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2091.16,
+  "input_tokens": 715,
+  "output_tokens": 87,
+  "total_tokens": 802,
+  "raw_response": "{\n  \"answer\": \"The technical verification records provide complete forensic ledgers.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"technical verification\", \"predicate\": \"records\", \"object\": \"complete forensic ledgers\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The technical verification records provide complete forensic ledgers.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "technical verification",
+        "predicate": "records",
+        "object": "complete forensic ledgers"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

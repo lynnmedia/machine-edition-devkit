@@ -1,0 +1,17 @@
+{
+  "answer": "an agent must provide explicit qualification",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+      "object": "when source evidence is underspecified or accommodates multiple valid interpretations"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

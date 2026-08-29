@@ -1,0 +1,15 @@
+{
+  "answer": "partially_supported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "Structured Resolution-Oriented Writing (SROW)",
+      "predicate": "corresponds to",
+      "object": "core principles"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "unsupported"
+}

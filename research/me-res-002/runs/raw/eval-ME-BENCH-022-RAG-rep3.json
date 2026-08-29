@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-ME-BENCH-022-RAG-rep3",
+  "cell_id": 201,
+  "execution_order": 251,
+  "task_id": "ME-BENCH-022",
+  "family": "boundary_constraint_recognition",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+  "context_sha256": "b1454d0f4c3c563e558a4e30a9739597908de5f1112be0fe16da7bc17b9d6d61",
+  "context_length": 961,
+  "latency_ms": 3602.16,
+  "input_tokens": 419,
+  "output_tokens": 154,
+  "total_tokens": 573,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"is a communication protocol for making structured knowledge readable and navigable by both humans and machines.\", \"object\": \"Structured Resolution-Oriented Writing (SROW)\"}, {\"subject\": \"Progressive disclosure\", \"predicate\": \"stages exposure of orientation and structure before deeper analytical explanation or granular assertion records.\", \"object\": \"Structured Resolution-Oriented Writing (SROW)\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+        "object": "Structured Resolution-Oriented Writing (SROW)"
+      },
+      {
+        "subject": "Progressive disclosure",
+        "predicate": "stages exposure of orientation and structure before deeper analytical explanation or granular assertion records.",
+        "object": "Structured Resolution-Oriented Writing (SROW)"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

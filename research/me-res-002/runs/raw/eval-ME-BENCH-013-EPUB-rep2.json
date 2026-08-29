@@ -1,0 +1,27 @@
+{
+  "run_id": "eval-ME-BENCH-013-EPUB-rep2",
+  "cell_id": 113,
+  "execution_order": 18,
+  "task_id": "ME-BENCH-013",
+  "family": "hierarchy_preservation",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 3255.81,
+  "input_tokens": 515,
+  "output_tokens": 63,
+  "total_tokens": 578,
+  "raw_response": "{\n  \"answer\": \"L1\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"establishes explicit structural compliance for software and AI validation.\", \"object\": \"Structured Resolution-Oriented Writing (SROW)\"}, {\"subject\": \"Progressive disclosure\", \"predicate\": \"stages exposure of orientation and structure before deeper analytical explanation or granular assertion records.\", \"object\": \"Progressive Disclosure\"},\n  \"constraints_observed': \"",
+  "parsed_response": {
+    "answer": "{\n  \"answer\": \"L1\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"establishes explicit structural compliance for software and AI validation.\", \"object\": \"Structured Resolution-Oriented Writing (SROW)\"}, {\"subject\": \"Progressive disclosure\", \"predicate\": \"stages exposure of orientation and structure before deeper analytical explanation or granular assertion records.\", \"object\": \"Progressive Disclosure\"},\n  \"constraints_observed': \"",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "JSON_PARSE_ERROR",
+  "status": "SUCCESS"
+}

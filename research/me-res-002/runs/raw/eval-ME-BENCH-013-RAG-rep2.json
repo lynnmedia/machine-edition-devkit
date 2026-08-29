@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-013-RAG-rep2",
+  "cell_id": 116,
+  "execution_order": 193,
+  "task_id": "ME-BENCH-013",
+  "family": "hierarchy_preservation",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+  "context_sha256": "fc826e41563bfb09b994705c372b027d1be6bc1465d74f119a175fd2721bb73f",
+  "context_length": 890,
+  "latency_ms": 1751.55,
+  "input_tokens": 423,
+  "output_tokens": 77,
+  "total_tokens": 500,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"corresponds to\", \"object\": \"core principles\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "corresponds to",
+        "object": "core principles"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

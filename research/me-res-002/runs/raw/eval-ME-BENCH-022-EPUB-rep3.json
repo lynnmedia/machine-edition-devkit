@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-ME-BENCH-022-EPUB-rep3",
+  "cell_id": 198,
+  "execution_order": 89,
+  "task_id": "ME-BENCH-022",
+  "family": "boundary_constraint_recognition",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2907.96,
+  "input_tokens": 763,
+  "output_tokens": 123,
+  "total_tokens": 886,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Structured Machine Edition records\", \"predicate\": \"guarantee factual truth\", \"object\": \"factual response string or explicit statement of lack of support\"}, {\"subject\": \"Structured Machine Edition records\", \"predicate\": \"eliminate model error\", \"object\": \"explicit statement of lack of support\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Machine Edition records",
+        "predicate": "guarantee factual truth",
+        "object": "factual response string or explicit statement of lack of support"
+      },
+      {
+        "subject": "Structured Machine Edition records",
+        "predicate": "eliminate model error",
+        "object": "explicit statement of lack of support"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

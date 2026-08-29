@@ -1,0 +1,30 @@
+{
+  "PDF": {
+    "mean_input_tokens": 712.88,
+    "mean_output_tokens": 93.59,
+    "mean_total_tokens": 806.47,
+    "correctness_per_1k_input_tokens": 0.4165,
+    "provenance_per_1k_input_tokens": 1.0958
+  },
+  "EPUB": {
+    "mean_input_tokens": 757.12,
+    "mean_output_tokens": 98.5,
+    "mean_total_tokens": 855.62,
+    "correctness_per_1k_input_tokens": 0.3508,
+    "provenance_per_1k_input_tokens": 1.0318
+  },
+  "RAG": {
+    "mean_input_tokens": 415.25,
+    "mean_output_tokens": 102.22,
+    "mean_total_tokens": 517.47,
+    "correctness_per_1k_input_tokens": 0.5269,
+    "provenance_per_1k_input_tokens": 1.8813
+  },
+  "Machine_Edition": {
+    "mean_input_tokens": 2789.09,
+    "mean_output_tokens": 110.94,
+    "mean_total_tokens": 2900.03,
+    "correctness_per_1k_input_tokens": 0.084,
+    "provenance_per_1k_input_tokens": 0.3044
+  }
+}

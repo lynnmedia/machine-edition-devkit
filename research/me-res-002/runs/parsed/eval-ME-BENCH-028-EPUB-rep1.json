@@ -1,0 +1,15 @@
+{
+  "answer": "partially supported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "specifies",
+      "object": "vector embeddings or lexical BM25"
+    }
+  ],
+  "constraints_observed": [
+    "does not explicitly state whether vector embeddings or lexical BM25 is mandatory"
+  ],
+  "support_status": "partially supported"
+}

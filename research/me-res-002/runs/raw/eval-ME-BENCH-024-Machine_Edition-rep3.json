@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-024-Machine_Edition-rep3",
+  "cell_id": 228,
+  "execution_order": 348,
+  "task_id": "ME-BENCH-024",
+  "family": "boundary_constraint_recognition",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+  "context_sha256": "504399c03ce81a053beb2f0bc2c05f28c02f968111a6aadb7b8e60317254e27d",
+  "context_length": 9010,
+  "latency_ms": 1620.0,
+  "input_tokens": 2622,
+  "output_tokens": 69,
+  "total_tokens": 2691,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"...\", \"predicate\": \"...\", \"object\": \"...\"}],\n  \"constraints_observed\": [\"explicit boundaries observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "...",
+        "predicate": "...",
+        "object": "..."
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

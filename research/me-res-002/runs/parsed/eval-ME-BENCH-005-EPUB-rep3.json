@@ -1,0 +1,11 @@
+{
+  "answer": "resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+  "source_references": [
+    "SROW Public Reference Benchmark Document"
+  ],
+  "relationships": [],
+  "constraints_observed": [
+    "explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

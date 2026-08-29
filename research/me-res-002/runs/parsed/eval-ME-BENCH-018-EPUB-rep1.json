@@ -1,0 +1,22 @@
+{
+  "answer": "explicit qualification",
+  "source_references": [
+    "SROW Public Reference Benchmark Document"
+  ],
+  "relationships": [
+    {
+      "subject": "Epistemic Authority",
+      "predicate": "binds",
+      "object": "atomic assertions"
+    },
+    {
+      "subject": "Atomic Assertions",
+      "predicate": "binds",
+      "object": "source evidence"
+    }
+  ],
+  "constraints_observed": [
+    "explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

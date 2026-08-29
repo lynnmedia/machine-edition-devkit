@@ -1,0 +1,38 @@
+{
+  "run_id": "eval-ME-BENCH-002-Machine_Edition-rep2",
+  "cell_id": 11,
+  "execution_order": 151,
+  "task_id": "ME-BENCH-002",
+  "family": "factual_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the algorithm used to compute stable IDs for meaning units?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 3715.28,
+  "input_tokens": 2829,
+  "output_tokens": 127,
+  "total_tokens": 2956,
+  "raw_response": "{\n  \"answer\": \"The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\",\n  \"source_references\": [\"prov.srow-public-companion-release\", \"prov.public-srow-framework\"],\n  \"relationships\": [{\"subject\": \"stable-ID algorithm\", \"predicate\": \"uses\", \"object\": \"SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+    "source_references": [
+      "prov.srow-public-companion-release",
+      "prov.public-srow-framework"
+    ],
+    "relationships": [
+      {
+        "subject": "stable-ID algorithm",
+        "predicate": "uses",
+        "object": "SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

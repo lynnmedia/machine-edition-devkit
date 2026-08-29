@@ -1,0 +1,17 @@
+{
+  "answer": "partially supported",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "specifies whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines",
+      "object": "third-party RAG pipelines"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially supported"
+}

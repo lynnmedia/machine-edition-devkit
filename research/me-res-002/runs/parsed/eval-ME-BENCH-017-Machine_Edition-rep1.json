@@ -1,0 +1,18 @@
+{
+  "answer": "prov.srow-public-companion-release",
+  "source_references": [
+    "https://winmedia.com/machine-editions/editions/srow",
+    "https://winmedia.com/frameworks/srow"
+  ],
+  "relationships": [
+    {
+      "subject": "prov.public-srow-framework",
+      "predicate": "is-a",
+      "object": "prov.srow-public-companion-release"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

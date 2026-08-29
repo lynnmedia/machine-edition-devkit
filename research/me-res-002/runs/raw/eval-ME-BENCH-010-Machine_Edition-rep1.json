@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-010-Machine_Edition-rep1",
+  "cell_id": 94,
+  "execution_order": 349,
+  "task_id": "ME-BENCH-010",
+  "family": "relationship_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 2243.83,
+  "input_tokens": 2834,
+  "output_tokens": 87,
+  "total_tokens": 2921,
+  "raw_response": "{\n  \"answer\": \"provenance_id\",\n  \"source_references\": [\"prov.public-srow-framework\", \"prov.srow-public-companion-release\"],\n  \"relationships\": [{\"subject\": \"srow.bench.mu.005\", \"predicate\": \"provenance_id\", \"object\": \"prov.public-srow-framework\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "provenance_id",
+    "source_references": [
+      "prov.public-srow-framework",
+      "prov.srow-public-companion-release"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.005",
+        "predicate": "provenance_id",
+        "object": "prov.public-srow-framework"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

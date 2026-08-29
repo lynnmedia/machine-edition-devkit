@@ -1,0 +1,22 @@
+{
+  "answer": "partially_supported",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "Structured Machine Edition records",
+      "predicate": "guarantee factual truth",
+      "object": "factual response string or explicit statement of lack of support"
+    },
+    {
+      "subject": "Structured Machine Edition records",
+      "predicate": "eliminate model error",
+      "object": "explicit statement of lack of support"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

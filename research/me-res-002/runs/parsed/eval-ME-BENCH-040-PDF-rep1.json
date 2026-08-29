@@ -1,0 +1,9 @@
+{
+  "answer": "unsupported",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

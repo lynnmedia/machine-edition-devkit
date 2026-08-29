@@ -1,0 +1,17 @@
+{
+  "answer": "partially_supported",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "contextual scope tags",
+      "predicate": "structural relationship",
+      "object": "individual assertions"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-019-RAG-rep3",
+  "cell_id": 177,
+  "execution_order": 277,
+  "task_id": "ME-BENCH-019",
+  "family": "provenance_tracing",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What provenance record governs the public companion release metadata?",
+  "context_sha256": "c2c774b3c7041afa7e4dcfbe2f65f09bb744b3785206cda637f2227acc1871bf",
+  "context_length": 986,
+  "latency_ms": 2170.19,
+  "input_tokens": 434,
+  "output_tokens": 80,
+  "total_tokens": 514,
+  "raw_response": "{\n  \"answer\": \"manifest\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"manifest\", \"predicate\": \"governs\", \"object\": \"public companion release metadata\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "manifest",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "manifest",
+        "predicate": "governs",
+        "object": "public companion release metadata"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

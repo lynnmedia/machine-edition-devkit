@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-037-PDF-rep1",
+  "cell_id": 337,
+  "execution_order": 356,
+  "task_id": "ME-BENCH-037",
+  "family": "unsupported_claim_detection",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2043.09,
+  "input_tokens": 714,
+  "output_tokens": 89,
+  "total_tokens": 803,
+  "raw_response": "{\n  \"answer\": \"The monthly subscription price for accessing the governed SROW meaning-unit database is not specified in the given context.\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"governed\", \"object\": \"meaning-unit database\"}],\n  \"constraints_observed\": [\"the provided information does not contain any explicit subscription details\"],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The monthly subscription price for accessing the governed SROW meaning-unit database is not specified in the given context.",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "governed",
+        "object": "meaning-unit database"
+      }
+    ],
+    "constraints_observed": [
+      "the provided information does not contain any explicit subscription details"
+    ],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,42 @@
+{
+  "run_id": "eval-ME-BENCH-035-EPUB-rep3",
+  "cell_id": 330,
+  "execution_order": 369,
+  "task_id": "ME-BENCH-035",
+  "family": "multi_resolution_retrieval",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2667.17,
+  "input_tokens": 765,
+  "output_tokens": 113,
+  "total_tokens": 878,
+  "raw_response": "{\n  \"answer\": \"Progressive disclosure\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"L0 orientation summary\", \"predicate\": \"provides source lineage\", \"object\": \"progressive disclosure\"}, {\"subject\": \"L4 forensic ledger\", \"predicate\": \"provides complete forensic ledgers\", \"object\": \"progressive disclosure\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Progressive disclosure",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "L0 orientation summary",
+        "predicate": "provides source lineage",
+        "object": "progressive disclosure"
+      },
+      {
+        "subject": "L4 forensic ledger",
+        "predicate": "provides complete forensic ledgers",
+        "object": "progressive disclosure"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

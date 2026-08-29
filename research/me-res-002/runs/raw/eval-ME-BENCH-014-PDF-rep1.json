@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-014-PDF-rep1",
+  "cell_id": 121,
+  "execution_order": 62,
+  "task_id": "ME-BENCH-014",
+  "family": "hierarchy_preservation",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which resolution level corresponds to technical verification records in SROW?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 1755.37,
+  "input_tokens": 710,
+  "output_tokens": 73,
+  "total_tokens": 783,
+  "raw_response": "{\n  \"answer\": \"L3\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"...\", \"predicate\": \"...\", \"object\": \"...\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L3",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "...",
+        "predicate": "...",
+        "object": "..."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,15 @@
+{
+  "answer": "depends_on",
+  "source_references": [
+    "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation"
+  ],
+  "relationships": [
+    {
+      "subject": "typed predicate",
+      "predicate": "depends_on",
+      "object": "relationship"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

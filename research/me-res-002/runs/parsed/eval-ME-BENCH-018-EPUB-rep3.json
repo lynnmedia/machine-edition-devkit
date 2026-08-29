@@ -1,0 +1,30 @@
+{
+  "answer": "explicit qualification",
+  "source_references": [
+    "SROW Public Reference Benchmark Document"
+  ],
+  "relationships": [
+    {
+      "subject": "Epistemic Authority",
+      "predicate": "binds",
+      "object": "atomic assertions"
+    },
+    {
+      "subject": "Atomic Assertions",
+      "predicate": "binds",
+      "object": "source evidence"
+    },
+    {
+      "subject": "Source Evidence",
+      "predicate": "does not guarantee factual truth or eliminate model error"
+    },
+    {
+      "subject": "Schema Conformance Certifies Structural and Syntactic Compliance",
+      "predicate": "does not constitute an epistemic endorsement of the truth value of external assertions"
+    }
+  ],
+  "constraints_observed": [
+    "explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

@@ -1,0 +1,30 @@
+{
+  "answer": "PyTorch",
+  "source_references": [
+    "https://pytorch.org/"
+  ],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "requires",
+      "object": "PyTorch"
+    },
+    {
+      "subject": "PyTorch",
+      "predicate": "uses",
+      "object": "SROW"
+    },
+    {
+      "subject": "SROW",
+      "predicate": "defines",
+      "object": "PyTorch"
+    },
+    {
+      "subject": "PyTorch",
+      "predicate": "is used in",
+      "object": "SROW"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

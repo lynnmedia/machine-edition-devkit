@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-018-PDF-rep1",
+  "cell_id": 157,
+  "execution_order": 128,
+  "task_id": "ME-BENCH-018",
+  "family": "provenance_tracing",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "How does epistemic authority bind atomic assertions to source verification?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2702.83,
+  "input_tokens": 711,
+  "output_tokens": 106,
+  "total_tokens": 817,
+  "raw_response": "{\n  \"answer\": \"Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Epistemic Authority\", \"predicate\": \"requires\", \"object\": \"that every atomic assertion binds directly to.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Epistemic Authority",
+        "predicate": "requires",
+        "object": "that every atomic assertion binds directly to."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

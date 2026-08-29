@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-002-PDF-rep1",
+  "cell_id": 1,
+  "execution_order": 87,
+  "task_id": "ME-BENCH-002",
+  "family": "factual_retrieval",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the algorithm used to compute stable IDs for meaning units?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2396.7,
+  "input_tokens": 711,
+  "output_tokens": 99,
+  "total_tokens": 810,
+  "raw_response": "{\n  \"answer\": \"SHA-256\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"stable-ID algorithm\", \"predicate\": \"uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "SHA-256",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "stable-ID algorithm",
+        "predicate": "uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

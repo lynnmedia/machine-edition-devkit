@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-033-Machine_Edition-rep2",
+  "cell_id": 311,
+  "execution_order": 166,
+  "task_id": "ME-BENCH-033",
+  "family": "multi_resolution_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 3255.58,
+  "input_tokens": 2830,
+  "output_tokens": 120,
+  "total_tokens": 2950,
+  "raw_response": "{\n  \"id\": \"srow.bench.mu.005\",\n  \"record_type\": \"meaning_unit\",\n  \"version\": \"0.1.0\",\n  \"resolution_levels\": [\n    \"L2\"\n  ],\n  \"title\": \"Stable-ID Algorithm Invariant\",\n  \"claim\": \"The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\",\n  \"provenance_id\": \"prov.srow-public-companion-release\",\n  \"scope\": \"functional architecture\"\n}",
+  "parsed_response": {
+    "id": "srow.bench.mu.005",
+    "record_type": "meaning_unit",
+    "version": "0.1.0",
+    "resolution_levels": [
+      "L2"
+    ],
+    "title": "Stable-ID Algorithm Invariant",
+    "claim": "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+    "provenance_id": "prov.srow-public-companion-release",
+    "scope": "functional architecture",
+    "answer": "{'id': 'srow.bench.mu.005', 'record_type': 'meaning_unit', 'version': '0.1.0', 'resolution_levels': ['L2'], 'title': 'Stable-ID Algorithm Invariant', 'claim': 'The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.', 'provenance_id': 'prov.srow-public-companion-release', 'scope': 'functional architecture'}",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

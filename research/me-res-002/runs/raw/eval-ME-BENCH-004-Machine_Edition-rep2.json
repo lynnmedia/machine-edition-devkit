@@ -1,0 +1,62 @@
+{
+  "run_id": "eval-ME-BENCH-004-Machine_Edition-rep2",
+  "cell_id": 35,
+  "execution_order": 103,
+  "task_id": "ME-BENCH-004",
+  "family": "factual_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 7872.44,
+  "input_tokens": 2832,
+  "output_tokens": 327,
+  "total_tokens": 3159,
+  "raw_response": "{\n  \"answer\": \"srow.bench.mu.001, srow.bench.mu.002, srow.bench.mu.003, srow.bench.mu.004, srow.bench.mu.005, srow.bench.mu.006\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"srow.bench.mu.001\", \"predicate\": \"manifest\", \"object\": \"srow.bench.mu.001\"}, {\"subject\": \"srow.bench.mu.002\", \"predicate\": \"meaning_unit\", \"object\": \"srow.bench.mu.002\"}, {\"subject\": \"srow.bench.mu.003\", \"predicate\": \"progressive disclosure orientation\", \"object\": \"srow.bench.mu.003\"}, {\"subject\": \"srow.bench.mu.004\", \"predicate\": \"resolution hierarchy architecture\", \"object\": \"srow.bench.mu.04\"}, {\"subject\": \"srow.bench.mu.05\", \"predicate\": \"stable-ID algorithm invariant\", \"object\": \"srow.bench.mu.005\"}, {\"subject\": \"srow.bench.mu.006\", \"predicate\": \"meaning_unit\", \"object\": \"srow.bench.mu.006\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "srow.bench.mu.001, srow.bench.mu.002, srow.bench.mu.003, srow.bench.mu.004, srow.bench.mu.005, srow.bench.mu.006",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.001",
+        "predicate": "manifest",
+        "object": "srow.bench.mu.001"
+      },
+      {
+        "subject": "srow.bench.mu.002",
+        "predicate": "meaning_unit",
+        "object": "srow.bench.mu.002"
+      },
+      {
+        "subject": "srow.bench.mu.003",
+        "predicate": "progressive disclosure orientation",
+        "object": "srow.bench.mu.003"
+      },
+      {
+        "subject": "srow.bench.mu.004",
+        "predicate": "resolution hierarchy architecture",
+        "object": "srow.bench.mu.04"
+      },
+      {
+        "subject": "srow.bench.mu.05",
+        "predicate": "stable-ID algorithm invariant",
+        "object": "srow.bench.mu.005"
+      },
+      {
+        "subject": "srow.bench.mu.006",
+        "predicate": "meaning_unit",
+        "object": "srow.bench.mu.006"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

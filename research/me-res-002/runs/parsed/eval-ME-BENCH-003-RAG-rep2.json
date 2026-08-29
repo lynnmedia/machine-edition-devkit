@@ -1,0 +1,17 @@
+{
+  "answer": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "progressive disclosure",
+      "predicate": "is a stage in the process of exposing orientation and structure before deeper analysis.",
+      "object": "exposing orientation and structure before deeper analytical explanation or granular assertion records"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

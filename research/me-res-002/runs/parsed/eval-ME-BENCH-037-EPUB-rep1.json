@@ -1,0 +1,18 @@
+{
+  "answer": "unsupported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "SROW Public Reference Benchmark Source (v0.1)",
+      "predicate": "does not contain information about access to a specific database",
+      "object": "monthly subscription price for accessing the governed SROW meaning-unit database"
+    },
+    {
+      "subject": "SROW Public Reference Benchmark Document",
+      "predicate": "contains information about monthly subscription prices for accessing the public reference benchmark documents",
+      "object": "monthly subscription price for accessing the governed SROW meaning-unit database"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

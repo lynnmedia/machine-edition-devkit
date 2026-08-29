@@ -1,0 +1,17 @@
+{
+  "answer": "depends_on",
+  "source_references": [
+    "SROW Public Reference Benchmark Source (v0.1)"
+  ],
+  "relationships": [
+    {
+      "subject": "Structured Resolution-Oriented Writing (SROW)",
+      "predicate": "depends_on",
+      "object": "relationship"
+    }
+  ],
+  "constraints_observed": [
+    "explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

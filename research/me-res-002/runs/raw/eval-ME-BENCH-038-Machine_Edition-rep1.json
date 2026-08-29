@@ -1,0 +1,50 @@
+{
+  "run_id": "eval-ME-BENCH-038-Machine_Edition-rep1",
+  "cell_id": 358,
+  "execution_order": 98,
+  "task_id": "ME-BENCH-038",
+  "family": "unsupported_claim_detection",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+  "context_sha256": "9b8b0bf544430f6229875f54461bfb0eba83294a66b3784024e79b4986ea46e0",
+  "context_length": 8920,
+  "latency_ms": 3212.41,
+  "input_tokens": 2587,
+  "output_tokens": 121,
+  "total_tokens": 2708,
+  "raw_response": "{\n  \"answer\": \"PyTorch\",\n  \"source_references\": [\"https://pytorch.org/\"],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"requires\", \"object\": \"PyTorch\"},\n   {\"subject\": \"PyTorch\", \"predicate\": \"uses\", \"object\": \"SROW\"},\n   {\"subject\": \"SROW\", \"predicate\": \"defines\", \"object\": \"PyTorch\"},\n   {\"subject\": \"PyTorch\", \"predicate\": \"is used in\", \"object\": \"SROW\"}\n]  \n  }",
+  "parsed_response": {
+    "answer": "PyTorch",
+    "source_references": [
+      "https://pytorch.org/"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "requires",
+        "object": "PyTorch"
+      },
+      {
+        "subject": "PyTorch",
+        "predicate": "uses",
+        "object": "SROW"
+      },
+      {
+        "subject": "SROW",
+        "predicate": "defines",
+        "object": "PyTorch"
+      },
+      {
+        "subject": "PyTorch",
+        "predicate": "is used in",
+        "object": "SROW"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

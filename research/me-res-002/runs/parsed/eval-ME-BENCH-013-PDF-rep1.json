@@ -1,0 +1,17 @@
+{
+  "answer": "L1",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "Structured Resolution-Oriented Writing (SROW)",
+      "predicate": "corresponds to",
+      "object": "core principles"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

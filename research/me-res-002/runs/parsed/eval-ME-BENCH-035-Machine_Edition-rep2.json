@@ -1,0 +1,19 @@
+{
+  "answer": "L0 provides orientation summaries, while L4 contains complete forensic ledgers.",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.005",
+      "predicate": "derives_from",
+      "object": "srow.bench.mu.006",
+      "provenance_id": "prov.public-srow-framework",
+      "scope": "technical relationship"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

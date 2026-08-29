@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-039-PDF-rep3",
+  "cell_id": 363,
+  "execution_order": 336,
+  "task_id": "ME-BENCH-039",
+  "family": "unsupported_claim_detection",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the author's personal home address and phone number?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 1887.11,
+  "input_tokens": 710,
+  "output_tokens": 80,
+  "total_tokens": 790,
+  "raw_response": "{\n  \"answer\": \"The author's personal home address and phone number are not provided in the given context.\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"author\", \"predicate\": \"not provided\", \"object\": \"personal information\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The author's personal home address and phone number are not provided in the given context.",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "author",
+        "predicate": "not provided",
+        "object": "personal information"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

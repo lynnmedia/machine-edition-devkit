@@ -1,0 +1,43 @@
+{
+  "run_id": "eval-ME-BENCH-012-RAG-rep3",
+  "cell_id": 105,
+  "execution_order": 30,
+  "task_id": "ME-BENCH-012",
+  "family": "hierarchy_preservation",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+  "context_sha256": "6c5eeed9d8c7018b929ac9497e6f82023af283efddd2c1ccd9711301bf41d268",
+  "context_length": 1016,
+  "latency_ms": 3176.34,
+  "input_tokens": 441,
+  "output_tokens": 135,
+  "total_tokens": 576,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"Chapter 2\", \"predicate\": \"is located relative to\", \"object\": \"technical architecture\"},\n                     {\"subject\": \"SROW\", \"predicate\": \"is an expression and structuring protocol\", \"object\": \"cognitive architectures\"},\n                     {\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"is a communication protocol for making structured knowledge readable and navigable by both humans and machines\", \"object\": \"cognitive architectures\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "Chapter 2",
+        "predicate": "is located relative to",
+        "object": "technical architecture"
+      },
+      {
+        "subject": "SROW",
+        "predicate": "is an expression and structuring protocol",
+        "object": "cognitive architectures"
+      },
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "is a communication protocol for making structured knowledge readable and navigable by both humans and machines",
+        "object": "cognitive architectures"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

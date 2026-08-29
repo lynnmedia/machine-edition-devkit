@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-027-EPUB-rep1",
+  "cell_id": 244,
+  "execution_order": 319,
+  "task_id": "ME-BENCH-027",
+  "family": "ambiguity_handling",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2071.33,
+  "input_tokens": 767,
+  "output_tokens": 89,
+  "total_tokens": 856,
+  "raw_response": "{\n  \"answer\": \"Progressive disclosure\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Inference Agent\", \"predicate\": \"must do\", \"object\": \"when evidence in the source accommodates multiple valid interpretations?\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Progressive disclosure",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Inference Agent",
+        "predicate": "must do",
+        "object": "when evidence in the source accommodates multiple valid interpretations?"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

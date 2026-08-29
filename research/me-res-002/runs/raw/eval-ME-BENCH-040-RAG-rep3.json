@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-040-RAG-rep3",
+  "cell_id": 381,
+  "execution_order": 209,
+  "task_id": "ME-BENCH-040",
+  "family": "unsupported_claim_detection",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+  "context_sha256": "3a66834d630548ca137254e08c6ba11de8af46cec0aedef1b0e2cbf26745528b",
+  "context_length": 824,
+  "latency_ms": 1675.22,
+  "input_tokens": 407,
+  "output_tokens": 64,
+  "total_tokens": 471,
+  "raw_response": "{\n  \"answer\": \"The SROW stable-ID hashing algorithm experiences thermal throttling at a CPU temperature of 105 degrees Celsius.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [\"CPU temperature range observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "The SROW stable-ID hashing algorithm experiences thermal throttling at a CPU temperature of 105 degrees Celsius.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [
+      "CPU temperature range observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

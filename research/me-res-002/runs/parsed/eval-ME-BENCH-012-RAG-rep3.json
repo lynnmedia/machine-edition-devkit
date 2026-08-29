@@ -1,0 +1,23 @@
+{
+  "answer": "partially_supported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "Chapter 2",
+      "predicate": "is located relative to",
+      "object": "technical architecture"
+    },
+    {
+      "subject": "SROW",
+      "predicate": "is an expression and structuring protocol",
+      "object": "cognitive architectures"
+    },
+    {
+      "subject": "Structured Resolution-Oriented Writing (SROW)",
+      "predicate": "is a communication protocol for making structured knowledge readable and navigable by both humans and machines",
+      "object": "cognitive architectures"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

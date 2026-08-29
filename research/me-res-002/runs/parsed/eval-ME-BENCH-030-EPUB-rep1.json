@@ -1,0 +1,15 @@
+{
+  "answer": "unsupported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "stable-ID algorithm",
+      "predicate": "uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+      "object": "stable-ID algorithm"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

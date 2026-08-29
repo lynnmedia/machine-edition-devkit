@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-033-PDF-rep3",
+  "cell_id": 303,
+  "execution_order": 233,
+  "task_id": "ME-BENCH-033",
+  "family": "multi_resolution_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 1912.87,
+  "input_tokens": 712,
+  "output_tokens": 80,
+  "total_tokens": 792,
+  "raw_response": "{\n  \"answer\": \"L2 provides functional architecture\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"stable-ID algorithm\", \"predicate\": \"establishes explicit structural compliance for software and AI validation.\", \"object\": \"stable-ID algorithm\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L2 provides functional architecture",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "stable-ID algorithm",
+        "predicate": "establishes explicit structural compliance for software and AI validation.",
+        "object": "stable-ID algorithm"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

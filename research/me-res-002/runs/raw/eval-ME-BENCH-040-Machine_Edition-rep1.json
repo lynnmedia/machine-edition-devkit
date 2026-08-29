@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-040-Machine_Edition-rep1",
+  "cell_id": 382,
+  "execution_order": 131,
+  "task_id": "ME-BENCH-040",
+  "family": "unsupported_claim_detection",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 2644.09,
+  "input_tokens": 2833,
+  "output_tokens": 106,
+  "total_tokens": 2939,
+  "raw_response": "{\n  \"answer\": \"The SROW stable-ID hashing algorithm experiences thermal throttling at a CPU temperature of 105 degrees Celsius.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"SROW stable-ID hashing algorithm\", \"predicate\": \"experiences thermal throttling\", \"object\": \"CPU temperature\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "The SROW stable-ID hashing algorithm experiences thermal throttling at a CPU temperature of 105 degrees Celsius.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW stable-ID hashing algorithm",
+        "predicate": "experiences thermal throttling",
+        "object": "CPU temperature"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

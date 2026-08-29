@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-034-RAG-rep3",
+  "cell_id": 321,
+  "execution_order": 185,
+  "task_id": "ME-BENCH-034",
+  "family": "multi_resolution_retrieval",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+  "context_sha256": "2169323ee6f2454e2461b071e93795dc98faecdb8d81d8829146fa84b878c1ed",
+  "context_length": 894,
+  "latency_ms": 2608.2,
+  "input_tokens": 420,
+  "output_tokens": 117,
+  "total_tokens": 537,
+  "raw_response": "{\n  \"answer\": \"Resolution levels range from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides complete forensic ledgers, and L4 contains complete forensic ledgers.\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"Technical Architecture\", \"predicate\": \"L3 level statement\", \"object\": \"Provides complete forensic ledgers.\"}],\n  \"constraints_observed\": [\"List of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "Resolution levels range from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides complete forensic ledgers, and L4 contains complete forensic ledgers.",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "Technical Architecture",
+        "predicate": "L3 level statement",
+        "object": "Provides complete forensic ledgers."
+      }
+    ],
+    "constraints_observed": [
+      "List of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

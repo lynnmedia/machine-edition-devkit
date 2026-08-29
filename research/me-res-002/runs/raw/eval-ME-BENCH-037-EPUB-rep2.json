@@ -1,0 +1,38 @@
+{
+  "run_id": "eval-ME-BENCH-037-EPUB-rep2",
+  "cell_id": 341,
+  "execution_order": 224,
+  "task_id": "ME-BENCH-037",
+  "family": "unsupported_claim_detection",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 3379.03,
+  "input_tokens": 766,
+  "output_tokens": 133,
+  "total_tokens": 899,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW Public Reference Benchmark Source (v0.1)\", \"predicate\": \"does not contain information about access to a specific database\", \"object\": \"monthly subscription price for accessing the governed SROW meaning-unit database\"},\n   {\"subject\": \"SROW Public Reference Benchmark Document\", \"predicate\": \"contains information about monthly subscription prices for accessing the public reference benchmark documents\", \"object\": \"monthly subscription price for accessing the governed SROW meaning-unit database\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW Public Reference Benchmark Source (v0.1)",
+        "predicate": "does not contain information about access to a specific database",
+        "object": "monthly subscription price for accessing the governed SROW meaning-unit database"
+      },
+      {
+        "subject": "SROW Public Reference Benchmark Document",
+        "predicate": "contains information about monthly subscription prices for accessing the public reference benchmark documents",
+        "object": "monthly subscription price for accessing the governed SROW meaning-unit database"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-009-Machine_Edition-rep1",
+  "cell_id": 82,
+  "execution_order": 171,
+  "task_id": "ME-BENCH-009",
+  "family": "relationship_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 2625.25,
+  "input_tokens": 2830,
+  "output_tokens": 90,
+  "total_tokens": 2920,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"prov.srow-public-companion-release\", \"predicate\": \"depends_on\", \"object\": \"prov.public-srow-framework\", \"scope\": \"governance relationship\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "prov.srow-public-companion-release",
+        "predicate": "depends_on",
+        "object": "prov.public-srow-framework",
+        "scope": "governance relationship"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

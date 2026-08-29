@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-019-PDF-rep2",
+  "cell_id": 170,
+  "execution_order": 58,
+  "task_id": "ME-BENCH-019",
+  "family": "provenance_tracing",
+  "condition": "PDF",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What provenance record governs the public companion release metadata?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2116.45,
+  "input_tokens": 710,
+  "output_tokens": 89,
+  "total_tokens": 799,
+  "raw_response": "{\n  \"answer\": \"manifest\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"schema conformance certifies structural and syntactic compliance\", \"predicate\": \"governs\", \"object\": \"public companion release metadata\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "manifest",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "schema conformance certifies structural and syntactic compliance",
+        "predicate": "governs",
+        "object": "public companion release metadata"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

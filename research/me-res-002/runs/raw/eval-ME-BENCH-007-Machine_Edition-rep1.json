@@ -1,0 +1,40 @@
+{
+  "run_id": "eval-ME-BENCH-007-Machine_Edition-rep1",
+  "cell_id": 58,
+  "execution_order": 84,
+  "task_id": "ME-BENCH-007",
+  "family": "relationship_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 3222.2,
+  "input_tokens": 2829,
+  "output_tokens": 105,
+  "total_tokens": 2934,
+  "raw_response": "{\n  \"answer\": \"exemplifies\",\n  \"source_references\": [\"prov.public-srow-framework\", \"prov.srow-public-companion-release\"],\n  \"relationships\": [{\"subject\": \"srow.bench.mu.006\", \"predicate\": \"exemplifies\", \"object\": \"srow.bench.mu.001\"}],\n                  \"{\":\": \",\"}],\":\"\", \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\"support_status\": \"supported\" }",
+  "parsed_response": {
+    "answer": "exemplifies",
+    "source_references": [
+      "prov.public-srow-framework",
+      "prov.srow-public-companion-release"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.006",
+        "predicate": "exemplifies",
+        "object": "srow.bench.mu.001"
+      }
+    ],
+    "{": ": ",
+    "}],": "",
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

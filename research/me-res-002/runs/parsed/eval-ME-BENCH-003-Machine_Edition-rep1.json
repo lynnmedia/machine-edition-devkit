@@ -1,0 +1,15 @@
+{
+  "answer": "Progressive Disclosure",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "...",
+      "predicate": "...",
+      "object": "..."
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

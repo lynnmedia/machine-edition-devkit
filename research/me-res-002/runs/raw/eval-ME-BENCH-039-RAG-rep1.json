@@ -1,0 +1,29 @@
+{
+  "run_id": "eval-ME-BENCH-039-RAG-rep1",
+  "cell_id": 367,
+  "execution_order": 377,
+  "task_id": "ME-BENCH-039",
+  "family": "unsupported_claim_detection",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the author's personal home address and phone number?",
+  "context_sha256": "1b1ced01458add70f84ebddc2310993f88febcc89301e88d04afac1bb4081da8",
+  "context_length": 939,
+  "latency_ms": 1391.96,
+  "input_tokens": 413,
+  "output_tokens": 60,
+  "total_tokens": 473,
+  "raw_response": "{\n  \"answer\": \"The author's personal home address and phone number are not provided in the given context.\",\n  \"source_references\": [],\n  \"relationships\": [],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "The author's personal home address and phone number are not provided in the given context.",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

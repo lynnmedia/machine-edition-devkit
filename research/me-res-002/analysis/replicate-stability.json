@@ -1,0 +1,8 @@
+{
+  "total_cells": 128,
+  "identical_output_cells": 128,
+  "identical_output_rate": 1.0,
+  "consistent_support_rate": 1.0,
+  "temperature_setting": 0.0,
+  "interpretation": "Evaluated at temperature=0; real model demonstrated high stability across replicates."
+}

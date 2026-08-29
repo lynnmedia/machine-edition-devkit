@@ -1,0 +1,20 @@
+{
+  "answer": "L3",
+  "source_references": [
+    "prov.public-srow-framework",
+    "prov.srow-public-companion-release"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.006",
+      "predicate": "exemplifies",
+      "object": "srow.bench.mu.001",
+      "provenance_id": "prov.public-srow-framework",
+      "scope": "structural relationship"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

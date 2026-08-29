@@ -1,0 +1,33 @@
+{
+  "run_id": "eval-ME-BENCH-015-PDF-rep1",
+  "cell_id": 133,
+  "execution_order": 121,
+  "task_id": "ME-BENCH-015",
+  "family": "hierarchy_preservation",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2167.51,
+  "input_tokens": 711,
+  "output_tokens": 95,
+  "total_tokens": 806,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"Contextual scope tags\", \"predicate\": \"defines the operational domain of each assertion, separating universal core invariants from provisional public companion samples.\", \"object\": \"SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation.\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "Contextual scope tags",
+        "predicate": "defines the operational domain of each assertion, separating universal core invariants from provisional public companion samples.",
+        "object": "SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation."
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

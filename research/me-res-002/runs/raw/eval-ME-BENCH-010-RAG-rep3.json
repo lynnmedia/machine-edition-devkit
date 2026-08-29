@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-010-RAG-rep3",
+  "cell_id": 93,
+  "execution_order": 320,
+  "task_id": "ME-BENCH-010",
+  "family": "relationship_retrieval",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+  "context_sha256": "aa89d0a937cb92c3e395643233baacff959030526ec9d012ac956b82e7ecd07c",
+  "context_length": 901,
+  "latency_ms": 1809.19,
+  "input_tokens": 394,
+  "output_tokens": 79,
+  "total_tokens": 473,
+  "raw_response": "{\n  \"answer\": \"clarifies\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"structure\", \"predicate\": \"clarifies\", \"object\": \"provides architectural elaboration\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "clarifies",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "structure",
+        "predicate": "clarifies",
+        "object": "provides architectural elaboration"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

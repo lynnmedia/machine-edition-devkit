@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-015-RAG-rep3",
+  "cell_id": 141,
+  "execution_order": 198,
+  "task_id": "ME-BENCH-015",
+  "family": "hierarchy_preservation",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+  "context_sha256": "877bb713ed822537bddaa302d6dd0130da26a1f02e9499c455d90ea6be100f4f",
+  "context_length": 857,
+  "latency_ms": 1968.32,
+  "input_tokens": 401,
+  "output_tokens": 84,
+  "total_tokens": 485,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"contextual scope tags\", \"predicate\": \"structural relationship\", \"object\": \"individual assertions\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "contextual scope tags",
+        "predicate": "structural relationship",
+        "object": "individual assertions"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

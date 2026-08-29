@@ -1,0 +1,39 @@
+{
+  "run_id": "eval-ME-BENCH-018-Machine_Edition-rep1",
+  "cell_id": 166,
+  "execution_order": 278,
+  "task_id": "ME-BENCH-018",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "How does epistemic authority bind atomic assertions to source verification?",
+  "context_sha256": "0f5571089d5544ed44646988b6508a2c258e35bfaf6157c4d4f34834f920313f",
+  "context_length": 9301,
+  "latency_ms": 3770.52,
+  "input_tokens": 2690,
+  "output_tokens": 130,
+  "total_tokens": 2820,
+  "raw_response": "{\n  \"answer\": \"Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.\",\n  \"source_references\": [\"prov.srow-public-companion-release\", \"prov.public-srow-framework\"],\n  \"relationships\": [{\"subject\": \"srow.bench.mu.009\", \"predicate\": \"depends_on\", \"object\": \"srow.bench.mu.004\", \"provenance_id\": \"prov.public-srow-framework\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+    "source_references": [
+      "prov.srow-public-companion-release",
+      "prov.public-srow-framework"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.009",
+        "predicate": "depends_on",
+        "object": "srow.bench.mu.004",
+        "provenance_id": "prov.public-srow-framework"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "L2 provides functional architecture",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "stable-ID algorithm",
+      "predicate": "establishes explicit structural compliance for software and AI validation.",
+      "object": "the stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key."
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-028-PDF-rep2",
+  "cell_id": 254,
+  "execution_order": 351,
+  "task_id": "ME-BENCH-028",
+  "family": "ambiguity_handling",
+  "condition": "PDF",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2442.9,
+  "input_tokens": 722,
+  "output_tokens": 104,
+  "total_tokens": 826,
+  "raw_response": "{\n  \"answer\": \"partially supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"specifies whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines\", \"object\": \"third-party RAG pipelines\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially supported\"\n}",
+  "parsed_response": {
+    "answer": "partially supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "specifies whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines",
+        "object": "third-party RAG pipelines"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

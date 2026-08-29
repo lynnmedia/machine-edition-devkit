@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-039-EPUB-rep3",
+  "cell_id": 366,
+  "execution_order": 338,
+  "task_id": "ME-BENCH-039",
+  "family": "unsupported_claim_detection",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the author's personal home address and phone number?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 1892.03,
+  "input_tokens": 762,
+  "output_tokens": 70,
+  "total_tokens": 832,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"author\", \"predicate\": \"personal information\", \"object\": \"home address and phone number\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "author",
+        "predicate": "personal information",
+        "object": "home address and phone number"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

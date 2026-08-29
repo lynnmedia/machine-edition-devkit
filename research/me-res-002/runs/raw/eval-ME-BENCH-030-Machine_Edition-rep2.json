@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-030-Machine_Edition-rep2",
+  "cell_id": 287,
+  "execution_order": 155,
+  "task_id": "ME-BENCH-030",
+  "family": "ambiguity_handling",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 3146.58,
+  "input_tokens": 2835,
+  "output_tokens": 107,
+  "total_tokens": 2942,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"stable-ID algorithm\", \"predicate\": \"uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\", \"object\": \"SHA-256\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "stable-ID algorithm",
+        "predicate": "uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+        "object": "SHA-256"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

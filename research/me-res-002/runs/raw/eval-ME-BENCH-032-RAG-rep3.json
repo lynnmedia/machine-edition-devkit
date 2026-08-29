@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-032-RAG-rep3",
+  "cell_id": 297,
+  "execution_order": 301,
+  "task_id": "ME-BENCH-032",
+  "family": "multi_resolution_retrieval",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+  "context_sha256": "7ff41648b56fa128b16f6cc14bc25030d2a8db1d36422d35151fddb35372ea90",
+  "context_length": 992,
+  "latency_ms": 2391.12,
+  "input_tokens": 440,
+  "output_tokens": 85,
+  "total_tokens": 525,
+  "raw_response": "{\n  \"answer\": \"structure is a form of reader respect\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"structure\", \"predicate\": \"is a form of reader respect\", \"object\": \"reader respect\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "structure is a form of reader respect",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "structure",
+        "predicate": "is a form of reader respect",
+        "object": "reader respect"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

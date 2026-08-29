@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-028-EPUB-rep2",
+  "cell_id": 257,
+  "execution_order": 48,
+  "task_id": "ME-BENCH-028",
+  "family": "ambiguity_handling",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 1940.71,
+  "input_tokens": 774,
+  "output_tokens": 81,
+  "total_tokens": 855,
+  "raw_response": "{\n  \"answer\": \"partially supported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"specifies\", \"object\": \"vector embeddings or lexical BM25\"}],\n  \"constraints_observed\": [\"does not explicitly state whether vector embeddings or lexical BM25 is mandatory\"],\n  \"support_status\": \"partially supported\"\n}",
+  "parsed_response": {
+    "answer": "partially supported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "specifies",
+        "object": "vector embeddings or lexical BM25"
+      }
+    ],
+    "constraints_observed": [
+      "does not explicitly state whether vector embeddings or lexical BM25 is mandatory"
+    ],
+    "support_status": "partially supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

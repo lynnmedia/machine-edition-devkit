@@ -1,0 +1,15 @@
+{
+  "id": "srow.bench.mu.003",
+  "record_type": "meaning_unit",
+  "version": "0.1.0",
+  "resolution_level": "L1",
+  "title": "Progressive Disclosure Orientation",
+  "claim": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+  "provenance_id": "prov.public-srow-framework",
+  "scope": "core principle",
+  "answer": "{'id': 'srow.bench.mu.003', 'record_type': 'meaning_unit', 'version': '0.1.0', 'resolution_level': 'L1', 'title': 'Progressive Disclosure Orientation', 'claim': 'Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.', 'provenance_id': 'prov.public-srow-framework', 'scope': 'core principle'}",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

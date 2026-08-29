@@ -1,0 +1,17 @@
+{
+  "answer": "manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "manifest",
+      "predicate": "comprises six core record types",
+      "object": "a conformant Machine Edition package"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

@@ -1,0 +1,17 @@
+{
+  "answer": "PyTorch",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "mandates",
+      "object": "neural network fine-tuning"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

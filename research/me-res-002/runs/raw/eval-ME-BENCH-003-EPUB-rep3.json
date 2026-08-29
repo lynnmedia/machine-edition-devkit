@@ -1,0 +1,40 @@
+{
+  "run_id": "eval-ME-BENCH-003-EPUB-rep3",
+  "cell_id": 18,
+  "execution_order": 54,
+  "task_id": "ME-BENCH-003",
+  "family": "factual_retrieval",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is progressive disclosure according to the source?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 3109.33,
+  "input_tokens": 759,
+  "output_tokens": 131,
+  "total_tokens": 890,
+  "raw_response": "{\n  \"answer\": \"progressive disclosure\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Progressive Disclosure\", \"predicate\": \"is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.\"}, {\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "progressive disclosure",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Progressive Disclosure",
+        "predicate": "is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records."
+      },
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

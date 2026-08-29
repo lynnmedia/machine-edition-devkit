@@ -1,0 +1,15 @@
+{
+  "answer": "unsupported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "SROW stable-ID hashing algorithm",
+      "predicate": "experiences thermal throttling at a given temperature",
+      "object": "CPU temperature"
+    }
+  ],
+  "constraints_observed": [
+    "does not specify the exact CPU temperature range or conditions"
+  ],
+  "support_status": "partially_supported"
+}

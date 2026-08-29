@@ -1,0 +1,15 @@
+{
+  "answer": "The monthly subscription price for accessing the governed SROW meaning-unit database is not explicitly stated in the given context.",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+      "object": "Structured Resolution-Oriented Writing (SROW)"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

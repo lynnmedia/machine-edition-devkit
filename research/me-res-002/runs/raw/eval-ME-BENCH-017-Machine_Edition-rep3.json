@@ -1,0 +1,33 @@
+{
+  "run_id": "eval-ME-BENCH-017-Machine_Edition-rep3",
+  "cell_id": 156,
+  "execution_order": 379,
+  "task_id": "ME-BENCH-017",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 4339.69,
+  "input_tokens": 2831,
+  "output_tokens": 168,
+  "total_tokens": 2999,
+  "raw_response": "{\n  \"id\": \"prov.srow-public-companion-release\",\n  \"record_type\": \"provenance\",\n  \"source_title\": \"SROW Machine Edition \\u2014 Public Companion v0.1\",\n  \"source_url\": \"https://winmedia.com/machine-editions/editions/srow\",\n  \"source_scope\": \"authorized public companion release archive (sha256: 0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181)\",\n  \"retrieved_for_preview\": \"2026-08-29\"\n}",
+  "parsed_response": {
+    "id": "prov.srow-public-companion-release",
+    "record_type": "provenance",
+    "source_title": "SROW Machine Edition \u2014 Public Companion v0.1",
+    "source_url": "https://winmedia.com/machine-editions/editions/srow",
+    "source_scope": "authorized public companion release archive (sha256: 0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181)",
+    "retrieved_for_preview": "2026-08-29",
+    "answer": "{'id': 'prov.srow-public-companion-release', 'record_type': 'provenance', 'source_title': 'SROW Machine Edition \u2014 Public Companion v0.1', 'source_url': 'https://winmedia.com/machine-editions/editions/srow', 'source_scope': 'authorized public companion release archive (sha256: 0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181)', 'retrieved_for_preview': '2026-08-29'}",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

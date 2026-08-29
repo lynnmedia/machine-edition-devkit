@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-003-RAG-rep2",
+  "cell_id": 20,
+  "execution_order": 67,
+  "task_id": "ME-BENCH-003",
+  "family": "factual_retrieval",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is progressive disclosure according to the source?",
+  "context_sha256": "512ac0a6269441c406fcafd06bb08ceacc05c07145c2d4eb007df860c67b2f31",
+  "context_length": 852,
+  "latency_ms": 2884.33,
+  "input_tokens": 398,
+  "output_tokens": 123,
+  "total_tokens": 521,
+  "raw_response": "{\n  \"answer\": \"Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"progressive disclosure\", \"predicate\": \"is a stage in the process of exposing orientation and structure before deeper analysis.\", \"object\": \"exposing orientation and structure before deeper analytical explanation or granular assertion records\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "progressive disclosure",
+        "predicate": "is a stage in the process of exposing orientation and structure before deeper analysis.",
+        "object": "exposing orientation and structure before deeper analytical explanation or granular assertion records"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

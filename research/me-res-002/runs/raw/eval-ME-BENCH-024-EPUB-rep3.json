@@ -1,0 +1,36 @@
+{
+  "run_id": "eval-ME-BENCH-024-EPUB-rep3",
+  "cell_id": 222,
+  "execution_order": 289,
+  "task_id": "ME-BENCH-024",
+  "family": "boundary_constraint_recognition",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2817.05,
+  "input_tokens": 768,
+  "output_tokens": 94,
+  "total_tokens": 862,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"JSON Schema validation\", \"predicate\": \"conformance implies epistemic endorsement of the truth of external assertions\"},\n   {\"subject\": \"epistemic endorsement\", \"predicate\": \"does not imply that JSON Schema validation conformance guarantees the truth of external assertions\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "JSON Schema validation",
+        "predicate": "conformance implies epistemic endorsement of the truth of external assertions"
+      },
+      {
+        "subject": "epistemic endorsement",
+        "predicate": "does not imply that JSON Schema validation conformance guarantees the truth of external assertions"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

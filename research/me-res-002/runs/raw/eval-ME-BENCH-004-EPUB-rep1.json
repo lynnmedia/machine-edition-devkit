@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-004-EPUB-rep1",
+  "cell_id": 28,
+  "execution_order": 34,
+  "task_id": "ME-BENCH-004",
+  "family": "factual_retrieval",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 1717.98,
+  "input_tokens": 766,
+  "output_tokens": 73,
+  "total_tokens": 839,
+  "raw_response": "{\n  \"answer\": \"six core record types\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"manifest\", \"predicate\": \"represents a record type\", \"object\": \"conformant Machine Edition package\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "six core record types",
+    "source_references": [
+      "SROW Public Reference Benchmark Document"
+    ],
+    "relationships": [
+      {
+        "subject": "manifest",
+        "predicate": "represents a record type",
+        "object": "conformant Machine Edition package"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

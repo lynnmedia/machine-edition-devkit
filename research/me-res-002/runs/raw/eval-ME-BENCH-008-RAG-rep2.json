@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-008-RAG-rep2",
+  "cell_id": 68,
+  "execution_order": 204,
+  "task_id": "ME-BENCH-008",
+  "family": "relationship_retrieval",
+  "condition": "RAG",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+  "context_sha256": "5bc26e788a60cb003c1f9b11e4a3dbbf86b2ccf99c0fa4e4d37003747b46470e",
+  "context_length": 867,
+  "latency_ms": 2049.19,
+  "input_tokens": 389,
+  "output_tokens": 78,
+  "total_tokens": 467,
+  "raw_response": "{\n  \"answer\": \"clarifies\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"assertion\", \"predicate\": \"clarifies\", \"object\": \"prerequisite dependencies\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "clarifies",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "assertion",
+        "predicate": "clarifies",
+        "object": "prerequisite dependencies"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

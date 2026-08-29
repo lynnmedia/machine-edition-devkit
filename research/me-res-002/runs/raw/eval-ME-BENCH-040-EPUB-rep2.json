@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-040-EPUB-rep2",
+  "cell_id": 377,
+  "execution_order": 93,
+  "task_id": "ME-BENCH-040",
+  "family": "unsupported_claim_detection",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2029.21,
+  "input_tokens": 767,
+  "output_tokens": 81,
+  "total_tokens": 848,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW stable-ID hashing algorithm\", \"predicate\": \"experiences thermal throttling at a given temperature\", \"object\": \"CPU temperature\"}],\n  \"constraints_observed\": [\"does not specify the exact CPU temperature range or conditions\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW stable-ID hashing algorithm",
+        "predicate": "experiences thermal throttling at a given temperature",
+        "object": "CPU temperature"
+      }
+    ],
+    "constraints_observed": [
+      "does not specify the exact CPU temperature range or conditions"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

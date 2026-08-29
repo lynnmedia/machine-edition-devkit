@@ -1,0 +1,56 @@
+{
+  "run_id": "eval-ME-BENCH-004-PDF-rep2",
+  "cell_id": 26,
+  "execution_order": 375,
+  "task_id": "ME-BENCH-004",
+  "family": "factual_retrieval",
+  "condition": "PDF",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 6574.09,
+  "input_tokens": 714,
+  "output_tokens": 286,
+  "total_tokens": 1000,
+  "raw_response": "{\n  \"answer\": \"manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"manifest\", \"predicate\": \"comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.\"}, {\"subject\": \"meaning_unit\", \"predicate\": \"comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.\"}, {\"subject\": \"definition\", \"predicate\": \"comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.\"}, {\"subject\": \"relationship\", \"predicate\": \"comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.\"}, {\"subject\": \"boundary\", \"predicate\": \"comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.\"}, {\"subject\": \"provenance ledgers\", \"predicate\": \"comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "manifest",
+        "predicate": "comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers."
+      },
+      {
+        "subject": "meaning_unit",
+        "predicate": "comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers."
+      },
+      {
+        "subject": "definition",
+        "predicate": "comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers."
+      },
+      {
+        "subject": "relationship",
+        "predicate": "comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers."
+      },
+      {
+        "subject": "boundary",
+        "predicate": "comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers."
+      },
+      {
+        "subject": "provenance ledgers",
+        "predicate": "comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

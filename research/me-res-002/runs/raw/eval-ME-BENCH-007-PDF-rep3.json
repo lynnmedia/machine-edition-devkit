@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-007-PDF-rep3",
+  "cell_id": 51,
+  "execution_order": 378,
+  "task_id": "ME-BENCH-007",
+  "family": "relationship_retrieval",
+  "condition": "PDF",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2087.23,
+  "input_tokens": 711,
+  "output_tokens": 88,
+  "total_tokens": 799,
+  "raw_response": "{\n  \"answer\": \"clarifies\",\n  \"source_references\": [\"Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation\"],\n  \"relationships\": [{\"subject\": \"typed predicate\", \"predicate\": \"clarifies\", \"object\": \"architecture elaboration between concepts\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "clarifies",
+    "source_references": [
+      "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation"
+    ],
+    "relationships": [
+      {
+        "subject": "typed predicate",
+        "predicate": "clarifies",
+        "object": "architecture elaboration between concepts"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

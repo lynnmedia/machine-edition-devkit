@@ -1,0 +1,15 @@
+{
+  "answer": "The monthly subscription price for accessing the governed SROW meaning-unit database is $1.0.",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.005",
+      "predicate": "provides",
+      "object": "srow.bench.mu.006"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

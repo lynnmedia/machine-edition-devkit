@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-015-EPUB-rep2",
+  "cell_id": 137,
+  "execution_order": 309,
+  "task_id": "ME-BENCH-015",
+  "family": "hierarchy_preservation",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2415.97,
+  "input_tokens": 763,
+  "output_tokens": 99,
+  "total_tokens": 862,
+  "raw_response": "{\n  \"answer\": \"partially_supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"contextual scope tags\", \"predicate\": \"define the operational domain of each assertion\", \"object\": \"separates universal core invariants from provisional public companion samples.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "partially_supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "contextual scope tags",
+        "predicate": "define the operational domain of each assertion",
+        "object": "separates universal core invariants from provisional public companion samples."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

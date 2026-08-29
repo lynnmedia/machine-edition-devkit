@@ -1,0 +1,16 @@
+{
+  "answer": "partially_supported",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "prov.srow-public-companion-release",
+      "predicate": "depends_on",
+      "object": "prov.public-srow-framework",
+      "scope": "governance relationship"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

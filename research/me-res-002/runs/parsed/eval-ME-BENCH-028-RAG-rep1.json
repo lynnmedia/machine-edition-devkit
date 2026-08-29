@@ -1,0 +1,18 @@
+{
+  "answer": "partially_supported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "does not specify",
+      "object": "vector embeddings or lexical BM25"
+    },
+    {
+      "subject": "third-party RAG pipelines",
+      "predicate": "use vector embeddings or lexical BM25 as mandatory retrieval algorithms",
+      "object": "SROW"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

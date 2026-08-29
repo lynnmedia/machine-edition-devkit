@@ -1,0 +1,15 @@
+{
+  "answer": "Resolution levels range from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides complete forensic ledgers, and L4 contains complete forensic ledgers.",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "Technical Architecture",
+      "predicate": "L3 level statement",
+      "object": "Provides complete forensic ledgers."
+    }
+  ],
+  "constraints_observed": [
+    "List of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

@@ -1,0 +1,15 @@
+{
+  "answer": "The monthly subscription price for accessing the governed SROW meaning-unit database is not specified in the given context.",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "SROW",
+      "predicate": "governed",
+      "object": "meaning-unit database"
+    }
+  ],
+  "constraints_observed": [
+    "the provided information does not contain any explicit subscription details"
+  ],
+  "support_status": "unsupported"
+}

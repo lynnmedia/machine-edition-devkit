@@ -1,0 +1,18 @@
+{
+  "answer": "that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+  "source_references": [
+    "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+    "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation."
+  ],
+  "relationships": [
+    {
+      "subject": "Resolution monotonicity",
+      "predicate": "requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+      "object": "that higher detail levels preserve all invariants of lower detail levels without semantic contradiction."
+    }
+  ],
+  "constraints_observed": [
+    "the context does not provide explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

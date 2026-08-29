@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-037-RAG-rep3",
+  "cell_id": 345,
+  "execution_order": 174,
+  "task_id": "ME-BENCH-037",
+  "family": "unsupported_claim_detection",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+  "context_sha256": "c839a2b7bbb241157f7b9b1576e58461e1fc305c97391e73d0ce28374dc55d3b",
+  "context_length": 858,
+  "latency_ms": 2560.36,
+  "input_tokens": 400,
+  "output_tokens": 111,
+  "total_tokens": 511,
+  "raw_response": "{\n  \"answer\": \"The monthly subscription price for accessing the governed SROW meaning-unit database is not explicitly stated in the given context.\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"is a communication protocol for making structured knowledge readable and navigable by both humans and machines.\", \"object\": \"Structured Resolution-Oriented Writing (SROW)\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "The monthly subscription price for accessing the governed SROW meaning-unit database is not explicitly stated in the given context.",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+        "object": "Structured Resolution-Oriented Writing (SROW)"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

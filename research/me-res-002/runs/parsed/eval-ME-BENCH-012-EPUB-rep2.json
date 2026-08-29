@@ -1,0 +1,18 @@
+{
+  "answer": "partially_supported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "SROW Public Reference Benchmark Document",
+      "predicate": "contains only authorized public companion samples",
+      "object": "technical architecture"
+    },
+    {
+      "subject": "Technical Architecture",
+      "predicate": "does not include the complete manuscript or governed meaning-unit database",
+      "object": "complete meaning-unit database"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

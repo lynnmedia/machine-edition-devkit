@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-029-EPUB-rep1",
+  "cell_id": 268,
+  "execution_order": 213,
+  "task_id": "ME-BENCH-029",
+  "family": "ambiguity_handling",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 3081.49,
+  "input_tokens": 766,
+  "output_tokens": 116,
+  "total_tokens": 882,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Structured records\", \"predicate\": \"improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.\", \"object\": \"this public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured records",
+        "predicate": "improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.",
+        "object": "this public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

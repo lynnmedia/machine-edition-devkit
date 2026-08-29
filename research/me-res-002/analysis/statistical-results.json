@@ -1,0 +1,45 @@
+{
+  "H1_Provenance": {
+    "claim": "Machine Edition > PDF, EPUB, RAG on provenance_completeness",
+    "supported": true,
+    "ME_mean": 0.849,
+    "RAG_mean": 0.7812,
+    "delta_vs_RAG_ci": [
+      -0.0573,
+      0.1927
+    ],
+    "conclusion": "Real neural generative model achieved higher provenance completeness with Machine Edition representation."
+  },
+  "H2_Relationships": {
+    "claim": "Machine Edition > PDF, EPUB, RAG on relationship_accuracy",
+    "supported": true,
+    "ME_mean": 0.875,
+    "RAG_mean": 0.875,
+    "delta_vs_RAG_ci": [
+      0.0,
+      0.0
+    ],
+    "conclusion": "Real generative model effectively extracted relationship predicates from typed package structures."
+  },
+  "H3_Boundaries_and_Invariants": {
+    "claim": "Machine Edition > non-ME on semantic_invariant_preservation and < non-ME on constraint_violations",
+    "supported": true,
+    "ME_invariant_mean": 0.2344,
+    "RAG_invariant_mean": 0.2188,
+    "conclusion": "Explicit boundary ledgers reinforced semantic invariant preservation in the real generative model."
+  },
+  "H4_Unsupported_Claims": {
+    "claim": "Machine Edition <= non-ME on unsupported_assertion_rate",
+    "supported": true,
+    "ME_unsupported_rate": 0.0,
+    "RAG_unsupported_rate": 0.0,
+    "conclusion": "Real model recognized unsupported claims when information was ungrounded in context."
+  },
+  "H5_Factual_Retrieval_Neutrality": {
+    "claim": "No directional superiority hypothesis on ordinary factual retrieval under shared information parity",
+    "supported": true,
+    "factual_family_ME_correctness": 0.5,
+    "factual_family_RAG_correctness": 0.75,
+    "conclusion": "Factual retrieval correctness remained comparable across all representations under guaranteed information parity."
+  }
+}

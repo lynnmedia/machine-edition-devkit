@@ -1,0 +1,50 @@
+{
+  "run_id": "eval-ME-BENCH-018-EPUB-rep2",
+  "cell_id": 161,
+  "execution_order": 108,
+  "task_id": "ME-BENCH-018",
+  "family": "provenance_tracing",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "How does epistemic authority bind atomic assertions to source verification?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 3771.12,
+  "input_tokens": 763,
+  "output_tokens": 155,
+  "total_tokens": 918,
+  "raw_response": "{\n  \"answer\": \"explicit qualification\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"Epistemic Authority\", \"predicate\": \"binds\", \"object\": \"atomic assertions\"},\n                    {\"subject\": \"Atomic Assertions\", \"predicate\": \"binds\", \"object\": \"source evidence\"},\n                    {\"subject\": \"Source Evidence\", \"predicate\": \"does not guarantee factual truth or eliminate model error\"},\n                    {\"subject\": \"Schema Conformance Certifies Structural and Syntactic Compliance\", \"predicate\": \"does not constitute an epistemic endorsement of the truth value of external assertions\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "explicit qualification",
+    "source_references": [
+      "SROW Public Reference Benchmark Document"
+    ],
+    "relationships": [
+      {
+        "subject": "Epistemic Authority",
+        "predicate": "binds",
+        "object": "atomic assertions"
+      },
+      {
+        "subject": "Atomic Assertions",
+        "predicate": "binds",
+        "object": "source evidence"
+      },
+      {
+        "subject": "Source Evidence",
+        "predicate": "does not guarantee factual truth or eliminate model error"
+      },
+      {
+        "subject": "Schema Conformance Certifies Structural and Syntactic Compliance",
+        "predicate": "does not constitute an epistemic endorsement of the truth value of external assertions"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,48 @@
+{
+  "run_id": "eval-ME-BENCH-027-Machine_Edition-rep3",
+  "cell_id": 252,
+  "execution_order": 11,
+  "task_id": "ME-BENCH-027",
+  "family": "ambiguity_handling",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 4428.65,
+  "input_tokens": 2833,
+  "output_tokens": 171,
+  "total_tokens": 3004,
+  "raw_response": "{\n  \"answer\": \"When evidence in the source accommodates multiple valid interpretations, an inference agent must provide explicit qualification.\",\n  \"source_references\": [\"prov.public-srow-framework\", \"prov.srow-public-companion-release\"],\n  \"relationships\": [{\"subject\": \"srow.bench.mu.005\", \"predicate\": \"exemplifies\", \"object\": \"srow.bench.mu.006\"}, {\"subject\": \"prov.public-srow-framework\", \"predicate\": \"clarifies\", \"object\": \"prov.srow-public-companion-release\"}, {\"subject\": \"prov.srow-public-companion-release\", \"predicate\": \"depends_on\", \"object\": \"prov.public-srow-framework\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "When evidence in the source accommodates multiple valid interpretations, an inference agent must provide explicit qualification.",
+    "source_references": [
+      "prov.public-srow-framework",
+      "prov.srow-public-companion-release"
+    ],
+    "relationships": [
+      {
+        "subject": "srow.bench.mu.005",
+        "predicate": "exemplifies",
+        "object": "srow.bench.mu.006"
+      },
+      {
+        "subject": "prov.public-srow-framework",
+        "predicate": "clarifies",
+        "object": "prov.srow-public-companion-release"
+      },
+      {
+        "subject": "prov.srow-public-companion-release",
+        "predicate": "depends_on",
+        "object": "prov.public-srow-framework"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

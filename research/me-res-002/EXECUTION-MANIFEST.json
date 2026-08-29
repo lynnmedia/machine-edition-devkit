@@ -1,0 +1,10 @@
+{
+  "trial_id": "ME-RES-002",
+  "status": "completed",
+  "model": "qwen2.5:0.5b",
+  "calibration_runs": 32,
+  "raw_runs": 384,
+  "parsed_runs": 384,
+  "scored_records": 384,
+  "raw_corpus_sha256": "525959d9573a32f2f31a84116d37d27e1ba7997f1e0a33f19fe9d4f70dd346ca"
+}

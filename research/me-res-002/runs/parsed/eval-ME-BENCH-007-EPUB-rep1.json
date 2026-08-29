@@ -1,0 +1,19 @@
+{
+  "answer": "clarifies",
+  "source_references": [
+    "SROW Public Reference Benchmark Document"
+  ],
+  "relationships": [
+    {
+      "subject": "typed predicate",
+      "predicate": "clarifies"
+    },
+    {
+      "object": "structured resolution-oriented writing (srow)"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "eval-ME-BENCH-039-Machine_Edition-rep3",
+  "cell_id": 372,
+  "execution_order": 326,
+  "task_id": "ME-BENCH-039",
+  "family": "unsupported_claim_detection",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the author's personal home address and phone number?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 2536.84,
+  "input_tokens": 2828,
+  "output_tokens": 91,
+  "total_tokens": 2919,
+  "raw_response": "{\n  \"answer\": \"The author's personal home address and phone number are not provided in the given context.\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"author\", \"predicate\": \"has no information about personal addresses or phones\"}, {\"subject\": \"author\", \"predicate\": \"is not provided\"}],\n  \"constraints_observed\": [\"list of explicit boundaries observed\"],\n  \"support_status\": \"not supported\"\n}",
+  "parsed_response": {
+    "answer": "The author's personal home address and phone number are not provided in the given context.",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "author",
+        "predicate": "has no information about personal addresses or phones"
+      },
+      {
+        "subject": "author",
+        "predicate": "is not provided"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries observed"
+    ],
+    "support_status": "not supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

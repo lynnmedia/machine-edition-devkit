@@ -1,0 +1,17 @@
+{
+  "answer": "L3",
+  "source_references": [
+    "SROW Public Reference Benchmark Source (v0.1)"
+  ],
+  "relationships": [
+    {
+      "subject": "Technical Verification Records",
+      "predicate": "covers L3",
+      "object": "technical verification records"
+    }
+  ],
+  "constraints_observed": [
+    "covers a specific level of detail in the document"
+  ],
+  "support_status": "supported"
+}

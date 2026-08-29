@@ -1,0 +1,13 @@
+{
+  "id": "prov.public-srow-companion-release",
+  "record_type": "provenance",
+  "source_title": "SROW \u2014 Structured Resolution-Oriented Writing",
+  "source_url": "https://winmedia.com/frameworks/srow",
+  "source_scope": "public WinMedia framework publication",
+  "retrieved_for_preview": "2026-08-29",
+  "answer": "{'id': 'prov.public-srow-companion-release', 'record_type': 'provenance', 'source_title': 'SROW \u2014 Structured Resolution-Oriented Writing', 'source_url': 'https://winmedia.com/frameworks/srow', 'source_scope': 'public WinMedia framework publication', 'retrieved_for_preview': '2026-08-29'}",
+  "source_references": [],
+  "relationships": [],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

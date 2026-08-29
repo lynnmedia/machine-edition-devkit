@@ -1,0 +1,17 @@
+{
+  "answer": "L1",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "Structured Resolution-Oriented Writing (SROW)",
+      "predicate": "establishes explicit structural compliance for software and AI validation",
+      "object": "Explicit relationships link meaning units using typed predicates: derives_from indicates source lineage, clarifies provides architectural elaboration, depends_on establishes prerequisite dependencies, and exemplifies provides concrete application instances."
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

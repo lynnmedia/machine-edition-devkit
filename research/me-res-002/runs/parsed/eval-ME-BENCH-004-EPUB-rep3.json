@@ -1,0 +1,15 @@
+{
+  "answer": "six core record types",
+  "source_references": [
+    "SROW Public Reference Benchmark Document"
+  ],
+  "relationships": [
+    {
+      "subject": "manifest",
+      "predicate": "represents a record type",
+      "object": "conformant Machine Edition package"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

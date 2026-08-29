@@ -1,0 +1,17 @@
+{
+  "answer": "structure is a form of reader respect",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "structure",
+      "predicate": "is a form of reader respect",
+      "object": "reader respect"
+    }
+  ],
+  "constraints_observed": [
+    "explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

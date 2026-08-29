@@ -1,0 +1,13 @@
+{
+  "answer": "partially_supported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "Contextual scope tags",
+      "predicate": "defines the operational domain of each assertion, separating universal core invariants from provisional public companion samples.",
+      "object": "SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation."
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

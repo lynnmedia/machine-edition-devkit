@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-039-Machine_Edition-rep1",
+  "cell_id": 370,
+  "execution_order": 316,
+  "task_id": "ME-BENCH-039",
+  "family": "unsupported_claim_detection",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the author's personal home address and phone number?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 1957.87,
+  "input_tokens": 2828,
+  "output_tokens": 83,
+  "total_tokens": 2911,
+  "raw_response": "{\n  \"answer\": \"The author's personal home address and phone number are not provided in the given context.\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"author\", \"predicate\": \"has no information about personal addresses or phones\", \"object\": null}],\n  \"constraints_observed\": [\"no explicit boundaries or scope limits observed\"],\n  \"support_status\": \"not supported\"\n}",
+  "parsed_response": {
+    "answer": "The author's personal home address and phone number are not provided in the given context.",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "author",
+        "predicate": "has no information about personal addresses or phones",
+        "object": null
+      }
+    ],
+    "constraints_observed": [
+      "no explicit boundaries or scope limits observed"
+    ],
+    "support_status": "not supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

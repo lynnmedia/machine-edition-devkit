@@ -1,0 +1,33 @@
+{
+  "run_id": "eval-ME-BENCH-019-Machine_Edition-rep3",
+  "cell_id": 180,
+  "execution_order": 376,
+  "task_id": "ME-BENCH-019",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What provenance record governs the public companion release metadata?",
+  "context_sha256": "92368a4b6c439bbeaa0c6dd3870ea559658a52f5d8ebce8377b8c15f61625e38",
+  "context_length": 9317,
+  "latency_ms": 2592.63,
+  "input_tokens": 2687,
+  "output_tokens": 96,
+  "total_tokens": 2783,
+  "raw_response": "{\n  \"id\": \"prov.public-srow-companion-release\",\n  \"record_type\": \"provenance\",\n  \"source_title\": \"SROW \\u2014 Structured Resolution-Oriented Writing\",\n  \"source_url\": \"https://winmedia.com/frameworks/srow\",\n  \"source_scope\": \"public WinMedia framework publication\",\n  \"retrieved_for_preview\": \"2026-08-29\"\n}",
+  "parsed_response": {
+    "id": "prov.public-srow-companion-release",
+    "record_type": "provenance",
+    "source_title": "SROW \u2014 Structured Resolution-Oriented Writing",
+    "source_url": "https://winmedia.com/frameworks/srow",
+    "source_scope": "public WinMedia framework publication",
+    "retrieved_for_preview": "2026-08-29",
+    "answer": "{'id': 'prov.public-srow-companion-release', 'record_type': 'provenance', 'source_title': 'SROW \u2014 Structured Resolution-Oriented Writing', 'source_url': 'https://winmedia.com/frameworks/srow', 'source_scope': 'public WinMedia framework publication', 'retrieved_for_preview': '2026-08-29'}",
+    "source_references": [],
+    "relationships": [],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

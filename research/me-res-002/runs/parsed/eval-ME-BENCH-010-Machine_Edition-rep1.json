@@ -1,0 +1,16 @@
+{
+  "answer": "provenance_id",
+  "source_references": [
+    "prov.public-srow-framework",
+    "prov.srow-public-companion-release"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.005",
+      "predicate": "provenance_id",
+      "object": "prov.public-srow-framework"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

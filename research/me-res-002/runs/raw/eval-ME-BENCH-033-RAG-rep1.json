@@ -1,0 +1,40 @@
+{
+  "run_id": "eval-ME-BENCH-033-RAG-rep1",
+  "cell_id": 307,
+  "execution_order": 60,
+  "task_id": "ME-BENCH-033",
+  "family": "multi_resolution_retrieval",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+  "context_sha256": "e1c82b354e21d7fcccd109644db8026869a9825c1a9a460f5a5f696790ed54b6",
+  "context_length": 924,
+  "latency_ms": 3465.96,
+  "input_tokens": 419,
+  "output_tokens": 149,
+  "total_tokens": 568,
+  "raw_response": "{\n  \"answer\": \"Structured Resolution-Oriented Writing (SROW)\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"stable-ID algorithm\", \"predicate\": \"uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\"}, {\"subject\": \"structured resolution-oriented writing (srow)\", \"predicate\": \"is a communication protocol for making structured knowledge readable and navigable by both humans and machines.\"}, {\"subject\": \"structure\", \"predicate\": \"a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "Structured Resolution-Oriented Writing (SROW)",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "stable-ID algorithm",
+        "predicate": "uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key."
+      },
+      {
+        "subject": "structured resolution-oriented writing (srow)",
+        "predicate": "is a communication protocol for making structured knowledge readable and navigable by both humans and machines."
+      },
+      {
+        "subject": "structure",
+        "predicate": "a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents."
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,40 @@
+{
+  "run_id": "eval-ME-BENCH-017-RAG-rep3",
+  "cell_id": 153,
+  "execution_order": 69,
+  "task_id": "ME-BENCH-017",
+  "family": "provenance_tracing",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+  "context_sha256": "59a4e453a768e366b03c84f6c6be5f951113d2fc4bd1480293b629301c51eef2",
+  "context_length": 824,
+  "latency_ms": 2465.7,
+  "input_tokens": 397,
+  "output_tokens": 105,
+  "total_tokens": 502,
+  "raw_response": "{\n  \"answer\": \"canonical URL\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"canonical URL\", \"predicate\": \"serves as the authority for the core SROW framework definitions\"},\n                  {\"subject\": \"canonical URL\", \"predicate\": \"establishes explicit structural compliance for software and AI validation\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "canonical URL",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "canonical URL",
+        "predicate": "serves as the authority for the core SROW framework definitions"
+      },
+      {
+        "subject": "canonical URL",
+        "predicate": "establishes explicit structural compliance for software and AI validation"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-014-EPUB-rep3",
+  "cell_id": 126,
+  "execution_order": 245,
+  "task_id": "ME-BENCH-014",
+  "family": "hierarchy_preservation",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Which resolution level corresponds to technical verification records in SROW?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2407.0,
+  "input_tokens": 762,
+  "output_tokens": 84,
+  "total_tokens": 846,
+  "raw_response": "{\n  \"answer\": \"L3\",\n  \"source_references\": [\"SROW Public Reference Benchmark Source (v0.1)\"],\n  \"relationships\": [{\"subject\": \"Technical Verification Records\", \"predicate\": \"covers L3\", \"object\": \"technical verification records\"}],\n  \"constraints_observed\": [\"covers a specific level of detail in the document\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L3",
+    "source_references": [
+      "SROW Public Reference Benchmark Source (v0.1)"
+    ],
+    "relationships": [
+      {
+        "subject": "Technical Verification Records",
+        "predicate": "covers L3",
+        "object": "technical verification records"
+      }
+    ],
+    "constraints_observed": [
+      "covers a specific level of detail in the document"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

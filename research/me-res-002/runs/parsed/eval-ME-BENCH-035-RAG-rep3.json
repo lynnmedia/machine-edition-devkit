@@ -1,0 +1,20 @@
+{
+  "answer": "L0 provides orientation summaries, while L4 contains complete forensic ledgers.",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "orientation summaries",
+      "predicate": "provide",
+      "object": "L0"
+    },
+    {
+      "subject": "complete forensic ledgers",
+      "predicate": "contain",
+      "object": "L4"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

@@ -1,0 +1,15 @@
+{
+  "answer": "exemplifies",
+  "source_references": [
+    "prov.public-srow-framework"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.006",
+      "predicate": "exemplifies",
+      "object": "srow.bench.mu.001"
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "supported"
+}

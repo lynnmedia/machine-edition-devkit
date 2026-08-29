@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-008-EPUB-rep2",
+  "cell_id": 65,
+  "execution_order": 29,
+  "task_id": "ME-BENCH-008",
+  "family": "relationship_retrieval",
+  "condition": "EPUB",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2054.72,
+  "input_tokens": 761,
+  "output_tokens": 86,
+  "total_tokens": 847,
+  "raw_response": "{\n  \"answer\": \"depends_on\",\n  \"source_references\": [\"SROW Public Reference Benchmark Source (v0.1)\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"depends_on\", \"object\": \"relationship\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "depends_on",
+    "source_references": [
+      "SROW Public Reference Benchmark Source (v0.1)"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "depends_on",
+        "object": "relationship"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

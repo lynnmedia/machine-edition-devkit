@@ -1,0 +1,28 @@
+{
+  "answer": "When evidence in the source accommodates multiple valid interpretations, an inference agent must provide explicit qualification.",
+  "source_references": [
+    "prov.public-srow-framework",
+    "prov.srow-public-companion-release"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.005",
+      "predicate": "exemplifies",
+      "object": "srow.bench.mu.006"
+    },
+    {
+      "subject": "prov.public-srow-framework",
+      "predicate": "clarifies",
+      "object": "prov.srow-public-companion-release"
+    },
+    {
+      "subject": "prov.srow-public-companion-release",
+      "predicate": "depends_on",
+      "object": "prov.public-srow-framework"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

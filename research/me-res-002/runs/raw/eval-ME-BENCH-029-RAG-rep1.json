@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-029-RAG-rep1",
+  "cell_id": 271,
+  "execution_order": 344,
+  "task_id": "ME-BENCH-029",
+  "family": "ambiguity_handling",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+  "context_sha256": "1945ce8d59e24d12051171d6871d8709b049727567b8b052ed3017c23bca71bc",
+  "context_length": 1017,
+  "latency_ms": 2414.69,
+  "input_tokens": 441,
+  "output_tokens": 100,
+  "total_tokens": 541,
+  "raw_response": "{\n  \"answer\": \"partially supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"is an expression and structuring protocol\", \"object\": \"not a cognition architecture or internal thought representation\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially supported\"\n}",
+  "parsed_response": {
+    "answer": "partially supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "is an expression and structuring protocol",
+        "object": "not a cognition architecture or internal thought representation"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

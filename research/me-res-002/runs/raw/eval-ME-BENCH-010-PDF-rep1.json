@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-010-PDF-rep1",
+  "cell_id": 85,
+  "execution_order": 150,
+  "task_id": "ME-BENCH-010",
+  "family": "relationship_retrieval",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 1981.79,
+  "input_tokens": 716,
+  "output_tokens": 85,
+  "total_tokens": 801,
+  "raw_response": "{\n  \"answer\": \"clarifies\",\n  \"source_references\": [\"Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation\"],\n  \"relationships\": [{\"subject\": \"Typed predicate\", \"predicate\": \"clarifies\", \"object\": \"meaning unit\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "clarifies",
+    "source_references": [
+      "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation"
+    ],
+    "relationships": [
+      {
+        "subject": "Typed predicate",
+        "predicate": "clarifies",
+        "object": "meaning unit"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,224 @@
+{
+  "Machine_Edition_vs_PDF": {
+    "correctness": {
+      "contrast": "Machine_Edition - PDF",
+      "metric": "correctness",
+      "wins": 5,
+      "ties": 21,
+      "losses": 6,
+      "mean_delta": -0.0625,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.25,
+      "ci_95_upper": 0.125,
+      "n_items": 32
+    },
+    "provenance_completeness": {
+      "contrast": "Machine_Edition - PDF",
+      "metric": "provenance_completeness",
+      "wins": 4,
+      "ties": 27,
+      "losses": 1,
+      "mean_delta": 0.0677,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.0573,
+      "ci_95_upper": 0.1927,
+      "n_items": 32
+    },
+    "unsupported_assertion_rate": {
+      "contrast": "Machine_Edition - PDF",
+      "metric": "unsupported_assertion_rate",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    },
+    "semantic_invariant_preservation": {
+      "contrast": "Machine_Edition - PDF",
+      "metric": "semantic_invariant_preservation",
+      "wins": 5,
+      "ties": 21,
+      "losses": 6,
+      "mean_delta": -0.0625,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.25,
+      "ci_95_upper": 0.125,
+      "n_items": 32
+    },
+    "relationship_accuracy": {
+      "contrast": "Machine_Edition - PDF",
+      "metric": "relationship_accuracy",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    },
+    "constraint_violations": {
+      "contrast": "Machine_Edition - PDF",
+      "metric": "constraint_violations",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    }
+  },
+  "Machine_Edition_vs_EPUB": {
+    "correctness": {
+      "contrast": "Machine_Edition - EPUB",
+      "metric": "correctness",
+      "wins": 6,
+      "ties": 21,
+      "losses": 5,
+      "mean_delta": -0.0312,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.2031,
+      "ci_95_upper": 0.1406,
+      "n_items": 32
+    },
+    "provenance_completeness": {
+      "contrast": "Machine_Edition - EPUB",
+      "metric": "provenance_completeness",
+      "wins": 4,
+      "ties": 27,
+      "losses": 1,
+      "mean_delta": 0.0677,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.0573,
+      "ci_95_upper": 0.1927,
+      "n_items": 32
+    },
+    "unsupported_assertion_rate": {
+      "contrast": "Machine_Edition - EPUB",
+      "metric": "unsupported_assertion_rate",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    },
+    "semantic_invariant_preservation": {
+      "contrast": "Machine_Edition - EPUB",
+      "metric": "semantic_invariant_preservation",
+      "wins": 6,
+      "ties": 21,
+      "losses": 5,
+      "mean_delta": -0.0312,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.2031,
+      "ci_95_upper": 0.1406,
+      "n_items": 32
+    },
+    "relationship_accuracy": {
+      "contrast": "Machine_Edition - EPUB",
+      "metric": "relationship_accuracy",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    },
+    "constraint_violations": {
+      "contrast": "Machine_Edition - EPUB",
+      "metric": "constraint_violations",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    }
+  },
+  "Machine_Edition_vs_RAG": {
+    "correctness": {
+      "contrast": "Machine_Edition - RAG",
+      "metric": "correctness",
+      "wins": 7,
+      "ties": 21,
+      "losses": 4,
+      "mean_delta": 0.0156,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.1562,
+      "ci_95_upper": 0.1719,
+      "n_items": 32
+    },
+    "provenance_completeness": {
+      "contrast": "Machine_Edition - RAG",
+      "metric": "provenance_completeness",
+      "wins": 4,
+      "ties": 27,
+      "losses": 1,
+      "mean_delta": 0.0677,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.0573,
+      "ci_95_upper": 0.1927,
+      "n_items": 32
+    },
+    "unsupported_assertion_rate": {
+      "contrast": "Machine_Edition - RAG",
+      "metric": "unsupported_assertion_rate",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    },
+    "semantic_invariant_preservation": {
+      "contrast": "Machine_Edition - RAG",
+      "metric": "semantic_invariant_preservation",
+      "wins": 7,
+      "ties": 21,
+      "losses": 4,
+      "mean_delta": 0.0156,
+      "median_delta": 0.0,
+      "ci_95_lower": -0.1562,
+      "ci_95_upper": 0.1719,
+      "n_items": 32
+    },
+    "relationship_accuracy": {
+      "contrast": "Machine_Edition - RAG",
+      "metric": "relationship_accuracy",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    },
+    "constraint_violations": {
+      "contrast": "Machine_Edition - RAG",
+      "metric": "constraint_violations",
+      "wins": 0,
+      "ties": 32,
+      "losses": 0,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "ci_95_lower": 0.0,
+      "ci_95_upper": 0.0,
+      "n_items": 32
+    }
+  }
+}

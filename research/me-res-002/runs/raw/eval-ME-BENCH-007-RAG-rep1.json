@@ -1,0 +1,37 @@
+{
+  "run_id": "eval-ME-BENCH-007-RAG-rep1",
+  "cell_id": 55,
+  "execution_order": 242,
+  "task_id": "ME-BENCH-007",
+  "family": "relationship_retrieval",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+  "context_sha256": "5f8d443146075d1833d974b464fadc27868a1125c77af225e35bfe7aa24a62ee",
+  "context_length": 863,
+  "latency_ms": 2026.66,
+  "input_tokens": 395,
+  "output_tokens": 84,
+  "total_tokens": 479,
+  "raw_response": "{\n  \"answer\": \"clarifies\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"structured resolution-oriented writing\", \"predicate\": \"establishes architectural elaboration\", \"object\": \"between concepts\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "clarifies",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "structured resolution-oriented writing",
+        "predicate": "establishes architectural elaboration",
+        "object": "between concepts"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

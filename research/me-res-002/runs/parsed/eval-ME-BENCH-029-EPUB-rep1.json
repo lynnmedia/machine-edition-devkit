@@ -1,0 +1,17 @@
+{
+  "answer": "unsupported",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "Structured records",
+      "predicate": "improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.",
+      "object": "this public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database."
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "partially_supported"
+}

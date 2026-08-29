@@ -1,0 +1,42 @@
+{
+  "answer": "srow.bench.mu.001, srow.bench.mu.002, srow.bench.mu.003, srow.bench.mu.004, srow.bench.mu.005, srow.bench.mu.006",
+  "source_references": [
+    "list of exact provenance IDs or document locations from context"
+  ],
+  "relationships": [
+    {
+      "subject": "srow.bench.mu.001",
+      "predicate": "manifest",
+      "object": "srow.bench.mu.001"
+    },
+    {
+      "subject": "srow.bench.mu.002",
+      "predicate": "meaning_unit",
+      "object": "srow.bench.mu.002"
+    },
+    {
+      "subject": "srow.bench.mu.003",
+      "predicate": "progressive disclosure orientation",
+      "object": "srow.bench.mu.003"
+    },
+    {
+      "subject": "srow.bench.mu.004",
+      "predicate": "resolution hierarchy architecture",
+      "object": "srow.bench.mu.04"
+    },
+    {
+      "subject": "srow.bench.mu.05",
+      "predicate": "stable-ID algorithm invariant",
+      "object": "srow.bench.mu.005"
+    },
+    {
+      "subject": "srow.bench.mu.006",
+      "predicate": "meaning_unit",
+      "object": "srow.bench.mu.006"
+    }
+  ],
+  "constraints_observed": [
+    "list of explicit boundaries or scope limits observed"
+  ],
+  "support_status": "supported"
+}

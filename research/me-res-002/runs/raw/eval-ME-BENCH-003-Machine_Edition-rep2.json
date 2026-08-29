@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-003-Machine_Edition-rep2",
+  "cell_id": 23,
+  "execution_order": 66,
+  "task_id": "ME-BENCH-003",
+  "family": "factual_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 2,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is progressive disclosure according to the source?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 1959.54,
+  "input_tokens": 2825,
+  "output_tokens": 65,
+  "total_tokens": 2890,
+  "raw_response": "{\n  \"answer\": \"Progressive Disclosure\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"...\", \"predicate\": \"...\", \"object\": \"...\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "Progressive Disclosure",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "...",
+        "predicate": "...",
+        "object": "..."
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

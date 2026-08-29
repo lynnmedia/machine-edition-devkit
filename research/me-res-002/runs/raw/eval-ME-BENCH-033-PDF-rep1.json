@@ -1,0 +1,33 @@
+{
+  "run_id": "eval-ME-BENCH-033-PDF-rep1",
+  "cell_id": 301,
+  "execution_order": 237,
+  "task_id": "ME-BENCH-033",
+  "family": "multi_resolution_retrieval",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2309.87,
+  "input_tokens": 712,
+  "output_tokens": 97,
+  "total_tokens": 809,
+  "raw_response": "{\n  \"answer\": \"L2 provides functional architecture\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"stable-ID algorithm\", \"predicate\": \"establishes explicit structural compliance for software and AI validation.\", \"object\": \"the stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "L2 provides functional architecture",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "stable-ID algorithm",
+        "predicate": "establishes explicit structural compliance for software and AI validation.",
+        "object": "the stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key."
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

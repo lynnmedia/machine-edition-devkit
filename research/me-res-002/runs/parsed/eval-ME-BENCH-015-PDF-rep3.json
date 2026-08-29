@@ -1,0 +1,13 @@
+{
+  "answer": "partially_supported",
+  "source_references": [],
+  "relationships": [
+    {
+      "subject": "Contextual scope tags",
+      "predicate": "defines the operational domain of each assertion, separating universal core invariants from provisional public companion samples.",
+      "object": "Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions."
+    }
+  ],
+  "constraints_observed": [],
+  "support_status": "partially_supported"
+}

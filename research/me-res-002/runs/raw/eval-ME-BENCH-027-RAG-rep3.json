@@ -1,0 +1,35 @@
+{
+  "run_id": "eval-ME-BENCH-027-RAG-rep3",
+  "cell_id": 249,
+  "execution_order": 300,
+  "task_id": "ME-BENCH-027",
+  "family": "ambiguity_handling",
+  "condition": "RAG",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+  "context_sha256": "3c725a8e6c282945ce646099e4fee2733608b52c417ee0f112822fdcfd6c4720",
+  "context_length": 981,
+  "latency_ms": 2048.52,
+  "input_tokens": 426,
+  "output_tokens": 71,
+  "total_tokens": 497,
+  "raw_response": "{\n  \"answer\": \"an inference agent must provide explicit qualification\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"inference agent\", \"predicate\": \"must\", \"object\": \"provide\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "an inference agent must provide explicit qualification",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "inference agent",
+        "predicate": "must",
+        "object": "provide"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

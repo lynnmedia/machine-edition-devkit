@@ -1,0 +1,38 @@
+{
+  "run_id": "eval-ME-BENCH-010-EPUB-rep3",
+  "cell_id": 90,
+  "execution_order": 35,
+  "task_id": "ME-BENCH-010",
+  "family": "relationship_retrieval",
+  "condition": "EPUB",
+  "replicate": 3,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2280.05,
+  "input_tokens": 768,
+  "output_tokens": 97,
+  "total_tokens": 865,
+  "raw_response": "{\n  \"answer\": \"clarifies\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\", \"Chapter 2: Technical Architecture, Stable Identity, and Data Model\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"clarifies\", \"object\": \"provides architectural elaboration\"}],\n  \"constraints_observed\": [\"explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "clarifies",
+    "source_references": [
+      "SROW Public Reference Benchmark Document",
+      "Chapter 2: Technical Architecture, Stable Identity, and Data Model"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "clarifies",
+        "object": "provides architectural elaboration"
+      }
+    ],
+    "constraints_observed": [
+      "explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}
