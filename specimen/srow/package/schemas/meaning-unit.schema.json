@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://winmedia.com/schemas/machine-edition/v0.1/meaning-unit.schema.json",
+  "title": "Machine Edition Meaning Unit Schema v0.1",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "version",
+    "resolution_level",
+    "title",
+    "claim",
+    "provenance_id",
+    "scope"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9\\-_.]+$"
+    },
+    "record_type": {
+      "const": "meaning_unit"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "resolution_level": {
+      "type": "string",
+      "enum": ["L0", "L1", "L2", "L3", "L4"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

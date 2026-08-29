@@ -1,0 +1,2 @@
+{"id":"srow.ref.rel.001","record_type":"relationship","subject_id":"srow.ref.mu.002","predicate":"derives_from","object_id":"srow.ref.mu.001","provenance_id":"prov.srow-public-companion-release","scope":"technical relationship"}
+{"id":"srow.ref.rel.002","record_type":"relationship","subject_id":"srow.ref.mu.001","predicate":"clarifies","object_id":"srow.ref.mu.003","provenance_id":"prov.public-srow-framework","scope":"architectural relationship"}

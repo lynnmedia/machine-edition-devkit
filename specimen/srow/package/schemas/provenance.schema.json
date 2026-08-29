@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://winmedia.com/schemas/machine-edition/v0.1/provenance.schema.json",
+  "title": "Machine Edition Provenance Record Schema v0.1",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "source_title",
+    "source_url",
+    "source_scope"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9\\-_.]+$"
+    },
+    "record_type": {
+      "const": "provenance"
+    },
+    "source_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_for_preview": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    }
+  },
+  "additionalProperties": true
+}

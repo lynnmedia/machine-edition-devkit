@@ -1,0 +1,50 @@
+{
+  "derivation_name": "SROW Public Reference Specimen for Machine Edition Specification v0.1",
+  "target_specification": "Machine Edition Specification v0.1",
+  "specification_commit": "c18dea52074ba278ec6bc4a544c80300df6d8882",
+  "derivation_purpose": "Establish a fully conformant, inspectable public reference specimen for the Developer Kit v0.1 without importing governed manuscript content.",
+  "derivation_path": "specimen/srow/package",
+  "transformations": [
+    {
+      "source_file": "metadata/package-manifest.json",
+      "target_file": "manifest.json",
+      "action": "normalized to Machine Edition Specification v0.1 manifest schema (RFC 8259, required fields: package_id, title, version, status, scope, formats, license, human_readable_entrypoint, provenance_file)"
+    },
+    {
+      "source_file": "samples/approved-public-samples.json",
+      "target_file": "meaning-units.jsonl",
+      "action": "converted JSON sample array into newline-delimited JSON conforming to meaning-unit.schema.json"
+    },
+    {
+      "source_file": "contracts/USAGE-BOUNDARIES.md",
+      "target_file": "boundaries.jsonl",
+      "action": "extracted explicit public usage boundaries into boundary.schema.json format"
+    },
+    {
+      "source_file": "README.md",
+      "target_file": "definitions.jsonl",
+      "action": "extracted formal SROW definitions into definition.schema.json format"
+    },
+    {
+      "source_file": "metadata/package-manifest.json",
+      "target_file": "provenance.jsonl",
+      "action": "generated verifiable provenance chain linking public companion units to authoritative source URL and release commits"
+    },
+    {
+      "source_file": "contracts/LICENSE.md",
+      "target_file": "LICENSE.txt",
+      "action": "copied CC-BY-4.0 license text with public usage boundary notices"
+    },
+    {
+      "source_file": "README.md",
+      "target_file": "full-preview.md",
+      "action": "generated human-readable CommonMark entrypoint"
+    }
+  ],
+  "excluded_content": [
+    "complete book manuscript",
+    "governed database",
+    "internal adjudication ledgers"
+  ],
+  "licensing_basis": "Creative Commons Attribution 4.0 International (CC BY 4.0) within authorized public companion scope"
+}

@@ -1,0 +1,17 @@
+{
+  "source_release": "SROW Machine Edition — Public Companion v0.1",
+  "source_tag": "v0.1-srow-rc4",
+  "source_commit": "31cbd017f95e2b869a3ec9b79ed13f2c72825f63",
+  "source_packager_commit": "02e24e35dfe99d2e373dbd8c34c1e73b7580c9da",
+  "source_archive_filename": "srow-machine-edition-v0.1-public-companion.zip",
+  "source_archive_sha256": "0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181",
+  "authorization_file": "FINAL-HUMAN-PUBLICATION-AUTHORIZATION.md",
+  "authorized_license": "CC BY 4.0 within the expressly inventoried public-companion scope",
+  "prohibited_content": [
+    "governed-only manuscript material",
+    "internal adjudication records",
+    "meaning-unit database",
+    "meaning-unit migration maps",
+    "proprietary factory logic"
+  ]
+}

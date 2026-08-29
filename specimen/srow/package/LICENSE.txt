@@ -1,0 +1,20 @@
+Creative Commons Legal Code
+
+Attribution 4.0 International
+
+Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services. Distribution of this document does not create an attorney-client relationship. Creative Commons provides this information on an "as-is" basis.
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+IMPORTANT NOTICE & RESTRICTIONS:
+The CC BY 4.0 license applies ONLY to the files contained within this authorized Public Reference Specimen (specifically the public schemas, documentation, and synthetic samples).
+CC BY 4.0 does NOT apply to:
+1. The SROW book manuscript or any part of the text.
+2. The complete normalized text.
+3. The governed SROW Machine Edition database.
+4. WinMedia trademarks, branding, cover artwork, or other associated materials.
