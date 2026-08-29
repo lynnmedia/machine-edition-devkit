@@ -1,0 +1,3458 @@
+[
+  {
+    "cell_id": 294,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 1
+  },
+  {
+    "cell_id": 109,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 2
+  },
+  {
+    "cell_id": 184,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 3
+  },
+  {
+    "cell_id": 153,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 4
+  },
+  {
+    "cell_id": 106,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 5
+  },
+  {
+    "cell_id": 86,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 6
+  },
+  {
+    "cell_id": 105,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 7
+  },
+  {
+    "cell_id": 16,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 8
+  },
+  {
+    "cell_id": 143,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 9
+  },
+  {
+    "cell_id": 285,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 10
+  },
+  {
+    "cell_id": 203,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 11
+  },
+  {
+    "cell_id": 7,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 12
+  },
+  {
+    "cell_id": 220,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 13
+  },
+  {
+    "cell_id": 182,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 14
+  },
+  {
+    "cell_id": 275,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 15
+  },
+  {
+    "cell_id": 295,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 16
+  },
+  {
+    "cell_id": 53,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 17
+  },
+  {
+    "cell_id": 118,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 18
+  },
+  {
+    "cell_id": 280,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 19
+  },
+  {
+    "cell_id": 165,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 20
+  },
+  {
+    "cell_id": 141,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 21
+  },
+  {
+    "cell_id": 266,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 22
+  },
+  {
+    "cell_id": 322,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 23
+  },
+  {
+    "cell_id": 198,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 24
+  },
+  {
+    "cell_id": 243,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 25
+  },
+  {
+    "cell_id": 167,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 26
+  },
+  {
+    "cell_id": 300,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 27
+  },
+  {
+    "cell_id": 187,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 28
+  },
+  {
+    "cell_id": 102,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 29
+  },
+  {
+    "cell_id": 288,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 30
+  },
+  {
+    "cell_id": 96,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 31
+  },
+  {
+    "cell_id": 124,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 32
+  },
+  {
+    "cell_id": 30,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 33
+  },
+  {
+    "cell_id": 231,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 34
+  },
+  {
+    "cell_id": 272,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 35
+  },
+  {
+    "cell_id": 381,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 36
+  },
+  {
+    "cell_id": 292,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 37
+  },
+  {
+    "cell_id": 215,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 38
+  },
+  {
+    "cell_id": 64,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 39
+  },
+  {
+    "cell_id": 296,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 40
+  },
+  {
+    "cell_id": 40,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 41
+  },
+  {
+    "cell_id": 317,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 42
+  },
+  {
+    "cell_id": 163,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 43
+  },
+  {
+    "cell_id": 313,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 44
+  },
+  {
+    "cell_id": 67,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 45
+  },
+  {
+    "cell_id": 46,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 46
+  },
+  {
+    "cell_id": 156,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 47
+  },
+  {
+    "cell_id": 211,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 48
+  },
+  {
+    "cell_id": 59,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 49
+  },
+  {
+    "cell_id": 271,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 50
+  },
+  {
+    "cell_id": 32,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 51
+  },
+  {
+    "cell_id": 5,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 52
+  },
+  {
+    "cell_id": 303,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 53
+  },
+  {
+    "cell_id": 256,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 54
+  },
+  {
+    "cell_id": 29,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 55
+  },
+  {
+    "cell_id": 146,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 56
+  },
+  {
+    "cell_id": 190,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 57
+  },
+  {
+    "cell_id": 194,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 58
+  },
+  {
+    "cell_id": 85,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 59
+  },
+  {
+    "cell_id": 274,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 60
+  },
+  {
+    "cell_id": 10,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 61
+  },
+  {
+    "cell_id": 217,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 62
+  },
+  {
+    "cell_id": 147,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 63
+  },
+  {
+    "cell_id": 298,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 64
+  },
+  {
+    "cell_id": 325,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 65
+  },
+  {
+    "cell_id": 241,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 66
+  },
+  {
+    "cell_id": 48,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 67
+  },
+  {
+    "cell_id": 127,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 68
+  },
+  {
+    "cell_id": 326,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 69
+  },
+  {
+    "cell_id": 324,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 70
+  },
+  {
+    "cell_id": 242,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 71
+  },
+  {
+    "cell_id": 316,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 72
+  },
+  {
+    "cell_id": 221,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 73
+  },
+  {
+    "cell_id": 166,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 74
+  },
+  {
+    "cell_id": 117,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 75
+  },
+  {
+    "cell_id": 252,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 76
+  },
+  {
+    "cell_id": 250,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 77
+  },
+  {
+    "cell_id": 331,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 78
+  },
+  {
+    "cell_id": 101,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 79
+  },
+  {
+    "cell_id": 353,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 80
+  },
+  {
+    "cell_id": 116,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 81
+  },
+  {
+    "cell_id": 3,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 82
+  },
+  {
+    "cell_id": 379,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 83
+  },
+  {
+    "cell_id": 114,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 84
+  },
+  {
+    "cell_id": 18,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 85
+  },
+  {
+    "cell_id": 197,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 86
+  },
+  {
+    "cell_id": 373,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 87
+  },
+  {
+    "cell_id": 334,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 88
+  },
+  {
+    "cell_id": 342,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 89
+  },
+  {
+    "cell_id": 35,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 90
+  },
+  {
+    "cell_id": 2,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 91
+  },
+  {
+    "cell_id": 199,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 92
+  },
+  {
+    "cell_id": 377,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 93
+  },
+  {
+    "cell_id": 172,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 94
+  },
+  {
+    "cell_id": 136,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 95
+  },
+  {
+    "cell_id": 21,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 96
+  },
+  {
+    "cell_id": 15,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 97
+  },
+  {
+    "cell_id": 132,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 98
+  },
+  {
+    "cell_id": 259,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 99
+  },
+  {
+    "cell_id": 97,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 100
+  },
+  {
+    "cell_id": 6,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 101
+  },
+  {
+    "cell_id": 361,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 102
+  },
+  {
+    "cell_id": 193,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 103
+  },
+  {
+    "cell_id": 348,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 104
+  },
+  {
+    "cell_id": 200,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 105
+  },
+  {
+    "cell_id": 164,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 106
+  },
+  {
+    "cell_id": 232,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 107
+  },
+  {
+    "cell_id": 189,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 108
+  },
+  {
+    "cell_id": 120,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 109
+  },
+  {
+    "cell_id": 216,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 110
+  },
+  {
+    "cell_id": 277,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 111
+  },
+  {
+    "cell_id": 191,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 112
+  },
+  {
+    "cell_id": 99,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 113
+  },
+  {
+    "cell_id": 328,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 114
+  },
+  {
+    "cell_id": 269,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 115
+  },
+  {
+    "cell_id": 111,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 116
+  },
+  {
+    "cell_id": 278,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 117
+  },
+  {
+    "cell_id": 62,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 118
+  },
+  {
+    "cell_id": 355,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 119
+  },
+  {
+    "cell_id": 38,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 120
+  },
+  {
+    "cell_id": 26,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 121
+  },
+  {
+    "cell_id": 364,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 122
+  },
+  {
+    "cell_id": 27,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 123
+  },
+  {
+    "cell_id": 343,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 124
+  },
+  {
+    "cell_id": 273,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 125
+  },
+  {
+    "cell_id": 239,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 126
+  },
+  {
+    "cell_id": 9,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 127
+  },
+  {
+    "cell_id": 19,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 128
+  },
+  {
+    "cell_id": 137,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 129
+  },
+  {
+    "cell_id": 286,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 130
+  },
+  {
+    "cell_id": 66,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 131
+  },
+  {
+    "cell_id": 128,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 132
+  },
+  {
+    "cell_id": 103,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 133
+  },
+  {
+    "cell_id": 169,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 134
+  },
+  {
+    "cell_id": 284,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 135
+  },
+  {
+    "cell_id": 68,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 136
+  },
+  {
+    "cell_id": 83,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 137
+  },
+  {
+    "cell_id": 310,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 138
+  },
+  {
+    "cell_id": 229,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 139
+  },
+  {
+    "cell_id": 107,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 140
+  },
+  {
+    "cell_id": 304,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 141
+  },
+  {
+    "cell_id": 8,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 142
+  },
+  {
+    "cell_id": 234,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 143
+  },
+  {
+    "cell_id": 149,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 144
+  },
+  {
+    "cell_id": 333,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 145
+  },
+  {
+    "cell_id": 61,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 146
+  },
+  {
+    "cell_id": 293,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 147
+  },
+  {
+    "cell_id": 41,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 148
+  },
+  {
+    "cell_id": 346,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 149
+  },
+  {
+    "cell_id": 289,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 150
+  },
+  {
+    "cell_id": 202,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 151
+  },
+  {
+    "cell_id": 55,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 152
+  },
+  {
+    "cell_id": 223,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 153
+  },
+  {
+    "cell_id": 299,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 154
+  },
+  {
+    "cell_id": 121,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 155
+  },
+  {
+    "cell_id": 22,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 156
+  },
+  {
+    "cell_id": 58,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 157
+  },
+  {
+    "cell_id": 360,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 158
+  },
+  {
+    "cell_id": 168,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 159
+  },
+  {
+    "cell_id": 129,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 160
+  },
+  {
+    "cell_id": 282,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 161
+  },
+  {
+    "cell_id": 93,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 162
+  },
+  {
+    "cell_id": 139,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 163
+  },
+  {
+    "cell_id": 249,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 164
+  },
+  {
+    "cell_id": 339,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 165
+  },
+  {
+    "cell_id": 337,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 166
+  },
+  {
+    "cell_id": 206,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 167
+  },
+  {
+    "cell_id": 365,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 168
+  },
+  {
+    "cell_id": 100,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 169
+  },
+  {
+    "cell_id": 151,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 170
+  },
+  {
+    "cell_id": 130,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 171
+  },
+  {
+    "cell_id": 281,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 172
+  },
+  {
+    "cell_id": 336,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 173
+  },
+  {
+    "cell_id": 50,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 174
+  },
+  {
+    "cell_id": 77,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 175
+  },
+  {
+    "cell_id": 1,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 176
+  },
+  {
+    "cell_id": 209,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 177
+  },
+  {
+    "cell_id": 81,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 178
+  },
+  {
+    "cell_id": 253,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 179
+  },
+  {
+    "cell_id": 378,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 180
+  },
+  {
+    "cell_id": 69,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 181
+  },
+  {
+    "cell_id": 157,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 182
+  },
+  {
+    "cell_id": 161,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 183
+  },
+  {
+    "cell_id": 279,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 184
+  },
+  {
+    "cell_id": 110,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 185
+  },
+  {
+    "cell_id": 98,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 186
+  },
+  {
+    "cell_id": 47,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 187
+  },
+  {
+    "cell_id": 185,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 188
+  },
+  {
+    "cell_id": 131,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 189
+  },
+  {
+    "cell_id": 78,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 190
+  },
+  {
+    "cell_id": 306,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 191
+  },
+  {
+    "cell_id": 356,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 192
+  },
+  {
+    "cell_id": 338,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 193
+  },
+  {
+    "cell_id": 227,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 194
+  },
+  {
+    "cell_id": 345,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 195
+  },
+  {
+    "cell_id": 12,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 196
+  },
+  {
+    "cell_id": 335,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 197
+  },
+  {
+    "cell_id": 327,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 198
+  },
+  {
+    "cell_id": 159,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 199
+  },
+  {
+    "cell_id": 119,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 200
+  },
+  {
+    "cell_id": 177,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 201
+  },
+  {
+    "cell_id": 36,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 202
+  },
+  {
+    "cell_id": 158,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 203
+  },
+  {
+    "cell_id": 233,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 204
+  },
+  {
+    "cell_id": 260,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 205
+  },
+  {
+    "cell_id": 70,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 206
+  },
+  {
+    "cell_id": 56,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 207
+  },
+  {
+    "cell_id": 314,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 208
+  },
+  {
+    "cell_id": 359,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 209
+  },
+  {
+    "cell_id": 212,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 210
+  },
+  {
+    "cell_id": 126,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 211
+  },
+  {
+    "cell_id": 122,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 212
+  },
+  {
+    "cell_id": 196,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 213
+  },
+  {
+    "cell_id": 23,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 214
+  },
+  {
+    "cell_id": 261,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 215
+  },
+  {
+    "cell_id": 320,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 216
+  },
+  {
+    "cell_id": 170,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 217
+  },
+  {
+    "cell_id": 225,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 218
+  },
+  {
+    "cell_id": 195,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 219
+  },
+  {
+    "cell_id": 347,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 220
+  },
+  {
+    "cell_id": 65,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 221
+  },
+  {
+    "cell_id": 363,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 222
+  },
+  {
+    "cell_id": 370,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 223
+  },
+  {
+    "cell_id": 76,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 224
+  },
+  {
+    "cell_id": 160,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 225
+  },
+  {
+    "cell_id": 236,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 226
+  },
+  {
+    "cell_id": 25,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 227
+  },
+  {
+    "cell_id": 192,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 228
+  },
+  {
+    "cell_id": 133,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 229
+  },
+  {
+    "cell_id": 79,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 230
+  },
+  {
+    "cell_id": 201,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 231
+  },
+  {
+    "cell_id": 344,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 232
+  },
+  {
+    "cell_id": 148,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 233
+  },
+  {
+    "cell_id": 173,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 234
+  },
+  {
+    "cell_id": 354,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 235
+  },
+  {
+    "cell_id": 248,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 236
+  },
+  {
+    "cell_id": 350,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 237
+  },
+  {
+    "cell_id": 154,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 238
+  },
+  {
+    "cell_id": 123,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 239
+  },
+  {
+    "cell_id": 376,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 240
+  },
+  {
+    "cell_id": 74,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 241
+  },
+  {
+    "cell_id": 367,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 242
+  },
+  {
+    "cell_id": 4,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 243
+  },
+  {
+    "cell_id": 17,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 244
+  },
+  {
+    "cell_id": 341,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 245
+  },
+  {
+    "cell_id": 383,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 246
+  },
+  {
+    "cell_id": 382,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 247
+  },
+  {
+    "cell_id": 63,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 248
+  },
+  {
+    "cell_id": 267,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 249
+  },
+  {
+    "cell_id": 205,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 250
+  },
+  {
+    "cell_id": 264,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 251
+  },
+  {
+    "cell_id": 42,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 252
+  },
+  {
+    "cell_id": 20,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 253
+  },
+  {
+    "cell_id": 175,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 254
+  },
+  {
+    "cell_id": 14,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 255
+  },
+  {
+    "cell_id": 39,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 256
+  },
+  {
+    "cell_id": 24,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 257
+  },
+  {
+    "cell_id": 319,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 258
+  },
+  {
+    "cell_id": 208,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 259
+  },
+  {
+    "cell_id": 28,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 260
+  },
+  {
+    "cell_id": 174,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 261
+  },
+  {
+    "cell_id": 226,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 262
+  },
+  {
+    "cell_id": 340,
+    "benchmark_id": "ME-BENCH-037",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What is the monthly subscription price for accessing the governed SROW meaning-unit database?",
+    "execution_order": 263
+  },
+  {
+    "cell_id": 60,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 264
+  },
+  {
+    "cell_id": 75,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 265
+  },
+  {
+    "cell_id": 104,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 266
+  },
+  {
+    "cell_id": 257,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 267
+  },
+  {
+    "cell_id": 307,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 268
+  },
+  {
+    "cell_id": 84,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 269
+  },
+  {
+    "cell_id": 308,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 270
+  },
+  {
+    "cell_id": 329,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 271
+  },
+  {
+    "cell_id": 366,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 272
+  },
+  {
+    "cell_id": 214,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 273
+  },
+  {
+    "cell_id": 144,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 274
+  },
+  {
+    "cell_id": 297,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 275
+  },
+  {
+    "cell_id": 54,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 276
+  },
+  {
+    "cell_id": 91,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 277
+  },
+  {
+    "cell_id": 352,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 278
+  },
+  {
+    "cell_id": 302,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 279
+  },
+  {
+    "cell_id": 140,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 280
+  },
+  {
+    "cell_id": 268,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 281
+  },
+  {
+    "cell_id": 73,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 282
+  },
+  {
+    "cell_id": 374,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 283
+  },
+  {
+    "cell_id": 108,
+    "benchmark_id": "ME-BENCH-012",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "In which chapter is the boundary between SROW and cognitive architectures located relative to technical architecture?",
+    "execution_order": 284
+  },
+  {
+    "cell_id": 315,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 285
+  },
+  {
+    "cell_id": 351,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 286
+  },
+  {
+    "cell_id": 230,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 287
+  },
+  {
+    "cell_id": 204,
+    "benchmark_id": "ME-BENCH-022",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Do structured Machine Edition records guarantee factual truth or eliminate model error?",
+    "execution_order": 288
+  },
+  {
+    "cell_id": 134,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 289
+  },
+  {
+    "cell_id": 89,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 290
+  },
+  {
+    "cell_id": 372,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 291
+  },
+  {
+    "cell_id": 183,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 292
+  },
+  {
+    "cell_id": 219,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 293
+  },
+  {
+    "cell_id": 224,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 294
+  },
+  {
+    "cell_id": 33,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 295
+  },
+  {
+    "cell_id": 263,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 296
+  },
+  {
+    "cell_id": 45,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 297
+  },
+  {
+    "cell_id": 125,
+    "benchmark_id": "ME-BENCH-014",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to technical verification records in SROW?",
+    "execution_order": 298
+  },
+  {
+    "cell_id": 305,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 299
+  },
+  {
+    "cell_id": 49,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 300
+  },
+  {
+    "cell_id": 270,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 301
+  },
+  {
+    "cell_id": 287,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 302
+  },
+  {
+    "cell_id": 218,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 303
+  },
+  {
+    "cell_id": 265,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 304
+  },
+  {
+    "cell_id": 11,
+    "benchmark_id": "ME-BENCH-002",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What is the algorithm used to compute stable IDs for meaning units?",
+    "execution_order": 305
+  },
+  {
+    "cell_id": 301,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 306
+  },
+  {
+    "cell_id": 244,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 307
+  },
+  {
+    "cell_id": 251,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 308
+  },
+  {
+    "cell_id": 188,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 309
+  },
+  {
+    "cell_id": 155,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 310
+  },
+  {
+    "cell_id": 13,
+    "benchmark_id": "ME-BENCH-003",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What is progressive disclosure according to the source?",
+    "execution_order": 311
+  },
+  {
+    "cell_id": 258,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 312
+  },
+  {
+    "cell_id": 178,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 313
+  },
+  {
+    "cell_id": 213,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 314
+  },
+  {
+    "cell_id": 135,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 315
+  },
+  {
+    "cell_id": 238,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 316
+  },
+  {
+    "cell_id": 321,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 317
+  },
+  {
+    "cell_id": 180,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 318
+  },
+  {
+    "cell_id": 283,
+    "benchmark_id": "ME-BENCH-030",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Does the stable-ID algorithm specify 32-character or 16-character hexadecimal truncation?",
+    "execution_order": 319
+  },
+  {
+    "cell_id": 318,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 320
+  },
+  {
+    "cell_id": 90,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 321
+  },
+  {
+    "cell_id": 384,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 322
+  },
+  {
+    "cell_id": 332,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 323
+  },
+  {
+    "cell_id": 150,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 324
+  },
+  {
+    "cell_id": 254,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 325
+  },
+  {
+    "cell_id": 358,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 326
+  },
+  {
+    "cell_id": 152,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 327
+  },
+  {
+    "cell_id": 94,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 328
+  },
+  {
+    "cell_id": 375,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 329
+  },
+  {
+    "cell_id": 368,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 330
+  },
+  {
+    "cell_id": 115,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 331
+  },
+  {
+    "cell_id": 255,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 332
+  },
+  {
+    "cell_id": 312,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 333
+  },
+  {
+    "cell_id": 246,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 334
+  },
+  {
+    "cell_id": 162,
+    "benchmark_id": "ME-BENCH-018",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "How does epistemic authority bind atomic assertions to source verification?",
+    "execution_order": 335
+  },
+  {
+    "cell_id": 369,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 336
+  },
+  {
+    "cell_id": 43,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 337
+  },
+  {
+    "cell_id": 31,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 338
+  },
+  {
+    "cell_id": 290,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 339
+  },
+  {
+    "cell_id": 71,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 340
+  },
+  {
+    "cell_id": 380,
+    "benchmark_id": "ME-BENCH-040",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "At what CPU temperature does the SROW stable-ID hashing algorithm experience thermal throttling?",
+    "execution_order": 341
+  },
+  {
+    "cell_id": 276,
+    "benchmark_id": "ME-BENCH-029",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Can an assertion be classified as both a core invariant and a provisional sample simultaneously?",
+    "execution_order": 342
+  },
+  {
+    "cell_id": 330,
+    "benchmark_id": "ME-BENCH-035",
+    "family": "multi_resolution_retrieval",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What distinction separates an L0 orientation summary from an L4 forensic ledger?",
+    "execution_order": 343
+  },
+  {
+    "cell_id": 237,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 344
+  },
+  {
+    "cell_id": 235,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 345
+  },
+  {
+    "cell_id": 51,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 346
+  },
+  {
+    "cell_id": 176,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 347
+  },
+  {
+    "cell_id": 179,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 348
+  },
+  {
+    "cell_id": 145,
+    "benchmark_id": "ME-BENCH-017",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What canonical URL serves as the authority for the core SROW framework definitions?",
+    "execution_order": 349
+  },
+  {
+    "cell_id": 72,
+    "benchmark_id": "ME-BENCH-008",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What typed predicate connects an assertion to its prerequisite dependencies?",
+    "execution_order": 350
+  },
+  {
+    "cell_id": 171,
+    "benchmark_id": "ME-BENCH-019",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What provenance record governs the public companion release metadata?",
+    "execution_order": 351
+  },
+  {
+    "cell_id": 371,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 352
+  },
+  {
+    "cell_id": 80,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 353
+  },
+  {
+    "cell_id": 323,
+    "benchmark_id": "ME-BENCH-034",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Retrieve the technical verification (L3 level) statement regarding software and AI validation compliance.",
+    "execution_order": 354
+  },
+  {
+    "cell_id": 357,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 355
+  },
+  {
+    "cell_id": 82,
+    "benchmark_id": "ME-BENCH-009",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What relationship direction and predicate connect the stable-ID algorithm to validation compliance?",
+    "execution_order": 356
+  },
+  {
+    "cell_id": 95,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 357
+  },
+  {
+    "cell_id": 88,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 358
+  },
+  {
+    "cell_id": 52,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 359
+  },
+  {
+    "cell_id": 207,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 360
+  },
+  {
+    "cell_id": 44,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 361
+  },
+  {
+    "cell_id": 112,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 1,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 362
+  },
+  {
+    "cell_id": 311,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 2,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 363
+  },
+  {
+    "cell_id": 245,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 364
+  },
+  {
+    "cell_id": 349,
+    "benchmark_id": "ME-BENCH-038",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "Which Python framework does SROW mandate for neural network fine-tuning?",
+    "execution_order": 365
+  },
+  {
+    "cell_id": 181,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 366
+  },
+  {
+    "cell_id": 240,
+    "benchmark_id": "ME-BENCH-025",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "What negative boundary applies to the relationship between explicit structure and cognitive friction?",
+    "execution_order": 367
+  },
+  {
+    "cell_id": 309,
+    "benchmark_id": "ME-BENCH-033",
+    "family": "multi_resolution_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "Retrieve the functional architecture (L2 level) specification for stable identification.",
+    "execution_order": 368
+  },
+  {
+    "cell_id": 34,
+    "benchmark_id": "ME-BENCH-004",
+    "family": "factual_retrieval",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What are the six core record types that comprise a conformant Machine Edition package?",
+    "execution_order": 369
+  },
+  {
+    "cell_id": 37,
+    "benchmark_id": "ME-BENCH-005",
+    "family": "factual_retrieval",
+    "condition": "PDF",
+    "replicate": 1,
+    "question": "What does resolution monotonicity require across detail levels?",
+    "execution_order": 370
+  },
+  {
+    "cell_id": 262,
+    "benchmark_id": "ME-BENCH-028",
+    "family": "ambiguity_handling",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "Does SROW specify whether vector embeddings or lexical BM25 is the mandatory retrieval algorithm for third-party RAG pipelines?",
+    "execution_order": 371
+  },
+  {
+    "cell_id": 57,
+    "benchmark_id": "ME-BENCH-007",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 3,
+    "question": "What typed predicate is used to establish architectural elaboration between concepts?",
+    "execution_order": 372
+  },
+  {
+    "cell_id": 87,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 373
+  },
+  {
+    "cell_id": 210,
+    "benchmark_id": "ME-BENCH-023",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Does this public reference benchmark contain the complete SROW manuscript or governed meaning-unit database?",
+    "execution_order": 374
+  },
+  {
+    "cell_id": 138,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 375
+  },
+  {
+    "cell_id": 291,
+    "benchmark_id": "ME-BENCH-032",
+    "family": "multi_resolution_retrieval",
+    "condition": "PDF",
+    "replicate": 3,
+    "question": "Retrieve the core principle (L1 level) regarding structure and reader respect.",
+    "execution_order": 376
+  },
+  {
+    "cell_id": 222,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 377
+  },
+  {
+    "cell_id": 142,
+    "benchmark_id": "ME-BENCH-015",
+    "family": "hierarchy_preservation",
+    "condition": "Machine_Edition",
+    "replicate": 1,
+    "question": "What is the structural relationship between contextual scope tags and individual assertions?",
+    "execution_order": 378
+  },
+  {
+    "cell_id": 362,
+    "benchmark_id": "ME-BENCH-039",
+    "family": "unsupported_claim_detection",
+    "condition": "PDF",
+    "replicate": 2,
+    "question": "What is the author's personal home address and phone number?",
+    "execution_order": 379
+  },
+  {
+    "cell_id": 247,
+    "benchmark_id": "ME-BENCH-027",
+    "family": "ambiguity_handling",
+    "condition": "RAG",
+    "replicate": 1,
+    "question": "What must an inference agent do when evidence in the source accommodates multiple valid interpretations?",
+    "execution_order": 380
+  },
+  {
+    "cell_id": 228,
+    "benchmark_id": "ME-BENCH-024",
+    "family": "boundary_constraint_recognition",
+    "condition": "Machine_Edition",
+    "replicate": 3,
+    "question": "Does JSON Schema validation conformance imply epistemic endorsement of the truth of external assertions?",
+    "execution_order": 381
+  },
+  {
+    "cell_id": 113,
+    "benchmark_id": "ME-BENCH-013",
+    "family": "hierarchy_preservation",
+    "condition": "EPUB",
+    "replicate": 2,
+    "question": "Which resolution level corresponds to core principles in the SROW hierarchy?",
+    "execution_order": 382
+  },
+  {
+    "cell_id": 92,
+    "benchmark_id": "ME-BENCH-010",
+    "family": "relationship_retrieval",
+    "condition": "RAG",
+    "replicate": 2,
+    "question": "What typed predicate is used when a meaning unit provides a concrete application instance of a principle?",
+    "execution_order": 383
+  },
+  {
+    "cell_id": 186,
+    "benchmark_id": "ME-BENCH-020",
+    "family": "provenance_tracing",
+    "condition": "EPUB",
+    "replicate": 3,
+    "question": "What is the required adjudication consequence when citation provenance is fabricated rather than missing?",
+    "execution_order": 384
+  }
+]

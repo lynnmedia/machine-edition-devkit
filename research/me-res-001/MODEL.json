@@ -1,0 +1,13 @@
+{
+  "provider": "local-deterministic-reference",
+  "model_id": "eval-model-v01-deterministic",
+  "model_version": "2026-08-29",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_output_tokens": 600,
+  "seed": 44527555,
+  "tools_enabled": false,
+  "web_enabled": false,
+  "memory_enabled": false,
+  "concurrency": 1
+}
