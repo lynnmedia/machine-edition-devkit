@@ -1,0 +1,7 @@
+SROW Machine Edition Developer Preview License v0.1
+
+Copyright © WinMedia. All rights reserved.
+
+This limited developer preview may be downloaded and evaluated privately for format review, local parsing experiments, and non-public research. It does not grant permission to redistribute the package, publish it through a service, create or publish derivative datasets, generate embeddings for shared use, fine-tune or train a model, resell it, or represent it as the complete or canonical SROW edition.
+
+This provisional preview license may be replaced by later terms. If this license conflicts with explanatory material, this license governs. This text is not legal advice.

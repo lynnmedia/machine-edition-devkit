@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Machine Edition Meaning Unit",
+  "type": "object",
+  "required": ["id", "record_type", "version", "resolution_level", "title", "claim", "provenance_id", "scope"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^srow\\.preview\\." },
+    "record_type": { "const": "meaning_unit" },
+    "version": { "const": "0.1.0" },
+    "resolution_level": { "enum": ["L0", "L1", "L2", "L3", "L4"] },
+    "title": { "type": "string", "minLength": 1 },
+    "claim": { "type": "string", "minLength": 1 },
+    "provenance_id": { "type": "string", "minLength": 1 },
+    "scope": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,3 @@
+{"id":"srow.preview.relationship.l0-to-l1","record_type":"relationship","from_id":"srow.preview.l0.signal","relation":"precedes","to_id":"srow.preview.l1.structure","provenance_id":"prov.public-srow-framework"}
+{"id":"srow.preview.relationship.l1-to-l2","record_type":"relationship","from_id":"srow.preview.l1.structure","relation":"precedes","to_id":"srow.preview.l2.meaning","provenance_id":"prov.public-srow-framework"}
+{"id":"srow.preview.relationship.srow-boundary","record_type":"relationship","from_id":"srow.preview.definition.srow","relation":"bounded_by","to_id":"srow.preview.boundary.expression-not-cognition","provenance_id":"prov.public-srow-framework"}

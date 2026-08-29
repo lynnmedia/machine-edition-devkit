@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Machine Edition Preview Manifest",
+  "type": "object",
+  "required": ["package_id", "title", "version", "status", "scope", "formats", "license"],
+  "properties": {
+    "package_id": { "type": "string", "pattern": "^winmedia\\." },
+    "title": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "status": { "const": "developer_preview" },
+    "scope": { "type": "string", "minLength": 1 },
+    "formats": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "license": { "const": "LICENSE.txt" }
+  },
+  "additionalProperties": true
+}

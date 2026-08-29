@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://winmedia.com/schemas/machine-edition/v0.1/boundary.schema.json",
+  "title": "Machine Edition Boundary Record Schema v0.1",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "statement",
+    "provenance_id",
+    "scope"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9\\-_.]+$"
+    },
+    "record_type": {
+      "const": "boundary"
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+{
+  "package_id": "winmedia.srow.machine-edition.preview",
+  "title": "SROW Machine Edition Developer Preview",
+  "version": "0.1.0",
+  "status": "developer_preview",
+  "scope": "limited public format specimen; not the complete or canonical SROW edition",
+  "formats": ["markdown", "jsonl", "json-schema"],
+  "resolution_levels": ["L0", "L1", "L2", "L3", "L4"],
+  "license": "LICENSE.txt",
+  "human_readable_entrypoint": "full-preview.md",
+  "provenance_file": "provenance.jsonl"
+}
