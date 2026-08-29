@@ -19,5 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - C6: Human entrypoint linkage.
   - C7: License file alignment.
 - Minimal parsers and inspection API with `MachineEdition.load()` entity model and TypeScript consumer example (`examples/typescript/consumer.ts`).
-- Executable Sample Query Pack (`queries/sample_queries.json`) containing 20 deterministic queries across 9 core categories (`Identity`, `Capability`, `Retrieval`, `Definitions`, `Boundaries`, `Relationships`, `Provenance`, `Resolution`, `Verification`).
-- Executable query runner and CLI entry point (`machine_edition_devkit.queries`).
+- Executable Sample Query Pack (`queries/sample_queries.json`) containing 20 deterministic queries across 9 core categories.
+- Executable representation comparison trial (`comparison/`) evaluating PDF, EPUB, Naive RAG, and Machine Edition across 16 tasks in 8 families under guaranteed information parity.
+- Comparison execution engine and CLI tool (`machine_edition_devkit.comparison`).
+- Comparative methodology documentation (`docs/rag-comparison.md`).

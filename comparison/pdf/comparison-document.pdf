@@ -1,0 +1,43 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1719 >>
+stream
+BT /F1 11 Tf 50 750 Td (# SROW Public Reference Comparison Source \(v0.1\)) Tj ET
+BT /F1 11 Tf 50 720 Td (## Chapter 1: Introduction to Structured Resolution-Oriented Writing) Tj ET
+BT /F1 11 Tf 50 690 Td (Structured Resolution-Oriented Writing \(SROW\) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.) Tj ET
+BT /F1 11 Tf 50 660 Td (Structure is a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.) Tj ET
+BT /F1 11 Tf 50 630 Td (Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.) Tj ET
+BT /F1 11 Tf 50 600 Td (## Chapter 2: Technical Architecture and Stable Identity) Tj ET
+BT /F1 11 Tf 50 570 Td (The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.) Tj ET
+BT /F1 11 Tf 50 540 Td (Structured Resolution-Oriented Writing \(SROW\) establishes explicit structural compliance for software and AI validation.) Tj ET
+BT /F1 11 Tf 50 510 Td (## Chapter 3: Boundaries and Limitations) Tj ET
+BT /F1 11 Tf 50 480 Td (SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation.) Tj ET
+BT /F1 11 Tf 50 450 Td (Structured records improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.) Tj ET
+BT /F1 11 Tf 50 420 Td (This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000224 00000 n 
+0000000000 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+500
+%%EOF

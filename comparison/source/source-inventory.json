@@ -1,0 +1,97 @@
+{
+  "source_name": "SROW Public Reference Comparison Source",
+  "version": "0.1.0",
+  "source_file": "comparison/source/comparison-source.md",
+  "derivation_basis": "Derived exclusively from authorized SROW Public Companion v0.1 material (archive SHA-256: 0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181).",
+  "license": "CC BY 4.0 within expressly inventoried public scope",
+  "facts": [
+    {
+      "fact_id": "FACT-001",
+      "statement": "Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+      "category": "definition",
+      "subject": "SROW definition",
+      "location": "Chapter 1",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    },
+    {
+      "fact_id": "FACT-002",
+      "statement": "Structure is a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.",
+      "category": "core_principle",
+      "subject": "reader respect",
+      "location": "Chapter 1",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    },
+    {
+      "fact_id": "FACT-003",
+      "statement": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+      "category": "definition",
+      "subject": "progressive disclosure",
+      "location": "Chapter 1",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    },
+    {
+      "fact_id": "FACT-004",
+      "statement": "The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+      "category": "technical_assertion",
+      "subject": "stable-id algorithm",
+      "location": "Chapter 2",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    },
+    {
+      "fact_id": "FACT-005",
+      "statement": "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.",
+      "category": "technical_assertion",
+      "subject": "validation compliance",
+      "location": "Chapter 2",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    },
+    {
+      "fact_id": "FACT-006",
+      "statement": "SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation.",
+      "category": "boundary",
+      "subject": "expression vs cognition boundary",
+      "location": "Chapter 3",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    },
+    {
+      "fact_id": "FACT-007",
+      "statement": "Structured records improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.",
+      "category": "boundary",
+      "subject": "truth guarantee boundary",
+      "location": "Chapter 3",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    },
+    {
+      "fact_id": "FACT-008",
+      "statement": "This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.",
+      "category": "boundary",
+      "subject": "public companion scope boundary",
+      "location": "Chapter 3",
+      "present_in_pdf": true,
+      "present_in_epub": true,
+      "present_in_rag": true,
+      "present_in_machine_edition": true
+    }
+  ]
+}

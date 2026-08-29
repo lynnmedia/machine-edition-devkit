@@ -1,0 +1,130 @@
+[
+  {
+    "task_id": "T001",
+    "family": "A_Content_Retrieval",
+    "prompt": "Find statement describing structure as a form of reader respect.",
+    "query": "reader respect",
+    "target_fact": "FACT-002",
+    "expected_text_substring": "Structure is a form of reader respect"
+  },
+  {
+    "task_id": "T002",
+    "family": "A_Content_Retrieval",
+    "prompt": "Locate statement explaining the stable-ID algorithm.",
+    "query": "stable-ID algorithm",
+    "target_fact": "FACT-004",
+    "expected_text_substring": "SHA-256 truncated to 16 hexadecimal characters"
+  },
+  {
+    "task_id": "T003",
+    "family": "B_Structural_Navigation",
+    "prompt": "Locate Chapter 2 technical architecture section.",
+    "query": "Technical Architecture",
+    "target_fact": "FACT-004",
+    "expected_text_substring": "Chapter 2: Technical Architecture"
+  },
+  {
+    "task_id": "T004",
+    "family": "B_Structural_Navigation",
+    "prompt": "Identify textual ordering of SROW boundary statement.",
+    "query": "expression and structuring protocol",
+    "target_fact": "FACT-006",
+    "expected_text_substring": "Chapter 3: Boundaries"
+  },
+  {
+    "task_id": "T005",
+    "family": "C_Definition_Retrieval",
+    "prompt": "What is the definition of SROW?",
+    "query": "communication protocol",
+    "target_fact": "FACT-001",
+    "expected_text_substring": "communication protocol for making structured knowledge readable"
+  },
+  {
+    "task_id": "T006",
+    "family": "C_Definition_Retrieval",
+    "prompt": "What is the definition of progressive disclosure?",
+    "query": "staged presentation",
+    "target_fact": "FACT-003",
+    "expected_text_substring": "staged presentation that exposes orientation"
+  },
+  {
+    "task_id": "T007",
+    "family": "D_Provenance",
+    "prompt": "What is the authoritative source for the stable-ID invariant?",
+    "query": "stable-ID algorithm",
+    "target_fact": "FACT-004",
+    "expected_text_substring": "srow-public-companion"
+  },
+  {
+    "task_id": "T008",
+    "family": "D_Provenance",
+    "prompt": "What canonical URL supports the core SROW framework claims?",
+    "query": "reader respect",
+    "target_fact": "FACT-002",
+    "expected_text_substring": "winmedia.com"
+  },
+  {
+    "task_id": "T009",
+    "family": "E_Relationships",
+    "prompt": "What does the stable-ID invariant derive from or connect to?",
+    "query": "stable-ID algorithm",
+    "target_fact": "FACT-004",
+    "expected_text_substring": "srow.ref.mu.001"
+  },
+  {
+    "task_id": "T010",
+    "family": "E_Relationships",
+    "prompt": "What does validation compliance clarify in the framework?",
+    "query": "validation compliance",
+    "target_fact": "FACT-005",
+    "expected_text_substring": "srow.ref.mu.003"
+  },
+  {
+    "task_id": "T011",
+    "family": "F_Boundary_Recognition",
+    "prompt": "What is the boundary between SROW and cognitive architectures?",
+    "query": "cognition architecture",
+    "target_fact": "FACT-006",
+    "expected_text_substring": "not a cognition architecture"
+  },
+  {
+    "task_id": "T012",
+    "family": "F_Boundary_Recognition",
+    "prompt": "Does SROW guarantee factual truth?",
+    "query": "guarantee factual truth",
+    "target_fact": "FACT-007",
+    "expected_text_substring": "do not guarantee factual truth"
+  },
+  {
+    "task_id": "T013",
+    "family": "G_Resolution",
+    "prompt": "Retrieve core principles declared at resolution level L1.",
+    "query": "reader respect",
+    "target_fact": "FACT-002",
+    "expected_text_substring": "L1"
+  },
+  {
+    "task_id": "T014",
+    "family": "G_Resolution",
+    "prompt": "Retrieve technical assertion declared at resolution level L3.",
+    "query": "validation compliance",
+    "target_fact": "FACT-005",
+    "expected_text_substring": "L3"
+  },
+  {
+    "task_id": "T015",
+    "family": "H_Conformance_Validation",
+    "prompt": "Can the artifact package structure be validated against a public schema contract?",
+    "query": "validation",
+    "target_fact": "FACT-005",
+    "expected_text_substring": "ME_CONFORMANT"
+  },
+  {
+    "task_id": "T016",
+    "family": "H_Conformance_Validation",
+    "prompt": "Verify referential integrity between atomic claims and provenance ledger.",
+    "query": "provenance",
+    "target_fact": "FACT-001",
+    "expected_text_substring": "prov.public-srow-framework"
+  }
+]

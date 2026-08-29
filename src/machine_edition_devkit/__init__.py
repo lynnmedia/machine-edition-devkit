@@ -18,6 +18,8 @@ from machine_edition_devkit.parse import (
 )
 from machine_edition_devkit.validate import MachineEditionValidator, ValidationReport
 from machine_edition_devkit.inspect import inspect_package, PackageSummary
+from machine_edition_devkit.comparison import ComparisonHarness, TaskEvaluationResult
+from machine_edition_devkit.compare import RepresentationComparator, RepresentationMetrics
 
 __version__ = "0.1.0"
 __spec_version__ = "0.1.0"
@@ -33,6 +35,10 @@ __all__ = [
     "ValidationReport",
     "inspect_package",
     "PackageSummary",
+    "ComparisonHarness",
+    "TaskEvaluationResult",
+    "RepresentationComparator",
+    "RepresentationMetrics",
     "MachineEditionError",
     "MachineEditionValidationError",
     "RecordNotFoundError",

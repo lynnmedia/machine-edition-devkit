@@ -41,7 +41,7 @@ specimen/
     CONFORMANCE-CROSSWALK.md     <-- Audit crosswalk against Spec v0.1 C1-C7
 ```
 
-### End-to-End Developer Workflow
+### Complete 5-Responsibility Workflow
 
 ```python
 from pathlib import Path
@@ -49,50 +49,45 @@ from machine_edition_devkit.inspect import inspect_package
 from machine_edition_devkit.validate import MachineEditionValidator
 from machine_edition_devkit.parse import MachineEdition
 from machine_edition_devkit.queries import SampleQueryRunner
+from machine_edition_devkit.comparison import ComparisonHarness
 
 specimen_dir = Path("specimen/srow/package")
 
 # 1. Inspect
 summary = inspect_package(specimen_dir)
-print(f"Package: {summary.package_id} v{summary.version} ({summary.meaning_units_count} units)")
+print(f"1. INSPECT: {summary.package_id} v{summary.version} ({summary.meaning_units_count} units)")
 
 # 2. Validate against public schemas & invariants (C1-C7)
 validator = MachineEditionValidator()
 report = validator.validate_package(specimen_dir)
-print(f"Outcome: {report.outcome}")
-print(report.render_summary())
+print(f"2. VALIDATE: {report.outcome}")
 
-# 3. Load into domain entity model
+# 3. Parse into domain entity model
 edition = MachineEdition.load(specimen_dir, validate=True)
-
-# 4. Retrieve atomic meaning units and trace provenance
 mu = edition.get_unit("srow.ref.mu.003")
-print(f"Meaning Unit [L{mu.resolution_level}]: {mu.title}")
-print(f"Claim: {mu.claim}")
+print(f"3. PARSE: Loaded unit '{mu.title}' [L{mu.resolution_level}]")
+
+# 4. Query & Provenance Trace
 prov = edition.provenance(mu)
-print(f"Source: {prov.source_title} ({prov.source_url})")
+print(f"4. QUERY: Claim provenance -> {prov.source_title} ({prov.source_url})")
 
-# 5. Follow inter-unit relationships
-outgoing = edition.related("srow.ref.mu.002", direction="outgoing")
-print(f"Relationship: {outgoing[0].subject_id} --({outgoing[0].predicate})--> {outgoing[0].object_id}")
-
-# 6. Run the 20-query deterministic sample pack
-runner = SampleQueryRunner()
-results = runner.run_all(edition)
-print(runner.render_matrix(results))
+# 5. Compare representations (PDF, EPUB, Naive RAG, Machine Edition)
+harness = ComparisonHarness()
+results = harness.run_all()
+print("5. COMPARE: 16-task representation matrix executed successfully.")
 ```
 
-### Running Queries from the CLI
+### CLI Command Interfaces
 
 ```bash
-# List all 20 sample queries
-python -m machine_edition_devkit.queries list
-
-# Run a single query by ID
-python -m machine_edition_devkit.queries run Q015
-
-# Run the complete test and acceptance matrix
+# Run the 20-query reference pack
 python -m machine_edition_devkit.queries run-all
+
+# Run the 16-task 4-representation comparison trial
+python -m machine_edition_devkit.comparison run
+
+# View the representation property matrix
+python -m machine_edition_devkit.comparison matrix
 ```
 
 ---
@@ -114,7 +109,7 @@ This Developer Kit implements the public contract defined in:
 * `MEDK-003A`: Schema authority commit identity reconciliation.
 * `MEDK-004`: Complete parser abstractions & TypeScript consumer example.
 * `MEDK-005`: 20-query deterministic reference query pack & CLI runner.
-* `MEDK-006`: Executable representation comparison benchmarks.
+* `MEDK-006`: Executable representation comparison benchmarks (PDF, EPUB, RAG, Machine Edition).
 
 ---
 
