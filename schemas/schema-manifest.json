@@ -2,7 +2,8 @@
   "source_repository": "winmedia",
   "source_path": "docs/specifications/machine-editions/v0.1/schemas",
   "specification_version": "0.1.0",
-  "source_commit": "c18dea52074ba278ec6bc4a544c80300df6d8882",
+  "source_commit": "c18dea5f378265cad37c0acf0c80f3969617876f",
+  "reconciliation_note": "Reconciled from previously reported c18dea52074ba278ec6bc4a544c80300df6d8882 (transcription discrepancy) to canonical origin/main commit c18dea5f378265cad37c0acf0c80f3969617876f; all schema contents and sha256 hashes are identical.",
   "schemas": [
     {
       "name": "boundary.schema.json",
