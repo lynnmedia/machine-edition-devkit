@@ -5,7 +5,9 @@
 ---
 
 ### 1. Abstract
-This study evaluates the causal effect of publication representation formats on machine consumption and inference performance. Holding source information strictly constant under guaranteed 16/16 factual parity, we evaluated 32 frozen benchmark tasks across four representation conditions: (1) **PDF** fixed-layout documents, (2) **EPUB** reflowable ebooks, (3) **Naive RAG** chunked retrieval corpora, and (4) **Machine Edition** governed computable packages. Across 384 evaluation executions (3 replicates per task-condition), Machine Edition representation yielded statistically significant improvements in provenance completeness (+0.1719 paired delta, 95% CI [0.0625, 0.3125]), semantic invariant preservation (+0.0781, 95% CI [0.0156, 0.1719]), and relationship accuracy (+0.0187, 95% CI [0.0000, 0.0437]), while confirming factual retrieval neutrality across all four formats.
+This study qualifies the benchmark execution harness, representation adapters, offline scoring engine, and statistical analysis pipeline for the Machine Edition Representation Benchmark (ME-BENCH-001). Using a deterministic reference harness under guaranteed 16/16 factual parity across PDF, EPUB, Naive RAG, and Machine Edition representations, we executed 384 evaluation calls (32 tasks x 4 conditions x 3 replicates). Under this reference harness, Machine Edition representation enabled statistically significant improvements in provenance completeness (+0.1719 paired delta, 95% CI [0.0625, 0.3125]), semantic invariant preservation (+0.0781, 95% CI [0.0156, 0.1719]), and relationship accuracy (+0.0187, 95% CI [0.0000, 0.0437]), while confirming factual retrieval neutrality (0.75 correctness across all 4 formats).
+
+> **Methodological Classification Notice (ME-RES-001B Audit)**: ME-RES-001 is classified under **Path B: Deterministic Reference-Harness Trial** (`ME_RES_V01_REFERENCE_HARNESS_CONFIRMED`). It rigorously validates benchmark executability, representation adapters, scoring algorithms, and statistical bootstrap pipelines. Condition differences observed herein reflect reference-harness extraction behavior and must not be generalized to production language-model behavior. Empirical frontier LLM trials are scheduled under `ME-RES-002`.
 
 ---
 
@@ -125,7 +127,7 @@ Paired bootstrap estimations over 10,000 resamples ($N=32$ paired evaluation ite
 ---
 
 ### 13. Threats to Validity
-* **Single-Model External Validity**: Evaluated under a single deterministic model implementation; results must be replicated across heterogeneous frontier LLMs.
+* **Deterministic Reference Harness (External Validity)**: Evaluated under a rule-based reference evaluator (`eval-model-v01-deterministic`) qualifying pipeline mechanics; empirical findings must be validated across heterogeneous frontier LLMs in `ME-RES-002`.
 * **RAG Baseline Specificity**: Evaluated against a frozen lexical BM25 sliding-window baseline; advanced hybrid dense-vector reranking systems remain to be evaluated in future trials.
 * **Domain Scope**: Evaluated on SROW conceptual publishing domain; generalization to tabular or dense mathematical domains requires separate investigation.
 
