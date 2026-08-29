@@ -1,0 +1,202 @@
+[
+  {
+    "query_id": "Q001",
+    "category": "Identity",
+    "question": "What is the package identifier of the loaded edition?",
+    "purpose": "Verify package identity metadata",
+    "operation": "edition.manifest['package_id']",
+    "arguments": {},
+    "expected_result": "winmedia.srow.reference-specimen",
+    "capability_demonstrated": "Package identification"
+  },
+  {
+    "query_id": "Q002",
+    "category": "Identity",
+    "question": "What version is this package release?",
+    "purpose": "Verify package version string",
+    "operation": "edition.manifest['version']",
+    "arguments": {},
+    "expected_result": "0.1.0",
+    "capability_demonstrated": "Semantic versioning"
+  },
+  {
+    "query_id": "Q003",
+    "category": "Capability",
+    "question": "Which publication formats are declared in the manifest?",
+    "purpose": "Inspect declared representations",
+    "operation": "edition.capabilities()['formats']",
+    "arguments": {},
+    "expected_result": ["markdown", "jsonl", "json-schema"],
+    "capability_demonstrated": "Format capability declaration"
+  },
+  {
+    "query_id": "Q004",
+    "category": "Capability",
+    "question": "Which resolution levels are represented in the package?",
+    "purpose": "Inspect progressive disclosure hierarchy tiers",
+    "operation": "edition.capabilities()['resolution_levels']",
+    "arguments": {},
+    "expected_result": ["L0", "L1", "L2", "L3", "L4"],
+    "capability_demonstrated": "Resolution level declaration"
+  },
+  {
+    "query_id": "Q005",
+    "category": "Retrieval",
+    "question": "Retrieve the meaning unit for the Stable-ID Algorithm Invariant by ID.",
+    "purpose": "Exact atomic lookup by unique identifier",
+    "operation": "edition.get_unit('srow.ref.mu.002').title",
+    "arguments": {"unit_id": "srow.ref.mu.002"},
+    "expected_result": "Stable-ID Algorithm Invariant",
+    "capability_demonstrated": "Deterministic ID lookup"
+  },
+  {
+    "query_id": "Q006",
+    "category": "Retrieval",
+    "question": "Find all meaning units within the 'public sample' scope.",
+    "purpose": "Scope-bounded filtering",
+    "operation": "len(edition.find_units(scope='public sample'))",
+    "arguments": {"scope": "public sample"},
+    "expected_result": 2,
+    "capability_demonstrated": "Scope filtering"
+  },
+  {
+    "query_id": "Q007",
+    "category": "Retrieval",
+    "question": "Find meaning units containing text matching 'reader respect'.",
+    "purpose": "Deterministic textual matching across claims and titles",
+    "operation": "edition.find_units(query='reader respect')[0].id",
+    "arguments": {"query": "reader respect"},
+    "expected_result": "srow.ref.mu.003",
+    "capability_demonstrated": "Textual claim retrieval"
+  },
+  {
+    "query_id": "Q008",
+    "category": "Definitions",
+    "question": "Retrieve the definition of the term 'SROW'.",
+    "purpose": "Domain term definition resolution",
+    "operation": "edition.get_definition('srow.ref.def.001').term",
+    "arguments": {"def_id": "srow.ref.def.001"},
+    "expected_result": "SROW",
+    "capability_demonstrated": "Domain definition resolution"
+  },
+  {
+    "query_id": "Q009",
+    "category": "Definitions",
+    "question": "Find all domain definitions matching 'disclosure'.",
+    "purpose": "Definition term substring lookup",
+    "operation": "edition.find_definitions('disclosure')[0].term",
+    "arguments": {"term": "disclosure"},
+    "expected_result": "Progressive Disclosure",
+    "capability_demonstrated": "Term filtering"
+  },
+  {
+    "query_id": "Q010",
+    "category": "Boundaries",
+    "question": "List all explicit negative boundaries declared in this edition.",
+    "purpose": "Negative scope assertion enumeration",
+    "operation": "len(edition.boundaries())",
+    "arguments": {},
+    "expected_result": 3,
+    "capability_demonstrated": "Boundary enumeration"
+  },
+  {
+    "query_id": "Q011",
+    "category": "Boundaries",
+    "question": "Retrieve the statement defining the boundary between SROW expression and cognition.",
+    "purpose": "Verify epistemic scope limits",
+    "operation": "edition._boundaries['srow.ref.bound.001'].statement",
+    "arguments": {"bound_id": "srow.ref.bound.001"},
+    "expected_result": "SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation.",
+    "capability_demonstrated": "Epistemic boundary lookup"
+  },
+  {
+    "query_id": "Q012",
+    "category": "Relationships",
+    "question": "Find all relationships where 'srow.ref.mu.002' is the subject.",
+    "purpose": "Outgoing semantic link traversal",
+    "operation": "edition.related('srow.ref.mu.002', direction='outgoing')[0].predicate",
+    "arguments": {"unit_id": "srow.ref.mu.002", "direction": "outgoing"},
+    "expected_result": "derives_from",
+    "capability_demonstrated": "Outgoing relationship traversal"
+  },
+  {
+    "query_id": "Q013",
+    "category": "Relationships",
+    "question": "Find all relationships pointing into 'srow.ref.mu.001' as target.",
+    "purpose": "Incoming semantic link traversal",
+    "operation": "edition.related('srow.ref.mu.001', direction='incoming')[0].subject_id",
+    "arguments": {"unit_id": "srow.ref.mu.001", "direction": "incoming"},
+    "expected_result": "srow.ref.mu.002",
+    "capability_demonstrated": "Incoming relationship traversal"
+  },
+  {
+    "query_id": "Q014",
+    "category": "Relationships",
+    "question": "Filter all relationships by predicate 'clarifies'.",
+    "purpose": "Typed relationship filtering",
+    "operation": "edition.relationships(predicate='clarifies')[0].object_id",
+    "arguments": {"predicate": "clarifies"},
+    "expected_result": "srow.ref.mu.003",
+    "capability_demonstrated": "Typed predicate filtering"
+  },
+  {
+    "query_id": "Q015",
+    "category": "Provenance",
+    "question": "Trace the authoritative source publication URL for meaning unit 'srow.ref.mu.003'.",
+    "purpose": "Ground claim back to canonical URL",
+    "operation": "edition.provenance('srow.ref.mu.003').source_url",
+    "arguments": {"unit_id": "srow.ref.mu.003"},
+    "expected_result": "https://winmedia.com/frameworks/srow",
+    "capability_demonstrated": "Source provenance URL tracing"
+  },
+  {
+    "query_id": "Q016",
+    "category": "Provenance",
+    "question": "Trace the source publication title supporting the validation compliance sample.",
+    "purpose": "Verify origin title binding",
+    "operation": "edition.provenance('srow.ref.mu.001').source_title",
+    "arguments": {"unit_id": "srow.ref.mu.001"},
+    "expected_result": "SROW Machine Edition — Public Companion v0.1",
+    "capability_demonstrated": "Source title verification"
+  },
+  {
+    "query_id": "Q017",
+    "category": "Resolution",
+    "question": "Retrieve all units at resolution level L1 (Executive / Core Principles).",
+    "purpose": "Resolution-targeted extraction",
+    "operation": "edition.find_units(resolution_level='L1')[0].id",
+    "arguments": {"resolution_level": "L1"},
+    "expected_result": "srow.ref.mu.003",
+    "capability_demonstrated": "L1 resolution filtering"
+  },
+  {
+    "query_id": "Q018",
+    "category": "Resolution",
+    "question": "Retrieve all units at resolution level L3 (Detailed Claim Structure).",
+    "purpose": "Deep resolution extraction",
+    "operation": "edition.find_units(resolution_level='L3')[0].id",
+    "arguments": {"resolution_level": "L3"},
+    "expected_result": "srow.ref.mu.001",
+    "capability_demonstrated": "L3 resolution filtering"
+  },
+  {
+    "query_id": "Q019",
+    "category": "Verification",
+    "question": "Does the loaded reference specimen package satisfy all C1-C7 conformance invariants?",
+    "purpose": "Automated validation gate check",
+    "operation": "MachineEditionValidator().validate_package(edition.package_path).outcome",
+    "arguments": {},
+    "expected_result": "ME_CONFORMANT",
+    "capability_demonstrated": "Specification conformance verification"
+  },
+  {
+    "query_id": "Q020",
+    "category": "Verification",
+    "question": "Does the provenance ID for definition 'srow.ref.def.001' resolve successfully?",
+    "purpose": "Referential integrity verification across record types",
+    "operation": "edition.provenance(edition.get_definition('srow.ref.def.001')).id",
+    "arguments": {"def_id": "srow.ref.def.001"},
+    "expected_result": "prov.public-srow-framework",
+    "capability_demonstrated": "Cross-record provenance verification"
+  }
+]
