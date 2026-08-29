@@ -42,3 +42,25 @@ def test_me_res_002_scoring_integrity(repo_root):
     assert scores_file.exists()
     lines = scores_file.read_text(encoding="utf-8").strip().splitlines()
     assert len(lines) == 384
+
+
+def test_me_res_002_calibrated_hypotheses(repo_root):
+    stat_file = repo_root / "research" / "me-res-002" / "analysis" / "statistical-results.json"
+    assert stat_file.exists()
+    stats = json.loads(stat_file.read_text(encoding="utf-8"))
+
+    # Assert calibrated statuses
+    assert stats["H1_Provenance"]["status"] == "DIRECTIONALLY_SUPPORTED_BUT_INCONCLUSIVE"
+    assert stats["H2_Relationships"]["status"] == "NOT_SUPPORTED_NO_OBSERVED_DIFFERENCE"
+    assert stats["H3_Boundaries_and_Invariants"]["status"] == "PARTIALLY_DIRECTIONALLY_SUPPORTED_BUT_INCONCLUSIVE"
+    assert stats["H4_Unsupported_Claims"]["status"] == "CONSISTENT_WITH_HYPOTHESIS_NO_DIFFERENTIAL_EFFECT"
+    assert stats["H5_Factual_Retrieval_Neutrality"]["status"] == "DESCRIPTIVE_MIXED_RESULT_NO_ME_SUPERIORITY"
+
+    # Regression: ensure prohibited overclaims are not present
+    report_text = (repo_root / "research" / "me-res-002" / "report" / "ME-RES-002-REPORT.md").read_text(encoding="utf-8")
+    assert "H1 CONFIRMED" not in report_text
+    assert "H2 CONFIRMED" not in report_text
+    assert "H3 CONFIRMED" not in report_text
+    assert "H5 CONFIRMED" not in report_text
+    assert "universally outperform" not in report_text
+    assert "make LLMs smarter" not in report_text

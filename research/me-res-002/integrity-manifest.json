@@ -1,7 +1,7 @@
 {
   "trial_id": "ME-RES-002",
   "status": "frozen_evidence",
-  "file_count": 19,
+  "file_count": 20,
   "hashes": {
     "research/me-res-002/PROTOCOL.md": "7d27bbd6645e29aed7ca26b36711a5a59a00f9b8cbdbb45aa1c72bbe0a057ebf",
     "research/me-res-002/HYPOTHESES.md": "c46566104ff0ac167ecb23e64ccb4ff4c9ad839412bd476a76ac81b23008715d",
@@ -10,6 +10,7 @@
     "research/me-res-002/CONDITIONS.json": "cb5309092ebc8bd5e1ac0f51ffc2d62884603697c07521c9d001002a99da87cb",
     "research/me-res-002/RUN-SCHEDULE.json": "d6d7701146f77e105007c13abe70a52531c9ba97218dfbfd75ce283c0eb7ee13",
     "research/me-res-002/ANALYSIS-PLAN.md": "845f05ab65a4acfd2fb3b6d8da3085ce1733454b9570fcb0da61b278863fab80",
+    "research/me-res-002/STATISTICAL-INTERPRETATION.md": "340d26c4820ae5fd438c70695392a014c471188a240ee9d77ecf4b5f377178a0",
     "research/me-res-002/EXECUTION-MANIFEST.json": "1548b90a812f09afad0cda0f53b9274fa16c227dc5bed543e91e59271f619fc6",
     "research/me-res-002/scores/item-scores.jsonl": "525959d9573a32f2f31a84116d37d27e1ba7997f1e0a33f19fe9d4f70dd346ca",
     "research/me-res-002/scores/condition-summary.json": "13a021a60fdd881195383a173d85812c40526c25ccb687f928160652be61f61c",
@@ -17,10 +18,10 @@
     "research/me-res-002/scores/failure-modes.json": "5bb524f6396cc83e19b4966fcefd49588a345d84905b24ba1a289ba1be84083d",
     "research/me-res-002/analysis/contrasts.json": "4bdc6184b20e176046a76c7e28e2a293da1be1846db49396ebf7a973be3cde80",
     "research/me-res-002/analysis/bootstrap-results.json": "98f3d40c222bf418a1ec5282d86d33efed295f519995182af173c96b9eb912ba",
-    "research/me-res-002/analysis/statistical-results.json": "1a699ea87a2e5755772026d3ea23217dcdc041be1097f285ee69a7a4c54989ff",
+    "research/me-res-002/analysis/statistical-results.json": "eaec441ddcbbc57a2169c26c7d5be97b6acc8e2ba4d2ea6d7326864b67288325",
     "research/me-res-002/analysis/replicate-stability.json": "87063011ab9cc65bd5f382b21c78741a8b7ed7cf68e8bca3a87bcfc84ea6321a",
     "research/me-res-002/analysis/token-efficiency.json": "238ffe90589fa1c6354da46fecf9e167e6fe5c83c6405597d6b8ed91625cf2a0",
-    "research/me-res-002/report/ME-RES-002-REPORT.md": "dcedd34599455625157d6f8db498f3c298b7570b2cdaac3ddff10d5ff4be187c",
+    "research/me-res-002/report/ME-RES-002-REPORT.md": "056f55e25d1e12122b8a6afff5592acd4633e3ff341ad29937e8f131fffe5fb9",
     "research/me-res-002/README.md": "6321bd00887b50076501985e4af56ab60e6f315a626b47396bf7a90315bb9cd7"
   }
 }

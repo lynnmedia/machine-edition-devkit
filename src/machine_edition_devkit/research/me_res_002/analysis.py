@@ -235,44 +235,51 @@ def perform_me_res_002_statistical_analysis(repo_root: Path) -> Dict[str, Any]:
         }
     (analysis_dir / "token-efficiency.json").write_text(json.dumps(token_efficiency, indent=2), encoding="utf-8")
 
-    # 8. Hypotheses Evaluation
+    # 8. Hypotheses Evaluation (Calibrated Semantics)
     hypotheses_evaluation = {
         "H1_Provenance": {
             "claim": "Machine Edition > PDF, EPUB, RAG on provenance_completeness",
-            "supported": cond_summary["Machine_Edition"]["mean_provenance_completeness"] > cond_summary["RAG"]["mean_provenance_completeness"],
+            "status": "DIRECTIONALLY_SUPPORTED_BUT_INCONCLUSIVE",
+            "supported": False,
             "ME_mean": cond_summary["Machine_Edition"]["mean_provenance_completeness"],
-            "RAG_mean": cond_summary["RAG"]["mean_provenance_completeness"],
+            "comp_mean": cond_summary["RAG"]["mean_provenance_completeness"],
             "delta_vs_RAG_ci": [contrasts["Machine_Edition_vs_RAG"]["provenance_completeness"]["ci_95_lower"], contrasts["Machine_Edition_vs_RAG"]["provenance_completeness"]["ci_95_upper"]],
-            "conclusion": "Real neural generative model achieved higher provenance completeness with Machine Edition representation.",
+            "conclusion": "The Machine Edition condition produced a higher provenance-completeness point estimate, but the paired confidence interval included zero, so ME-RES-002 does not establish a statistically resolved provenance advantage for this model.",
         },
         "H2_Relationships": {
             "claim": "Machine Edition > PDF, EPUB, RAG on relationship_accuracy",
-            "supported": cond_summary["Machine_Edition"]["mean_relationship_accuracy"] >= cond_summary["RAG"]["mean_relationship_accuracy"],
+            "status": "NOT_SUPPORTED_NO_OBSERVED_DIFFERENCE",
+            "supported": False,
             "ME_mean": cond_summary["Machine_Edition"]["mean_relationship_accuracy"],
-            "RAG_mean": cond_summary["RAG"]["mean_relationship_accuracy"],
+            "comp_mean": cond_summary["RAG"]["mean_relationship_accuracy"],
             "delta_vs_RAG_ci": [contrasts["Machine_Edition_vs_RAG"]["relationship_accuracy"]["ci_95_lower"], contrasts["Machine_Edition_vs_RAG"]["relationship_accuracy"]["ci_95_upper"]],
-            "conclusion": "Real generative model effectively extracted relationship predicates from typed package structures.",
+            "conclusion": "Relationship accuracy was identical across all four representations (0.8750); the model trial did not show differential relationship retrieval accuracy.",
         },
         "H3_Boundaries_and_Invariants": {
             "claim": "Machine Edition > non-ME on semantic_invariant_preservation and < non-ME on constraint_violations",
-            "supported": cond_summary["Machine_Edition"]["mean_semantic_invariant_preservation"] >= cond_summary["RAG"]["mean_semantic_invariant_preservation"],
+            "status": "PARTIALLY_DIRECTIONALLY_SUPPORTED_BUT_INCONCLUSIVE",
+            "supported": False,
             "ME_invariant_mean": cond_summary["Machine_Edition"]["mean_semantic_invariant_preservation"],
             "RAG_invariant_mean": cond_summary["RAG"]["mean_semantic_invariant_preservation"],
-            "conclusion": "Explicit boundary ledgers reinforced semantic invariant preservation in the real generative model.",
+            "conclusion": "ME slightly exceeded RAG on the invariant point estimate (+0.0156), but not PDF (0.2969) or EPUB (0.2656); no representation differed on constraint violations (0.0000 across all).",
         },
         "H4_Unsupported_Claims": {
             "claim": "Machine Edition <= non-ME on unsupported_assertion_rate",
-            "supported": cond_summary["Machine_Edition"]["mean_unsupported_assertion_rate"] <= cond_summary["RAG"]["mean_unsupported_assertion_rate"],
+            "status": "CONSISTENT_WITH_HYPOTHESIS_NO_DIFFERENTIAL_EFFECT",
+            "supported": True,
             "ME_unsupported_rate": cond_summary["Machine_Edition"]["mean_unsupported_assertion_rate"],
-            "RAG_unsupported_rate": cond_summary["RAG"]["mean_unsupported_assertion_rate"],
-            "conclusion": "Real model recognized unsupported claims when information was ungrounded in context.",
+            "comp_unsupported_rate": cond_summary["RAG"]["mean_unsupported_assertion_rate"],
+            "conclusion": "Zero unsupported assertions were observed across all four conditions under this trial; no differential effect was observed.",
         },
         "H5_Factual_Retrieval_Neutrality": {
             "claim": "No directional superiority hypothesis on ordinary factual retrieval under shared information parity",
+            "status": "DESCRIPTIVE_MIXED_RESULT_NO_ME_SUPERIORITY",
             "supported": True,
-            "factual_family_ME_correctness": family_summary["factual_retrieval"]["Machine_Edition"]["mean_correctness"],
-            "factual_family_RAG_correctness": family_summary["factual_retrieval"]["RAG"]["mean_correctness"],
-            "conclusion": "Factual retrieval correctness remained comparable across all representations under guaranteed information parity.",
+            "ME_correctness": cond_summary["Machine_Edition"]["mean_correctness"],
+            "PDF_correctness": cond_summary["PDF"]["mean_correctness"],
+            "EPUB_correctness": cond_summary["EPUB"]["mean_correctness"],
+            "RAG_correctness": cond_summary["RAG"]["mean_correctness"],
+            "conclusion": "Information availability was held constant, but factual correctness differed by representation/consumption path: PDF produced the highest point estimate (0.2969), followed by EPUB (0.2656), Machine Edition (0.2344), and RAG (0.2188).",
         },
     }
     (analysis_dir / "statistical-results.json").write_text(json.dumps(hypotheses_evaluation, indent=2), encoding="utf-8")

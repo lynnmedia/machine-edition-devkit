@@ -158,7 +158,12 @@ Key Observations:
 1. **Real-Model Representation Effects**: Under an actual 490M neural generative language model, supplying structured Machine Edition packages enabled the model to extract and cite native provenance identifiers (`prov.public-srow-framework`, `prov.srow-public-companion-release`) that were impossible to cite from raw unstructured text.
 2. **Clean Pass Superiority**: Machine Edition generated 5x as many clean, defect-free structured responses as Naive RAG (15 vs 3), confirming that structured JSON schemas assist small generative models in adhering to multi-field output contracts.
 3. **Factual Parity & Context Overhead**: Under guaranteed factual parity, factual retrieval correctness was roughly comparable between Machine Edition (0.2344) and RAG (0.2188), while PDF full-text extraction achieved 0.2969. Machine Edition's higher token footprint (~2,789 tokens) represents a measurable tradeoff for explicit governance and verifiable cryptographic ledgers.
-4. **Preregistered Hypotheses**: H1 (Provenance) showed directional gains; H2-H4 demonstrated structural parity or modest gains; H5 confirmed factual parity across formats.
+4. **Preregistered Hypotheses Calibration**:
+   - **H1 (Provenance)**: `DIRECTIONALLY_SUPPORTED_BUT_INCONCLUSIVE` (Higher point estimate +0.0677, but 95% bootstrap CI [-0.0573, +0.1927] crossed zero).
+   - **H2 (Relationships)**: `NOT_SUPPORTED_NO_OBSERVED_DIFFERENCE` (Identical accuracy 0.8750 across all four representations).
+   - **H3 (Boundaries & Invariants)**: `PARTIALLY_DIRECTIONALLY_SUPPORTED_BUT_INCONCLUSIVE` (ME slightly exceeded RAG by +0.0156, but PDF/EPUB had higher point estimates; constraint violations were 0.0000 across all).
+   - **H4 (Unsupported Claims)**: `CONSISTENT_WITH_HYPOTHESIS_NO_DIFFERENTIAL_EFFECT` (0.0000 unsupported assertion rate across all four conditions).
+   - **H5 (Factual Retrieval)**: `DESCRIPTIVE_MIXED_RESULT_NO_ME_SUPERIORITY` (Factual correctness differed by format under shared parity: PDF 0.2969 > EPUB 0.2656 > ME 0.2344 > RAG 0.2188).
 
 ---
 
