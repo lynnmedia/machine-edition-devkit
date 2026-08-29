@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-011-EPUB",
+  "task_id": "ME-BENCH-011",
+  "family": "hierarchy_preservation",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the five-tier resolution level hierarchy in SROW from lowest to highest granularity?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2590.98,
+  "input_tokens": 767,
+  "output_tokens": 99,
+  "total_tokens": 866,
+  "raw_response": "{\n  \"answer\": \"L0\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"ranges from L0 to L4\", \"object\": \"L0, L1, L2, L3, and L4\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L0",
+    "source_references": [
+      "SROW Public Reference Benchmark Document"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "ranges from L0 to L4",
+        "object": "L0, L1, L2, L3, and L4"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

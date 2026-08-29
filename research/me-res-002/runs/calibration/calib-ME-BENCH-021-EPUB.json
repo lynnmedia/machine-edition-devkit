@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-021-EPUB",
+  "task_id": "ME-BENCH-021",
+  "family": "boundary_constraint_recognition",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Is SROW intended to operate as a cognition architecture or internal thought model?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2264.37,
+  "input_tokens": 765,
+  "output_tokens": 85,
+  "total_tokens": 850,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"operates as a cognition architecture\", \"object\": \"internal thought model\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "operates as a cognition architecture",
+        "object": "internal thought model"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

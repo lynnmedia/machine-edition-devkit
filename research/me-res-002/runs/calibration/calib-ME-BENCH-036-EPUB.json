@@ -1,0 +1,33 @@
+{
+  "run_id": "calib-ME-BENCH-036-EPUB",
+  "task_id": "ME-BENCH-036",
+  "family": "unsupported_claim_detection",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the recommended quantum key distribution cipher for SROW packages?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2370.37,
+  "input_tokens": 763,
+  "output_tokens": 89,
+  "total_tokens": 852,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW Public Reference Benchmark Document\", \"predicate\": \"does not contain information about a specific quantum key distribution cipher\", \"object\": \"the recommended quantum key distribution cipher for SROW packages\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW Public Reference Benchmark Document",
+        "predicate": "does not contain information about a specific quantum key distribution cipher",
+        "object": "the recommended quantum key distribution cipher for SROW packages"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,33 @@
+{
+  "run_id": "calib-ME-BENCH-011-RAG",
+  "task_id": "ME-BENCH-011",
+  "family": "hierarchy_preservation",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the five-tier resolution level hierarchy in SROW from lowest to highest granularity?",
+  "context_sha256": "796f8927eddcc767277afa0b7e436aa1cda156e4982f9c7c26494e7fe15c4363",
+  "context_length": 890,
+  "latency_ms": 3234.95,
+  "input_tokens": 427,
+  "output_tokens": 126,
+  "total_tokens": 553,
+  "raw_response": "{\n  \"answer\": \"L0 (orientation summaries), L1 (core principles), L2 (functional architecture), L3 (technical verification records), L4 (complete forensic ledgers)\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"is a communication protocol for making structured knowledge readable and navigable by both humans and machines.\", \"object\": \"Structured Resolution-Oriented Writing\"}],\n  \"constraints_observed\": [\"L0 is the lowest resolution level, L1 is the next highest, and so on\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L0 (orientation summaries), L1 (core principles), L2 (functional architecture), L3 (technical verification records), L4 (complete forensic ledgers)",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+        "object": "Structured Resolution-Oriented Writing"
+      }
+    ],
+    "constraints_observed": [
+      "L0 is the lowest resolution level, L1 is the next highest, and so on"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

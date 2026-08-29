@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-016-PDF",
+  "task_id": "ME-BENCH-016",
+  "family": "provenance_tracing",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the authoritative release archive hash supporting the SROW public companion sample records?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 2450.32,
+  "input_tokens": 714,
+  "output_tokens": 94,
+  "total_tokens": 808,
+  "raw_response": "{\n  \"answer\": \"L0\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"SROW public reference benchmark source (v0.1)\", \"predicate\": \"supports the SROW public companion sample records\", \"object\": \"L0\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L0",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW public reference benchmark source (v0.1)",
+        "predicate": "supports the SROW public companion sample records",
+        "object": "L0"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

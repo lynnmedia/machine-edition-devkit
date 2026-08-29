@@ -1,0 +1,32 @@
+{
+  "run_id": "calib-ME-BENCH-026-PDF",
+  "task_id": "ME-BENCH-026",
+  "family": "ambiguity_handling",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does the public specification define the internal neural architecture of an automated inference agent?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 1888.68,
+  "input_tokens": 713,
+  "output_tokens": 70,
+  "total_tokens": 783,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"public specification\", \"predicate\": \"defines the internal neural architecture of an automated inference agent\", \"object\": \"the public reference material\"},\n  \"constraints_observed\u201d: [\"], \n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "public specification",
+        "predicate": "defines the internal neural architecture of an automated inference agent",
+        "object": "the public reference material"
+      },
+      "constraints_observed\u201d: ["
+    ],
+    "support_status": "partially_supported",
+    "constraints_observed": []
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

@@ -1,0 +1,33 @@
+{
+  "run_id": "calib-ME-BENCH-016-RAG",
+  "task_id": "ME-BENCH-016",
+  "family": "provenance_tracing",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the authoritative release archive hash supporting the SROW public companion sample records?",
+  "context_sha256": "e3d1105a7d3b2b5d9b05627e2abb3820733abf24757649d7a42a0c36c56b1329",
+  "context_length": 912,
+  "latency_ms": 2209.67,
+  "input_tokens": 417,
+  "output_tokens": 86,
+  "total_tokens": 503,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW public reference benchmark source (v0.1)\", \"predicate\": \"does not support\", \"object\": \"the authoritative release archive hash supporting the SROW public companion sample records\"}],\n  \"constraints_observed\": [\"no explicit boundaries or scope limits observed\"],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW public reference benchmark source (v0.1)",
+        "predicate": "does not support",
+        "object": "the authoritative release archive hash supporting the SROW public companion sample records"
+      }
+    ],
+    "constraints_observed": [
+      "no explicit boundaries or scope limits observed"
+    ],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

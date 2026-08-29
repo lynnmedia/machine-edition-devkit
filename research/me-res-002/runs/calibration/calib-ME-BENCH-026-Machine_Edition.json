@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-026-Machine_Edition",
+  "task_id": "ME-BENCH-026",
+  "family": "ambiguity_handling",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does the public specification define the internal neural architecture of an automated inference agent?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 2394.21,
+  "input_tokens": 2831,
+  "output_tokens": 74,
+  "total_tokens": 2905,
+  "raw_response": "{\n  \"answer\": \"partially supported\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"...\", \"predicate\": \"...\", \"object\": \"...\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "partially supported",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "...",
+        "predicate": "...",
+        "object": "..."
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

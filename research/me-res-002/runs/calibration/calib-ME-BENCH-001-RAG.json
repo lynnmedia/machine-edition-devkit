@@ -1,0 +1,45 @@
+{
+  "run_id": "calib-ME-BENCH-001-RAG",
+  "task_id": "ME-BENCH-001",
+  "family": "factual_retrieval",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the definition of SROW according to Chapter 1?",
+  "context_sha256": "b334b2201255efd728d80f65e3caa71111ff3ae4ae654a29c268496a0bee47f4",
+  "context_length": 873,
+  "latency_ms": 3090.48,
+  "input_tokens": 420,
+  "output_tokens": 142,
+  "total_tokens": 562,
+  "raw_response": "{\n  \"answer\": \"factual response string or explicit statement of lack of support\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"definition\", \"object\": \"according to Chapter 1\"},\n                    {\"subject\": \"Chapter 1\", \"predicate\": \"partially_supported\", \"object\": \"does not support the requested claim\"},\n                    {\"subject\": \"SROW\", \"predicate\": \"supported\", \"object\": \"according to Chapter 1\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "factual response string or explicit statement of lack of support",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "definition",
+        "object": "according to Chapter 1"
+      },
+      {
+        "subject": "Chapter 1",
+        "predicate": "partially_supported",
+        "object": "does not support the requested claim"
+      },
+      {
+        "subject": "SROW",
+        "predicate": "supported",
+        "object": "according to Chapter 1"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

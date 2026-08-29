@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-006-Machine_Edition",
+  "task_id": "ME-BENCH-006",
+  "family": "relationship_retrieval",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate indicates source lineage between meaning units?",
+  "context_sha256": "656dea3764b21e77de355b354579d4cf012a69b502fbb30ef4f126007d94125a",
+  "context_length": 9035,
+  "latency_ms": 2548.79,
+  "input_tokens": 2617,
+  "output_tokens": 82,
+  "total_tokens": 2699,
+  "raw_response": "{\n  \"answer\": \"derives_from\",\n  \"source_references\": [\"prov.public-srow-framework\"],\n  \"relationships\": [{\"subject\": \"...\", \"predicate\": \"derives_from\", \"object\": \"...\", \"provenance_id\": \"prov.public-srow-framework\", \"scope\": \"functional architecture\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "derives_from",
+    "source_references": [
+      "prov.public-srow-framework"
+    ],
+    "relationships": [
+      {
+        "subject": "...",
+        "predicate": "derives_from",
+        "object": "...",
+        "provenance_id": "prov.public-srow-framework",
+        "scope": "functional architecture"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

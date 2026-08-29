@@ -1,0 +1,33 @@
+{
+  "run_id": "calib-ME-BENCH-026-RAG",
+  "task_id": "ME-BENCH-026",
+  "family": "ambiguity_handling",
+  "condition": "RAG",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Does the public specification define the internal neural architecture of an automated inference agent?",
+  "context_sha256": "d5b007c206b5d333795c0c430feeb435144f3c9cab6c66475dfbe486f3a3c708",
+  "context_length": 861,
+  "latency_ms": 2076.51,
+  "input_tokens": 399,
+  "output_tokens": 82,
+  "total_tokens": 481,
+  "raw_response": "{\n  \"answer\": \"unsupported\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"public specification\", \"predicate\": \"does not constitute an epistemic endorsement of the truth value of external assertions\", \"object\": \"the public specification\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"partially_supported\"\n}",
+  "parsed_response": {
+    "answer": "unsupported",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "public specification",
+        "predicate": "does not constitute an epistemic endorsement of the truth value of external assertions",
+        "object": "the public specification"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "partially_supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

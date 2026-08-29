@@ -1,0 +1,34 @@
+{
+  "run_id": "calib-ME-BENCH-006-EPUB",
+  "task_id": "ME-BENCH-006",
+  "family": "relationship_retrieval",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What typed predicate indicates source lineage between meaning units?",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2003.27,
+  "input_tokens": 760,
+  "output_tokens": 80,
+  "total_tokens": 840,
+  "raw_response": "{\n  \"answer\": \"derives_from\",\n  \"source_references\": [\"SROW Public Reference Benchmark Document\"],\n  \"relationships\": [{\"subject\": \"Structured Resolution-Oriented Writing (SROW)\", \"predicate\": \"derives_from\", \"object\": \"source lineage between meaning units\"},\n  \"constraints_observed': \"    \t],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "derives_from",
+    "source_references": [
+      "SROW Public Reference Benchmark Document"
+    ],
+    "relationships": [
+      {
+        "subject": "Structured Resolution-Oriented Writing (SROW)",
+        "predicate": "derives_from",
+        "object": "source lineage between meaning units"
+      },
+      "constraints_observed': "
+    ],
+    "support_status": "supported",
+    "constraints_observed": []
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

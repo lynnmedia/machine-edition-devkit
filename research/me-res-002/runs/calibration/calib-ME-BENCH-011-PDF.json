@@ -1,0 +1,31 @@
+{
+  "run_id": "calib-ME-BENCH-011-PDF",
+  "task_id": "ME-BENCH-011",
+  "family": "hierarchy_preservation",
+  "condition": "PDF",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the five-tier resolution level hierarchy in SROW from lowest to highest granularity?",
+  "context_sha256": "78b99d62f389363e456d1ef796e6f54e8b72d8e03f37a12f529ed25370f172cb",
+  "context_length": 2946,
+  "latency_ms": 3206.8,
+  "input_tokens": 715,
+  "output_tokens": 123,
+  "total_tokens": 838,
+  "raw_response": "{\n  \"answer\": \"L0 (lowest) \u2192 L1 (first tier) \u2192 L2 (second tier) \u2192 L3 (third tier) \u2192 L4 (highest)\",\n  \"source_references\": [],\n  \"relationships\": [{\"subject\": \"SROW\", \"predicate\": \"resolution level hierarchy from lowest to highest granularity\", \"object\": \"L0 (lowest) \u2192 L1 (first tier) \u2192 L2 (second tier) \u2192 L3 (third tier) \u2192 L4 (highest)\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "L0 (lowest) \u2192 L1 (first tier) \u2192 L2 (second tier) \u2192 L3 (third tier) \u2192 L4 (highest)",
+    "source_references": [],
+    "relationships": [
+      {
+        "subject": "SROW",
+        "predicate": "resolution level hierarchy from lowest to highest granularity",
+        "object": "L0 (lowest) \u2192 L1 (first tier) \u2192 L2 (second tier) \u2192 L3 (third tier) \u2192 L4 (highest)"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

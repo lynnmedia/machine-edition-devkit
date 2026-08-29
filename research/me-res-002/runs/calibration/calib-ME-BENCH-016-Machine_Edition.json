@@ -1,0 +1,33 @@
+{
+  "run_id": "calib-ME-BENCH-016-Machine_Edition",
+  "task_id": "ME-BENCH-016",
+  "family": "provenance_tracing",
+  "condition": "Machine_Edition",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "What is the authoritative release archive hash supporting the SROW public companion sample records?",
+  "context_sha256": "ae4e654dd2c464dd4dfb46663918231d315dc56d59fbc60666f19d786346fdf8",
+  "context_length": 9889,
+  "latency_ms": 4165.22,
+  "input_tokens": 2832,
+  "output_tokens": 144,
+  "total_tokens": 2976,
+  "raw_response": "{\n  \"answer\": \"0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181\",\n  \"source_references\": [\"https://winmedia.com/machine-editions/editions/srow\"],\n  \"relationships\": [{\"subject\": \"prov.public-srow-framework\", \"predicate\": \"retrieved_for_preview\", \"object\": \"2026-08-29\"}],\n  \"constraints_observed\": [],\n  \"support_status\": \"supported\"\n}",
+  "parsed_response": {
+    "answer": "0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181",
+    "source_references": [
+      "https://winmedia.com/machine-editions/editions/srow"
+    ],
+    "relationships": [
+      {
+        "subject": "prov.public-srow-framework",
+        "predicate": "retrieved_for_preview",
+        "object": "2026-08-29"
+      }
+    ],
+    "constraints_observed": [],
+    "support_status": "supported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}

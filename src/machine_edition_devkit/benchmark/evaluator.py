@@ -225,10 +225,21 @@ class BenchmarkScorer:
                 matched_triples = 0
                 for req_t in req_triples:
                     for sub_t in relationships:
+                        if isinstance(sub_t, dict):
+                            sub_pred = str(sub_t.get("predicate", "")).lower()
+                            sub_subj = sub_t.get("subject")
+                            sub_obj = sub_t.get("object")
+                        elif isinstance(sub_t, str):
+                            sub_pred = sub_t.lower()
+                            sub_subj = None
+                            sub_obj = None
+                        else:
+                            continue
+
                         if (
-                            req_t.get("predicate", "").lower() == str(sub_t.get("predicate", "")).lower()
-                            and (not req_t.get("subject") or req_t.get("subject") == sub_t.get("subject"))
-                            and (not req_t.get("object") or req_t.get("object") == sub_t.get("object"))
+                            req_t.get("predicate", "").lower() == sub_pred
+                            and (not req_t.get("subject") or req_t.get("subject") == sub_subj)
+                            and (not req_t.get("object") or req_t.get("object") == sub_obj)
                         ):
                             matched_triples += 1
                             break

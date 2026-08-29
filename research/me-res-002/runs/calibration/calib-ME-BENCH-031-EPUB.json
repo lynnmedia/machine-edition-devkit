@@ -1,0 +1,35 @@
+{
+  "run_id": "calib-ME-BENCH-031-EPUB",
+  "task_id": "ME-BENCH-031",
+  "family": "multi_resolution_retrieval",
+  "condition": "EPUB",
+  "replicate": 1,
+  "model_id": "qwen2.5:0.5b",
+  "question": "Provide the executive orientation (L0 level) summary of SROW.",
+  "context_sha256": "e2121bb689070ba2477c52e0ac8b5ae88ad5f9a2ce72799c0ac6fd5e68f26472",
+  "context_length": 3124,
+  "latency_ms": 2905.0,
+  "input_tokens": 764,
+  "output_tokens": 108,
+  "total_tokens": 872,
+  "raw_response": "{\n  \"answer\": \"factual response string or explicit statement of lack of support\",\n  \"source_references\": [\"list of exact provenance IDs or document locations from context\"],\n  \"relationships\": [{\"subject\": \"SROW Public Reference Benchmark Document\", \"predicate\": \"establishes explicit structural compliance for software and AI validation.\", \"object\": \"Structured Resolution-Oriented Writing (SROW)\"}],\n  \"constraints_observed\": [\"list of explicit boundaries or scope limits observed\"],\n  \"support_status\": \"unsupported\"\n}",
+  "parsed_response": {
+    "answer": "factual response string or explicit statement of lack of support",
+    "source_references": [
+      "list of exact provenance IDs or document locations from context"
+    ],
+    "relationships": [
+      {
+        "subject": "SROW Public Reference Benchmark Document",
+        "predicate": "establishes explicit structural compliance for software and AI validation.",
+        "object": "Structured Resolution-Oriented Writing (SROW)"
+      }
+    ],
+    "constraints_observed": [
+      "list of explicit boundaries or scope limits observed"
+    ],
+    "support_status": "unsupported"
+  },
+  "parse_status": "SUCCESS",
+  "status": "SUCCESS"
+}
