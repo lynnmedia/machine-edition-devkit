@@ -8,13 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2026-08-29
 
 ### Added
-- Initial Developer Kit v0.1 reference implementation architecture.
-- Five core modules established:
-  - `inspect`: Metadata and layout summary inspection without full parse overhead.
-  - `validate`: Schema validation (Draft 2020-12) and referential integrity checking.
-  - `parse`: Typed object mapping from newline-delimited JSON (`.jsonl`) streams.
-  - `query`: Multi-tier resolution filtering and provenance traversal engine.
-  - `compare`: Structural and capability comparison matrix against PDF, EPUB, and naive RAG chunks.
-- Bound directly to `Machine Edition Specification v0.1`.
-- Bundled public schemas and preview specimen (`srow-machine-edition-preview-v0.1`).
-- End-to-end integration test suite.
+- Governed reference specimen derived from authorized SROW Public Companion assets (`specimen/srow/`).
+- Authoritative public schemas mirrored from `Machine Edition Specification v0.1` (`c18dea52074ba278ec6bc4a544c80300df6d8882`) with schema manifest integrity verification (`schemas/schema-manifest.json`).
+- Full reference implementation of the Machine Edition Specification v0.1 Validator covering checks C1 through C7:
+  - C1: Manifest presence and schema validation (Draft 2020-12).
+  - C2: Required package files presence (`manifest.json`, `meaning-units.jsonl`, `provenance.jsonl`, `full-preview.md`, `LICENSE.txt`).
+  - C3: Valid JSON/NDJSON syntax.
+  - C4: Meaning units, definitions, boundaries, and relationships record schema validation.
+  - C5: Referential integrity and provenance link verification.
+  - C6: Human entrypoint linkage.
+  - C7: License file alignment.
+- Structured validation report output with `ME_CONFORMANT` / `ME_NONCONFORMANT` determinations.
+- Negative fixture test suite verifying fail-closed behavior across all structural failure modes.

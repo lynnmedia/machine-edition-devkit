@@ -7,12 +7,12 @@ from machine_edition_devkit.compare import RepresentationComparator
 
 
 def test_devkit_inspect_validate_parse_query_compare_flow():
-    specimen_path = Path(__file__).resolve().parent.parent / "specimens" / "srow-machine-edition-preview-v0.1"
+    specimen_path = Path(__file__).resolve().parent.parent / "specimen" / "srow" / "package"
     assert specimen_path.exists()
 
     # 1. Inspect
     summary = inspect_package(specimen_path)
-    assert summary.package_id == "winmedia.srow.machine-edition.preview"
+    assert summary.package_id == "winmedia.srow.reference-specimen"
     assert summary.version == "0.1.0"
     assert summary.meaning_units_count > 0
     assert summary.provenance_count > 0

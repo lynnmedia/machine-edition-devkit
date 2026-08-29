@@ -1,9 +1,0 @@
-{
-  "id": "srow.preview.example.invalid",
-  "record_type": "meaning_unit",
-  "version": "0.1.0",
-  "title": "Invalid meaning unit",
-  "claim": "This fixture intentionally omits resolution_level.",
-  "provenance_id": "prov.preview-editorial",
-  "scope": "schema validation fixture"
-}

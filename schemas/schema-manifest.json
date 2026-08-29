@@ -1,0 +1,32 @@
+{
+  "source_repository": "winmedia",
+  "source_path": "docs/specifications/machine-editions/v0.1/schemas",
+  "specification_version": "0.1.0",
+  "source_commit": "c18dea52074ba278ec6bc4a544c80300df6d8882",
+  "schemas": [
+    {
+      "name": "boundary.schema.json",
+      "sha256": "22b839989bc1e1dc0fc45f9cdb2c1239c21bf3a9ff2e66edd808595633f721ec"
+    },
+    {
+      "name": "definition.schema.json",
+      "sha256": "9174ac79215f39760c42fbc241f78ac25cccb2f60be75f058a27ff9079e4f40b"
+    },
+    {
+      "name": "manifest.schema.json",
+      "sha256": "92d3c305ffb177f02bfe18152d6851e2599e53d0c09251d4ff253bc155db4716"
+    },
+    {
+      "name": "meaning-unit.schema.json",
+      "sha256": "dda55f00f0dad12c811828a4c7094ba9bdd5da282f1f85dfb39f307f173673a3"
+    },
+    {
+      "name": "provenance.schema.json",
+      "sha256": "4905332f59831720457b11c7f9054358f802908e38e1486477762d2337b3b896"
+    },
+    {
+      "name": "relationship.schema.json",
+      "sha256": "4faa167d4e75315def87b2074fe55a1e147c6c4ca3ba6efee70da859f3771e6b"
+    }
+  ]
+}

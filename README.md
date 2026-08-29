@@ -20,6 +20,27 @@ cd machine-edition-devkit
 pip install -e ".[dev]"
 ```
 
+### Reference Specimen Location
+
+The authoritative public reference specimen derived from authorized public companion assets is located at:
+
+```text
+specimen/
+  srow/
+    package/                     <-- Normative Machine Edition Package
+      manifest.json
+      meaning-units.jsonl
+      provenance.jsonl
+      definitions.jsonl
+      boundaries.jsonl
+      relationships.jsonl
+      full-preview.md
+      LICENSE.txt
+    SOURCE.json                  <-- Authority provenance & archive SHA-256
+    DERIVATION.json              <-- Normalization log
+    CONFORMANCE-CROSSWALK.md     <-- Audit crosswalk against Spec v0.1 C1-C7
+```
+
 ### 5-Step Core Workflow
 
 ```python
@@ -30,16 +51,17 @@ from machine_edition_devkit.parse import MachineEditionParser
 from machine_edition_devkit.query import MachineEditionQueryEngine
 from machine_edition_devkit.compare import RepresentationComparator
 
-specimen_dir = Path("specimens/srow-machine-edition-preview-v0.1")
+specimen_dir = Path("specimen/srow/package")
 
 # 1. Inspect
 summary = inspect_package(specimen_dir)
 print(f"Package: {summary.package_id} v{summary.version} ({summary.meaning_units_count} units)")
 
-# 2. Validate against public schemas & invariants
+# 2. Validate against public schemas & invariants (C1-C7)
 validator = MachineEditionValidator()
 report = validator.validate_package(specimen_dir)
-print(f"Valid: {report.is_valid}")
+print(f"Outcome: {report.outcome}")
+print(report.render_summary())
 
 # 3. Parse into domain entities
 parser = MachineEditionParser(specimen_dir)
@@ -70,8 +92,8 @@ This Developer Kit implements the public contract defined in:
 ## 3. Architecture Roadmap
 
 * `MEDK-001`: Initial 5-responsibility architecture scaffold & reference interfaces.
-* `MEDK-002`: Governed reference specimen expansion.
-* `MEDK-003`: Schemas + full validator engine.
+* `MEDK-002`: Governed reference specimen expansion (`specimen/srow/package`).
+* `MEDK-003`: Public schemas + full reference validator engine (C1-C7 conformance).
 * `MEDK-004`: Complete parser abstractions.
 * `MEDK-005`: Multi-tier query pack.
 * `MEDK-006`: Executable representation comparison benchmarks.
