@@ -1,5 +1,6 @@
 {
   "title": "Machine Edition Developer Kit (v0.1.0)",
+  "version": "0.1.0",
   "description": "Reference developer kit, validation engine, parser, query suite, benchmark (ME-BENCH-001), and research trial packages (ME-RES-001 reference-harness qualification and ME-RES-002 real generative model trial) implementing the Machine Edition Specification v0.1.",
   "creators": [
     {
