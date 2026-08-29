@@ -1,0 +1,29 @@
+{
+  "condition_id": "cond-machine-edition-v0.1",
+  "representation_type": "machine_edition",
+  "artifact_path": "benchmark/representations/machine-edition/package",
+  "package_id": "winmedia.srow.benchmark-specimen",
+  "source_corpus_sha256": "cceb69fea9bfb4a2c84f8829bd7bff5cd185037c21023b37ab4ae144d7b32509",
+  "construction_method": "Machine Edition Specification v0.1 JSON Schemas (C1-C7) validation and JSONL packaging",
+  "construction_configuration": {
+    "specification_version": "0.1.0",
+    "record_types": [
+      "manifest",
+      "meaning_unit",
+      "definition",
+      "relationship",
+      "boundary",
+      "provenance"
+    ],
+    "resolution_levels": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "conformance_status": "ME_CONFORMANT"
+  },
+  "adapter": "BenchmarkMachineEditionAdapter",
+  "license_note": "CC BY 4.0 within authorized SROW Public Companion scope"
+}

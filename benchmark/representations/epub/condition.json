@@ -1,0 +1,15 @@
+{
+  "condition_id": "cond-epub-v0.1",
+  "representation_type": "epub",
+  "artifact_path": "benchmark/representations/epub/benchmark-document.epub",
+  "artifact_sha256": "30dceca5f5f328c48bfe3e60d08d0f0e8f7564d9428a9d11800ebb6520cbc264",
+  "source_corpus_sha256": "cceb69fea9bfb4a2c84f8829bd7bff5cd185037c21023b37ab4ae144d7b32509",
+  "construction_method": "standard EPUB 3.0 packaging with OEBPS XHTML chapters",
+  "construction_configuration": {
+    "epub_version": "3.0",
+    "identifier": "urn:uuid:srow-benchmark-epub-v0.1",
+    "compression": "ZIP_DEFLATED (uncompressed mimetype)"
+  },
+  "adapter": "BenchmarkEPUBAdapter",
+  "license_note": "CC BY 4.0 within authorized SROW Public Companion scope"
+}

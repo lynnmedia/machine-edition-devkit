@@ -1,0 +1,87 @@
+{
+  "benchmark_id": "winmedia.machine-edition-representation-benchmark.v0.1",
+  "title": "Machine Edition Representation Benchmark v0.1",
+  "version": "0.1.0",
+  "status": "frozen",
+  "freeze_date": "2026-08-29",
+  "source_identity": "SROW Public Reference Benchmark Source",
+  "source_sha256": "cceb69fea9bfb4a2c84f8829bd7bff5cd185037c21023b37ab4ae144d7b32509",
+  "corpus_lineage": "SROW Public Companion v0.1 (archive sha256: 0cd42e724bcd7d4b54c0f850a51ef7b875152cd01f7a20f5b7b34e0d73b5d181) -> SROW Public Reference Specimen -> MEDK-006 -> ME-BENCH-001",
+  "specification_authority": "Machine Edition Specification v0.1 (c18dea52074ba278ec6bc4a544c80300df6d8882)",
+  "rights_source": "benchmark/RIGHTS.md",
+  "task_count": 40,
+  "task_family_counts": {
+    "factual_retrieval": 5,
+    "relationship_retrieval": 5,
+    "hierarchy_preservation": 5,
+    "provenance_tracing": 5,
+    "boundary_constraint_recognition": 5,
+    "ambiguity_handling": 5,
+    "multi_resolution_retrieval": 5,
+    "unsupported_claim_detection": 5
+  },
+  "split_counts": {
+    "calibration": 8,
+    "evaluation": 32
+  },
+  "representations": {
+    "pdf": {
+      "artifact": "benchmark/representations/pdf/benchmark-document.pdf",
+      "sha256": "daa8db62c98101c4356a579b6a66be26feba098767e3767256e8f1d003527ca4",
+      "manifest": "benchmark/representations/pdf/condition.json"
+    },
+    "epub": {
+      "artifact": "benchmark/representations/epub/benchmark-document.epub",
+      "sha256": "30dceca5f5f328c48bfe3e60d08d0f0e8f7564d9428a9d11800ebb6520cbc264",
+      "manifest": "benchmark/representations/epub/condition.json"
+    },
+    "rag": {
+      "artifact": "benchmark/representations/rag/rag-corpus.json",
+      "sha256": "c8be11f87fdacc86a145cddf2996cf1d2329215eb20b7e77ead9b4d6c2381953",
+      "manifest": "benchmark/representations/rag/condition.json"
+    },
+    "machine_edition": {
+      "package": "benchmark/representations/machine-edition/package",
+      "package_id": "winmedia.srow.benchmark-specimen",
+      "manifest": "benchmark/representations/machine-edition/condition.json"
+    }
+  },
+  "rag_configuration": {
+    "strategy": "paragraph-preserving sliding window",
+    "target_chunk_size": 250,
+    "overlap": 40,
+    "ranking": "deterministic lexical BM25"
+  },
+  "scoring_version": "0.1.0",
+  "scoring_dimensions": [
+    "correctness",
+    "provenance_completeness",
+    "unsupported_assertion_rate",
+    "semantic_invariant_preservation",
+    "relationship_accuracy",
+    "constraint_violations",
+    "failure_mode"
+  ],
+  "failure_taxonomy": [
+    "NONE",
+    "INCORRECT_FACT",
+    "OMISSION",
+    "UNSUPPORTED_ASSERTION",
+    "PROVENANCE_MISSING",
+    "PROVENANCE_FABRICATED",
+    "RELATIONSHIP_ERROR",
+    "HIERARCHY_ERROR",
+    "BOUNDARY_VIOLATION",
+    "AMBIGUITY_COLLAPSE",
+    "RESOLUTION_ERROR",
+    "REFUSAL_WHEN_SUPPORTED",
+    "ANSWER_WHEN_UNSUPPORTED",
+    "EXECUTION_ERROR"
+  ],
+  "integrity_manifest": "benchmark/integrity-manifest.json",
+  "reproduction_commands": [
+    "python -m machine_edition_devkit.benchmark verify",
+    "python -m machine_edition_devkit.benchmark rebuild",
+    "python -m machine_edition_devkit.benchmark test-scorer"
+  ]
+}

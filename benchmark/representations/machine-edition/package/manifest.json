@@ -1,0 +1,22 @@
+{
+  "package_id": "winmedia.srow.benchmark-specimen",
+  "title": "SROW Public Reference Benchmark Specimen for Machine Edition Specification v0.1",
+  "version": "0.1.0",
+  "status": "stable",
+  "scope": "Authorized public reference benchmark specimen derived from SROW Public Companion v0.1; does not contain governed manuscript content.",
+  "formats": [
+    "markdown",
+    "jsonl",
+    "json-schema"
+  ],
+  "resolution_levels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "license": "LICENSE.txt",
+  "human_readable_entrypoint": "full-preview.md",
+  "provenance_file": "provenance.jsonl"
+}

@@ -1,0 +1,14 @@
+# Threats-to-Validity Registry — ME-BENCH-001
+
+This registry formally documents known methodological threats, potential biases, mitigations, and residual risks prior to experimental LLM execution in ME-RES-001.
+
+| Threat ID | Threat Category | Why It Matters | Mitigation in ME-BENCH-001 | Residual Risk |
+|---|---|---|---|---|
+| **TV-01** | Single-Source Domain Limitation | Benchmark uses SROW conceptual domain; results may not generalize identically to biomedical or financial corpora. | Strict schema-neutral design; explicit domain boundary statement. | Generalization to highly dense numeric/tabular domains remains future research. |
+| **TV-02** | Small Public Corpus Size | 16 facts across 4 chapters might allow memorization or shallow overfit. | Frozen calibration (8) vs evaluation (32) split; multi-resolution and negative constraints require deep inference. | Synthetic expansions planned for future benchmark versions (v0.2+). |
+| **TV-03** | Task-Author Bias | Task designer might craft questions that favor structured data formats over linear text. | Balanced 8 task families including unstructured factual recovery and simple navigation; gold answers derive strictly from text truth. | Residual stylistic alignment with specification author vocabulary. |
+| **TV-04** | RAG Baseline Choice | Lexical sliding-window BM25 baseline may underperform advanced hybrid dense-vector reranking systems. | RAG parameters are completely frozen, transparent, and reproducible without non-deterministic embedding APIs. | Advanced vector RAG variants reserved for separate benchmark conditions. |
+| **TV-05** | PDF/EPUB Adapter Asymmetry | Simple text extraction could disadvantage document formats compared to native JSONL traversal. | Valid ISO-compliant PDF and EPUB 3.0 packages constructed; robust adapters extract full text without OCR degradation. | Document layout cues (e.g. bolding/fonts) are lost in pure string extraction. |
+| **TV-06** | Gold Standard Subjectivity | Rubrics could misclassify valid model paraphrases as incorrect. | Deterministic concept sets, regex normalization, and synthetic test suite with 100% fixture coverage. | Semantic edge cases in future LLM responses require offline adjudication. |
+| **TV-07** | Benchmark Data Leakage | Experimental models might see gold answers during evaluation runs. | Strict architectural firewall: `tasks.jsonl` contains zero gold answers or scoring rules. | None for offline execution; pretraining contamination mitigated by novel benchmark IDs. |
+| **TV-08** | Representation Parity Drift | Information might exist in one representation but be omitted from another. | Programmatic parity gate verifies 16/16 tracked facts present in PDF, EPUB, RAG, and Machine Edition. | Zero information disparity across representation conditions. |

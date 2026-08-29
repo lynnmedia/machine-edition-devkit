@@ -1,0 +1,17 @@
+{
+  "condition_id": "cond-rag-v0.1",
+  "representation_type": "rag",
+  "artifact_path": "benchmark/representations/rag/rag-corpus.json",
+  "artifact_sha256": "c8be11f87fdacc86a145cddf2996cf1d2329215eb20b7e77ead9b4d6c2381953",
+  "source_corpus_sha256": "cceb69fea9bfb4a2c84f8829bd7bff5cd185037c21023b37ab4ae144d7b32509",
+  "construction_method": "deterministic sliding-window paragraph chunking with BM25 lexical ranking",
+  "construction_configuration": {
+    "chunking_strategy": "paragraph-preserving sliding window",
+    "target_chunk_size": 250,
+    "overlap": 40,
+    "retrieval_algorithm": "deterministic lexical BM25-style term frequency",
+    "metadata_leakage_prevented": true
+  },
+  "adapter": "BenchmarkNaiveRAGAdapter",
+  "license_note": "CC BY 4.0 within authorized SROW Public Companion scope"
+}

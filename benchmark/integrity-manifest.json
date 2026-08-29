@@ -1,0 +1,33 @@
+{
+  "benchmark_id": "winmedia.machine-edition-representation-benchmark.v0.1",
+  "version": "0.1.0",
+  "status": "frozen",
+  "file_count": 25,
+  "hashes": {
+    "benchmark/source/benchmark-source.md": "cceb69fea9bfb4a2c84f8829bd7bff5cd185037c21023b37ab4ae144d7b32509",
+    "benchmark/source/source-inventory.json": "0b985e48275e71e32ac9beeb508f4863a0a9c1ec716dd9725bbcb72dc5e9f379",
+    "benchmark/representations/pdf/benchmark-document.pdf": "daa8db62c98101c4356a579b6a66be26feba098767e3767256e8f1d003527ca4",
+    "benchmark/representations/pdf/condition.json": "5a4c7f6bfbca7b15c5952e94df4332daa8c653bc49f73deb2d4027ba334756b6",
+    "benchmark/representations/epub/benchmark-document.epub": "30dceca5f5f328c48bfe3e60d08d0f0e8f7564d9428a9d11800ebb6520cbc264",
+    "benchmark/representations/epub/condition.json": "b89c95ed4611124cfc76fa5b2bfa6a58447ee913edf595f896978a9542df9e9e",
+    "benchmark/representations/rag/rag-corpus.json": "c8be11f87fdacc86a145cddf2996cf1d2329215eb20b7e77ead9b4d6c2381953",
+    "benchmark/representations/rag/condition.json": "41a214271389adc5cfc56a99c1ee50904801cfc0b95853dd950447dd21c43633",
+    "benchmark/representations/machine-edition/condition.json": "1c11e6548a5236f05bd7f463c7ce828f158a33317a2415d2495c3545d057a960",
+    "benchmark/representations/machine-edition/package/manifest.json": "e42b104133e501355c634302a88c07740a5304437e17fbf0aef6a8236c766862",
+    "benchmark/representations/machine-edition/package/meaning-units.jsonl": "03897e21cbf3bb50e8e08d41668d359e01df9a1b12962d0810528827c14c5107",
+    "benchmark/representations/machine-edition/package/definitions.jsonl": "2176faf10e96bf74bcf39019886b47abc687a9be2dd1f31e8383d58598703e1d",
+    "benchmark/representations/machine-edition/package/boundaries.jsonl": "7d395bb7d5f3fdb94685d431a907f9ba1551792fc2b11aab73da9b3a05709c2f",
+    "benchmark/representations/machine-edition/package/relationships.jsonl": "4b8479cf3ba79448f522adda62dad12d60c2e29a2a20749dce51e9e86469431c",
+    "benchmark/representations/machine-edition/package/provenance.jsonl": "6e9ad8c429dac2259477c64e04560710b2eba698a7139915460afe21247eda58",
+    "benchmark/representations/machine-edition/package/full-preview.md": "923eaf791c9e00dddd67ffaba3aac899f68a60b5b4ebabe7d1bf4cf565671470",
+    "benchmark/representations/machine-edition/package/LICENSE.txt": "6ce2981c06d5024f4131acddfa3e92d61bd813e7d445ef50319b1eef9120914f",
+    "benchmark/tasks.jsonl": "44ef3a2d39e61ee8f2b62d439b504482ec34ca8224b09be1c48d568910ef5238",
+    "benchmark/gold/answers.jsonl": "0710681337abd34fa22f1ec470ec9afcf0aec574ec7c5f8023e91f8cc3030076",
+    "benchmark/gold/provenance.jsonl": "d290b123f1b5e0fd45ff1ea494f4b7d1f9bd3ee37da983ae8ec946fc354de865",
+    "benchmark/gold/relationships.jsonl": "9243ff7423940835860401d41be8cd6ad4817029e82dff94fafea8456a5f1547",
+    "benchmark/gold/constraints.jsonl": "234b94c2a743837e2e8eec15af3373804233810fd5ede4cafe3c0f786a1b2ff8",
+    "benchmark/RIGHTS.md": "84105f69d7c6ea9cb8009b9eb766688aee13ce35d6640689eb845176bba51989",
+    "benchmark/THREATS-TO-VALIDITY.md": "05f31262425517c1359b92665d422cf465aab77d49e347944908d85e9c27f059",
+    "benchmark/manifest.json": "057f0e22d6a4fdd4cb1aba7b1ac960d012b05662543fc6252fef2a133c8ac066"
+  }
+}

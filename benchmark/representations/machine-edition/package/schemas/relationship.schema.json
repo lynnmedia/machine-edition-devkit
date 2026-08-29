@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://winmedia.com/schemas/machine-edition/v0.1/relationship.schema.json",
+  "title": "Machine Edition Relationship Record Schema v0.1",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "subject_id",
+    "predicate",
+    "object_id",
+    "provenance_id",
+    "scope"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9\\-_.]+$"
+    },
+    "record_type": {
+      "const": "relationship"
+    },
+    "subject_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "predicate": {
+      "type": "string",
+      "enum": [
+        "derives_from",
+        "clarifies",
+        "depends_on",
+        "refutes",
+        "exemplifies",
+        "contains",
+        "relates_to"
+      ]
+    },
+    "object_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

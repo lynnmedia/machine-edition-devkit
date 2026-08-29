@@ -88,7 +88,35 @@ python -m machine_edition_devkit.comparison run
 
 # View the representation property matrix
 python -m machine_edition_devkit.comparison matrix
+
+# Run ME-BENCH-001 frozen benchmark verification suite
+python -m machine_edition_devkit.benchmark verify
+
+# Run ME-BENCH-001 synthetic offline scorer fixtures
+python -m machine_edition_devkit.benchmark test-scorer
 ```
+
+---
+
+## 2. Machine Edition Representation Benchmark (ME-BENCH v0.1)
+
+ME-BENCH-001 establishes a frozen, representation-controlled research evaluation instrument comparing **PDF**, **EPUB**, **Naive RAG**, and **Machine Edition** over an expanded 16-fact source corpus under guaranteed information parity:
+
+* **Benchmark ID:** `winmedia.machine-edition-representation-benchmark.v0.1`
+* **Task Corpus:** 40 tasks across 8 required task families (5 items each):
+  1. `factual_retrieval`
+  2. `relationship_retrieval`
+  3. `hierarchy_preservation`
+  4. `provenance_tracing`
+  5. `boundary_constraint_recognition`
+  6. `ambiguity_handling`
+  7. `multi_resolution_retrieval`
+  8. `unsupported_claim_detection`
+* **Splits:** 8 calibration items (1 per family) and 32 evaluation items (4 per family).
+* **Firewall Separation:** `tasks.jsonl` provides tasks without gold answers or scoring rules to prevent leakage.
+* **Deterministic Offline Scorer:** Evaluates submissions across 7 dimensions (`correctness`, `provenance_completeness`, `unsupported_assertion_rate`, `semantic_invariant_preservation`, `relationship_accuracy`, `constraint_violations`, `failure_mode`) with a 14-token failure taxonomy.
+* **Artifacts:** Documented and verified under `benchmark/` (`manifest.json`, `integrity-manifest.json`, `RIGHTS.md`, `THREATS-TO-VALIDITY.md`, `README.md`).
+
 
 ---
 
@@ -110,6 +138,7 @@ This Developer Kit implements the public contract defined in:
 * `MEDK-004`: Complete parser abstractions & TypeScript consumer example.
 * `MEDK-005`: 20-query deterministic reference query pack & CLI runner.
 * `MEDK-006`: Executable representation comparison benchmarks (PDF, EPUB, RAG, Machine Edition).
+* `ME-BENCH-001`: Frozen Machine Edition Representation Benchmark v0.1 (40 tasks, 8 families, offline scorer, integrity manifest).
 
 ---
 

@@ -20,6 +20,17 @@ from machine_edition_devkit.validate import MachineEditionValidator, ValidationR
 from machine_edition_devkit.inspect import inspect_package, PackageSummary
 from machine_edition_devkit.comparison import ComparisonHarness, TaskEvaluationResult
 from machine_edition_devkit.compare import RepresentationComparator, RepresentationMetrics
+from machine_edition_devkit.benchmark import (
+    BENCHMARK_ID,
+    BENCHMARK_TITLE,
+    BENCHMARK_VERSION,
+    BenchmarkScorer,
+    EvaluationRecord,
+    verify_benchmark_integrity,
+    verify_information_parity,
+    run_synthetic_scorer_fixtures,
+    rebuild_all_benchmark_artifacts,
+)
 
 __version__ = "0.1.0"
 __spec_version__ = "0.1.0"
@@ -43,4 +54,13 @@ __all__ = [
     "MachineEditionValidationError",
     "RecordNotFoundError",
     "ProvenanceResolutionError",
+    "BENCHMARK_ID",
+    "BENCHMARK_TITLE",
+    "BENCHMARK_VERSION",
+    "BenchmarkScorer",
+    "EvaluationRecord",
+    "verify_benchmark_integrity",
+    "verify_information_parity",
+    "run_synthetic_scorer_fixtures",
+    "rebuild_all_benchmark_artifacts",
 ]

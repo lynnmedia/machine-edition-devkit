@@ -1,0 +1,11 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+Scope Limitation:
+This license applies strictly to the public companion sample records and schemas included in this benchmark. Governed manuscript data, internal adjudication ledgers, and proprietary packagers remain excluded and reserved by WinMedia.

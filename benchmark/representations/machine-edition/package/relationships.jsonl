@@ -1,0 +1,4 @@
+{"id": "srow.bench.rel.001", "record_type": "relationship", "subject_id": "srow.bench.mu.005", "predicate": "derives_from", "object_id": "srow.bench.mu.006", "provenance_id": "prov.srow-public-companion-release", "scope": "technical relationship"}
+{"id": "srow.bench.rel.002", "record_type": "relationship", "subject_id": "srow.bench.mu.006", "predicate": "clarifies", "object_id": "srow.bench.mu.002", "provenance_id": "prov.public-srow-framework", "scope": "architectural relationship"}
+{"id": "srow.bench.rel.003", "record_type": "relationship", "subject_id": "srow.bench.mu.009", "predicate": "depends_on", "object_id": "srow.bench.mu.004", "provenance_id": "prov.public-srow-framework", "scope": "governance relationship"}
+{"id": "srow.bench.rel.004", "record_type": "relationship", "subject_id": "srow.bench.mu.006", "predicate": "exemplifies", "object_id": "srow.bench.mu.001", "provenance_id": "prov.public-srow-framework", "scope": "structural relationship"}

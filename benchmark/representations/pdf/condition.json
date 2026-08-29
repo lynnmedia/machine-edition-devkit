@@ -1,0 +1,15 @@
+{
+  "condition_id": "cond-pdf-v0.1",
+  "representation_type": "pdf",
+  "artifact_path": "benchmark/representations/pdf/benchmark-document.pdf",
+  "artifact_sha256": "daa8db62c98101c4356a579b6a66be26feba098767e3767256e8f1d003527ca4",
+  "source_corpus_sha256": "cceb69fea9bfb4a2c84f8829bd7bff5cd185037c21023b37ab4ae144d7b32509",
+  "construction_method": "minimal Latin-1 single-page fixed layout rendering",
+  "construction_configuration": {
+    "page_size": "Letter (612x792 pt)",
+    "font": "Helvetica Type1 10pt",
+    "line_spacing_pt": 15
+  },
+  "adapter": "BenchmarkPDFAdapter",
+  "license_note": "CC BY 4.0 within authorized SROW Public Companion scope"
+}

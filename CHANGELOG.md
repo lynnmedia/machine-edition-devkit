@@ -23,3 +23,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Executable representation comparison trial (`comparison/`) evaluating PDF, EPUB, Naive RAG, and Machine Edition across 16 tasks in 8 families under guaranteed information parity.
 - Comparison execution engine and CLI tool (`machine_edition_devkit.comparison`).
 - Comparative methodology documentation (`docs/rag-comparison.md`).
+- Frozen Machine Edition Representation Benchmark v0.1 (`benchmark/` and `machine_edition_devkit.benchmark`):
+  - 40 frozen benchmark tasks distributed equally across 8 task families (5 items each): factual retrieval, relationship retrieval, hierarchy preservation, provenance tracing, boundary/constraint recognition, ambiguity handling, multi-resolution retrieval, unsupported claim detection.
+  - Frozen split into 8 calibration items and 32 evaluation items.
+  - 16-fact source corpus derived exclusively from authorized SROW Public Companion v0.1 material with 100% information parity verified across PDF, EPUB, RAG, and Machine Edition.
+  - Strict gold firewall separating public task inputs (`tasks.jsonl`) from adjudication ledgers (`gold/`).
+  - Offline deterministic scoring engine evaluating 7 dimensions with a 14-token failure taxonomy and 13 synthetic validation fixtures.
+  - Cryptographic integrity manifest (`benchmark/integrity-manifest.json`), rights manifest (`benchmark/RIGHTS.md`), threats-to-validity registry (`benchmark/THREATS-TO-VALIDITY.md`), and comprehensive CLI tooling (`verify`, `rebuild`, `test-scorer`, `parity`).

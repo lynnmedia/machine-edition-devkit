@@ -1,0 +1,121 @@
+{
+  "strategy": "paragraph-preserving sliding window",
+  "target_chunk_size": 250,
+  "overlap": 40,
+  "chunk_count": 16,
+  "source_document": "benchmark-source.md",
+  "chunks": [
+    {
+      "chunk_id": "chunk-000",
+      "text": "# SROW Public Reference Benchmark Source (v0.1) ## Chapter 1: Introduction to Structured Resolution-Oriented Writing",
+      "source_document": "benchmark-source.md",
+      "position": 0,
+      "char_length": 116
+    },
+    {
+      "chunk_id": "chunk-001",
+      "text": "Structured Resolution-Oriented Writing (SROW) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.",
+      "source_document": "benchmark-source.md",
+      "position": 1,
+      "char_length": 157
+    },
+    {
+      "chunk_id": "chunk-002",
+      "text": "Structure is a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.",
+      "source_document": "benchmark-source.md",
+      "position": 2,
+      "char_length": 150
+    },
+    {
+      "chunk_id": "chunk-003",
+      "text": "Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.",
+      "source_document": "benchmark-source.md",
+      "position": 3,
+      "char_length": 154
+    },
+    {
+      "chunk_id": "chunk-004",
+      "text": "Resolution levels range from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides technical verification records, and L4 contains complete forensic ledgers.",
+      "source_document": "benchmark-source.md",
+      "position": 4,
+      "char_length": 227
+    },
+    {
+      "chunk_id": "chunk-005",
+      "text": "## Chapter 2: Technical Architecture, Stable Identity, and Data Model The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.",
+      "source_document": "benchmark-source.md",
+      "position": 5,
+      "char_length": 207
+    },
+    {
+      "chunk_id": "chunk-006",
+      "text": "Structured Resolution-Oriented Writing (SROW) establishes explicit structural compliance for software and AI validation.",
+      "source_document": "benchmark-source.md",
+      "position": 6,
+      "char_length": 120
+    },
+    {
+      "chunk_id": "chunk-007",
+      "text": "Explicit relationships link meaning units using typed predicates: derives_from indicates source lineage, clarifies provides architectural elaboration, depends_on establishes prerequisite dependencies, and exemplifies provides concrete application instances.",
+      "source_document": "benchmark-source.md",
+      "position": 7,
+      "char_length": 257
+    },
+    {
+      "chunk_id": "chunk-008",
+      "text": "A conformant Machine Edition package comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers. ## Chapter 3: Semantic Resolution, Monotonicity, and Ambiguity Handling",
+      "source_document": "benchmark-source.md",
+      "position": 8,
+      "char_length": 225
+    },
+    {
+      "chunk_id": "chunk-009",
+      "text": "Resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.",
+      "source_document": "benchmark-source.md",
+      "position": 9,
+      "char_length": 137
+    },
+    {
+      "chunk_id": "chunk-010",
+      "text": "Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.",
+      "source_document": "benchmark-source.md",
+      "position": 10,
+      "char_length": 156
+    },
+    {
+      "chunk_id": "chunk-011",
+      "text": "When source evidence is underspecified or accommodates multiple valid interpretations, an agent must provide explicit qualification rather than collapsing ambiguity into ungrounded certainty.",
+      "source_document": "benchmark-source.md",
+      "position": 11,
+      "char_length": 191
+    },
+    {
+      "chunk_id": "chunk-012",
+      "text": "Contextual scope tags define the operational domain of each assertion, separating universal core invariants from provisional public companion samples. ## Chapter 4: Boundaries, Scope, and Epistemic Limitations",
+      "source_document": "benchmark-source.md",
+      "position": 12,
+      "char_length": 209
+    },
+    {
+      "chunk_id": "chunk-013",
+      "text": "SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation. Structured records improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.",
+      "source_document": "benchmark-source.md",
+      "position": 13,
+      "char_length": 241
+    },
+    {
+      "chunk_id": "chunk-014",
+      "text": "This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.",
+      "source_document": "benchmark-source.md",
+      "position": 14,
+      "char_length": 160
+    },
+    {
+      "chunk_id": "chunk-015",
+      "text": "Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.",
+      "source_document": "benchmark-source.md",
+      "position": 15,
+      "char_length": 156
+    }
+  ]
+}

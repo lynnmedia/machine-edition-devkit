@@ -1,0 +1,40 @@
+{"benchmark_id": "ME-BENCH-001", "required_triples": []}
+{"benchmark_id": "ME-BENCH-002", "required_triples": []}
+{"benchmark_id": "ME-BENCH-003", "required_triples": []}
+{"benchmark_id": "ME-BENCH-004", "required_triples": []}
+{"benchmark_id": "ME-BENCH-005", "required_triples": []}
+{"benchmark_id": "ME-BENCH-006", "required_triples": [{"subject": "srow.bench.mu.005", "predicate": "derives_from", "object": "srow.bench.mu.006"}]}
+{"benchmark_id": "ME-BENCH-007", "required_triples": [{"subject": "srow.bench.mu.006", "predicate": "clarifies", "object": "srow.bench.mu.002"}]}
+{"benchmark_id": "ME-BENCH-008", "required_triples": [{"subject": "srow.bench.mu.009", "predicate": "depends_on", "object": "srow.bench.mu.004"}]}
+{"benchmark_id": "ME-BENCH-009", "required_triples": [{"subject": "srow.bench.mu.005", "predicate": "derives_from", "object": "srow.bench.mu.006"}]}
+{"benchmark_id": "ME-BENCH-010", "required_triples": [{"subject": "srow.bench.mu.006", "predicate": "exemplifies", "object": "srow.bench.mu.001"}]}
+{"benchmark_id": "ME-BENCH-011", "required_triples": []}
+{"benchmark_id": "ME-BENCH-012", "required_triples": []}
+{"benchmark_id": "ME-BENCH-013", "required_triples": []}
+{"benchmark_id": "ME-BENCH-014", "required_triples": []}
+{"benchmark_id": "ME-BENCH-015", "required_triples": []}
+{"benchmark_id": "ME-BENCH-016", "required_triples": []}
+{"benchmark_id": "ME-BENCH-017", "required_triples": []}
+{"benchmark_id": "ME-BENCH-018", "required_triples": []}
+{"benchmark_id": "ME-BENCH-019", "required_triples": []}
+{"benchmark_id": "ME-BENCH-020", "required_triples": []}
+{"benchmark_id": "ME-BENCH-021", "required_triples": []}
+{"benchmark_id": "ME-BENCH-022", "required_triples": []}
+{"benchmark_id": "ME-BENCH-023", "required_triples": []}
+{"benchmark_id": "ME-BENCH-024", "required_triples": []}
+{"benchmark_id": "ME-BENCH-025", "required_triples": []}
+{"benchmark_id": "ME-BENCH-026", "required_triples": []}
+{"benchmark_id": "ME-BENCH-027", "required_triples": []}
+{"benchmark_id": "ME-BENCH-028", "required_triples": []}
+{"benchmark_id": "ME-BENCH-029", "required_triples": []}
+{"benchmark_id": "ME-BENCH-030", "required_triples": []}
+{"benchmark_id": "ME-BENCH-031", "required_triples": []}
+{"benchmark_id": "ME-BENCH-032", "required_triples": []}
+{"benchmark_id": "ME-BENCH-033", "required_triples": []}
+{"benchmark_id": "ME-BENCH-034", "required_triples": []}
+{"benchmark_id": "ME-BENCH-035", "required_triples": []}
+{"benchmark_id": "ME-BENCH-036", "required_triples": []}
+{"benchmark_id": "ME-BENCH-037", "required_triples": []}
+{"benchmark_id": "ME-BENCH-038", "required_triples": []}
+{"benchmark_id": "ME-BENCH-039", "required_triples": []}
+{"benchmark_id": "ME-BENCH-040", "required_triples": []}

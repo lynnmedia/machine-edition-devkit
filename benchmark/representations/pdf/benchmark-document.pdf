@@ -1,0 +1,52 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3535 >>
+stream
+BT /F1 10 Tf 50 750 Td (# SROW Public Reference Benchmark Source \(v0.1\)) Tj ET
+BT /F1 10 Tf 50 721 Td (## Chapter 1: Introduction to Structured Resolution-Oriented Writing) Tj ET
+BT /F1 10 Tf 50 692 Td (Structured Resolution-Oriented Writing \(SROW\) is a communication protocol for making structured knowledge readable and navigable by both humans and machines.) Tj ET
+BT /F1 10 Tf 50 663 Td (Structure is a form of reader respect. Explicit structural hierarchy reduces cognitive friction for both human readers and automated inference agents.) Tj ET
+BT /F1 10 Tf 50 634 Td (Progressive disclosure is a staged presentation that exposes orientation and structure before deeper analytical explanation or granular assertion records.) Tj ET
+BT /F1 10 Tf 50 605 Td (Resolution levels range from L0 to L4: L0 provides orientation summaries, L1 states core principles, L2 articulates functional architecture, L3 provides technical verification records, and L4 contains complete forensic ledgers.) Tj ET
+BT /F1 10 Tf 50 576 Td (## Chapter 2: Technical Architecture, Stable Identity, and Data Model) Tj ET
+BT /F1 10 Tf 50 547 Td (The stable-ID algorithm uses SHA-256 truncated to 16 hexadecimal characters over the canonical lexically sorted source-block binding key.) Tj ET
+BT /F1 10 Tf 50 518 Td (Structured Resolution-Oriented Writing \(SROW\) establishes explicit structural compliance for software and AI validation.) Tj ET
+BT /F1 10 Tf 50 489 Td (Explicit relationships link meaning units using typed predicates: derives_from indicates source lineage, clarifies provides architectural elaboration, depends_on establishes prerequisite dependencies, and exemplifies provides concrete application instances.) Tj ET
+BT /F1 10 Tf 50 460 Td (A conformant Machine Edition package comprises six core record types: manifest, meaning_unit, definition, relationship, boundary, and provenance ledgers.) Tj ET
+BT /F1 10 Tf 50 431 Td (## Chapter 3: Semantic Resolution, Monotonicity, and Ambiguity Handling) Tj ET
+BT /F1 10 Tf 50 402 Td (Resolution monotonicity requires that higher detail levels preserve all invariants of lower detail levels without semantic contradiction.) Tj ET
+BT /F1 10 Tf 50 373 Td (Epistemic authority requires that every atomic assertion binds directly to verifiable cryptographic release hashes or canonical publication provenance URLs.) Tj ET
+BT /F1 10 Tf 50 344 Td (When source evidence is underspecified or accommodates multiple valid interpretations, an agent must provide explicit qualification rather than collapsing ambiguity into ungrounded certainty.) Tj ET
+BT /F1 10 Tf 50 315 Td (Contextual scope tags define the operational domain of each assertion, separating universal core invariants from provisional public companion samples.) Tj ET
+BT /F1 10 Tf 50 286 Td (## Chapter 4: Boundaries, Scope, and Epistemic Limitations) Tj ET
+BT /F1 10 Tf 50 257 Td (SROW is an expression and structuring protocol, not a cognition architecture or internal thought representation.) Tj ET
+BT /F1 10 Tf 50 228 Td (Structured records improve inspectability and retrieval precision; they do not guarantee factual truth or eliminate model error.) Tj ET
+BT /F1 10 Tf 50 199 Td (This public reference material contains only authorized public companion samples and does not include the complete manuscript or governed meaning-unit database.) Tj ET
+BT /F1 10 Tf 50 170 Td (Schema conformance certifies structural and syntactic compliance; it does not constitute an epistemic endorsement of the truth value of external assertions.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000224 00000 n 
+0000000000 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+500
+%%EOF
