@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this developer kit, please cite it as below."
+message: "If you use this software, benchmark, or research suite, please cite it as below."
 authors:
   - name: "Lynn Media"
     website: "https://winmedia.com"
@@ -7,4 +7,18 @@ title: "Machine Edition Developer Kit (v0.1)"
 version: 0.1.0
 date-released: 2026-08-29
 url: "https://github.com/lynnmedia/machine-edition-devkit"
+repository-code: "https://github.com/lynnmedia/machine-edition-devkit"
 license: "MIT"
+keywords:
+  - "Machine Edition"
+  - "structured publishing"
+  - "machine-readable publication"
+  - "RAG"
+  - "knowledge representation"
+  - "provenance"
+  - "LLM evaluation"
+  - "digital publishing"
+identifiers:
+  - type: url
+    value: "https://winmedia.com/machine-editions/specification/v0.1"
+    description: "Machine Edition Specification v0.1"

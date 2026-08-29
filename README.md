@@ -1,16 +1,32 @@
 # Machine Edition Developer Kit (v0.1)
 
-Reference developer kit implementing the 5 core responsibilities defined in **Machine Edition Specification v0.1**:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
+Reference developer kit, validation engine, parser, query suite, evaluation benchmark (`ME-BENCH-001`), and research trial execution packages implementing the 5 core responsibilities defined in **Machine Edition Specification v0.1**:
 
 ```text
 inspect → validate → parse → query → compare
 ```
 
-This Developer Kit proves that the public Machine Edition contract is actionable, inspectable, and computable by unaffiliated engineers without needing access to proprietary factory or generation internals.
+---
+
+## 1. What is this?
+
+A **Machine Edition** is a structured, computable publication package designed for reliable, auditable, and multi-resolution consumption by automated AI agents and software systems alongside human readers.
+
+This Developer Kit serves as the canonical open reference implementation of the public **Machine Edition Specification v0.1**, demonstrating that Machine Edition packages can be inspected, validated, queried, and evaluated without proprietary dependencies.
+
+* **Conceptual Authority**: [WinMedia](https://winmedia.com) (`https://winmedia.com/machine-editions/specification/v0.1`)
+* **Executable Implementation**: [GitHub](https://github.com/lynnmedia/machine-edition-devkit) (`lynnmedia/machine-edition-devkit`)
+* **Evaluation Benchmark**: `ME-BENCH-001` (`winmedia.machine-edition-representation-benchmark.v0.1`)
+* **Research Trials**:
+  * `ME-RES-001`: Deterministic reference-harness qualification trial
+  * `ME-RES-002`: Controlled real generative model trial (`qwen2.5:0.5b`)
 
 ---
 
-## 1. Quick Start
+## 2. Quick Start
 
 ### Installation
 
@@ -20,9 +36,9 @@ cd machine-edition-devkit
 pip install -e ".[dev]"
 ```
 
-### Reference Specimen Location
+### Reference Specimen
 
-The authoritative public reference specimen derived from authorized public companion assets is located at:
+An authoritative public reference specimen derived from authorized public companion material is located at:
 
 ```text
 specimen/
@@ -41,125 +57,128 @@ specimen/
     CONFORMANCE-CROSSWALK.md     <-- Audit crosswalk against Spec v0.1 C1-C7
 ```
 
-### Complete 5-Responsibility Workflow
+---
+
+## 3. Validate Specimen
+
+Inspect and validate package compliance against Machine Edition Specification v0.1 JSON schemas (C1-C7) and structural invariants:
 
 ```python
 from pathlib import Path
 from machine_edition_devkit.inspect import inspect_package
 from machine_edition_devkit.validate import MachineEditionValidator
-from machine_edition_devkit.parse import MachineEdition
-from machine_edition_devkit.queries import SampleQueryRunner
-from machine_edition_devkit.comparison import ComparisonHarness
 
 specimen_dir = Path("specimen/srow/package")
 
 # 1. Inspect
 summary = inspect_package(specimen_dir)
-print(f"1. INSPECT: {summary.package_id} v{summary.version} ({summary.meaning_units_count} units)")
+print(f"INSPECT: {summary.package_id} v{summary.version} ({summary.meaning_units_count} units)")
 
-# 2. Validate against public schemas & invariants (C1-C7)
+# 2. Validate against C1-C7 schemas and invariants
 validator = MachineEditionValidator()
 report = validator.validate_package(specimen_dir)
-print(f"2. VALIDATE: {report.outcome}")
-
-# 3. Parse into domain entity model
-edition = MachineEdition.load(specimen_dir, validate=True)
-mu = edition.get_unit("srow.ref.mu.003")
-print(f"3. PARSE: Loaded unit '{mu.title}' [L{mu.resolution_level}]")
-
-# 4. Query & Provenance Trace
-prov = edition.provenance(mu)
-print(f"4. QUERY: Claim provenance -> {prov.source_title} ({prov.source_url})")
-
-# 5. Compare representations (PDF, EPUB, Naive RAG, Machine Edition)
-harness = ComparisonHarness()
-results = harness.run_all()
-print("5. COMPARE: 16-task representation matrix executed successfully.")
+print(f"VALIDATE: {report.outcome} (Errors: {len(report.errors)})")
 ```
 
-### CLI Command Interfaces
+---
 
+## 4. Parse & Query Specimen
+
+Load the edition into a structured entity model and perform deterministic queries with provenance tracking:
+
+```python
+from machine_edition_devkit.parse import MachineEdition
+
+edition = MachineEdition.load("specimen/srow/package", validate=True)
+unit = edition.get_unit("srow.ref.mu.003")
+print(f"PARSE: Loaded '{unit.title}' [Resolution Level L{unit.resolution_level}]")
+
+# Provenance tracing
+prov = edition.provenance(unit)
+print(f"PROVENANCE: {prov.source_title} ({prov.source_url})")
+
+# Typed relationships
+rels = edition.relationships_for(unit)
+for r in rels:
+    print(f"RELATIONSHIP: {r.subject} --[{r.predicate}]--> {r.object}")
+```
+
+CLI Interface:
 ```bash
 # Run the 20-query reference pack
 python -m machine_edition_devkit.queries run-all
-
-# Run the 16-task 4-representation comparison trial
-python -m machine_edition_devkit.comparison run
-
-# View the representation property matrix
-python -m machine_edition_devkit.comparison matrix
-
-# Run ME-BENCH-001 frozen benchmark verification suite
-python -m machine_edition_devkit.benchmark verify
-
-# Run ME-BENCH-001 synthetic offline scorer fixtures
-python -m machine_edition_devkit.benchmark test-scorer
-
-# Run ME-RES-001 research trial verification suite
-python -m machine_edition_devkit.research.me_res_001 verify
-
-# Run ME-RES-001 statistical analysis and hypothesis reporting
-python -m machine_edition_devkit.research.me_res_001 analyze
 ```
 
 ---
 
-## 2. Machine Edition Representation Benchmark (ME-BENCH v0.1)
+## 5. Run Representation Comparison
 
-ME-BENCH-001 establishes a frozen, representation-controlled research evaluation instrument comparing **PDF**, **EPUB**, **Naive RAG**, and **Machine Edition** over an expanded 16-fact source corpus under guaranteed information parity:
+Compare Machine Edition against PDF, EPUB, and Naive RAG representation formats across a 16-task representation matrix:
 
-* **Benchmark ID:** `winmedia.machine-edition-representation-benchmark.v0.1`
-* **Task Corpus:** 40 tasks across 8 required task families (5 items each):
-  1. `factual_retrieval`
-  2. `relationship_retrieval`
-  3. `hierarchy_preservation`
-  4. `provenance_tracing`
-  5. `boundary_constraint_recognition`
-  6. `ambiguity_handling`
-  7. `multi_resolution_retrieval`
-  8. `unsupported_claim_detection`
-* **Splits:** 8 calibration items (1 per family) and 32 evaluation items (4 per family).
-* **Firewall Separation:** `tasks.jsonl` provides tasks without gold answers or scoring rules to prevent leakage.
-* **Deterministic Offline Scorer:** Evaluates submissions across 7 dimensions (`correctness`, `provenance_completeness`, `unsupported_assertion_rate`, `semantic_invariant_preservation`, `relationship_accuracy`, `constraint_violations`, `failure_mode`) with a 14-token failure taxonomy.
-* **Artifacts:** Documented and verified under `benchmark/` (`manifest.json`, `integrity-manifest.json`, `RIGHTS.md`, `THREATS-TO-VALIDITY.md`, `README.md`).
+```bash
+# Run comparison trial
+python -m machine_edition_devkit.comparison run
+
+# Display representation property matrix
+python -m machine_edition_devkit.comparison matrix
+```
 
 ---
 
-## 3. Representation Trial Study (ME-RES-001)
+## 6. Reproduce Benchmark (ME-BENCH v0.1)
 
-ME-RES-001 executes a controlled 384-run trial comparing **PDF**, **EPUB**, **Naive RAG**, and **Machine Edition** across 32 evaluation tasks under guaranteed information parity:
-* **Protocol & Hypotheses:** Pre-registered directional hypotheses (H1-H5) frozen prior to evaluation.
-* **Statistical Analysis:** Paired bootstrap estimation over 10,000 resamples showing statistically significant advantages in provenance completeness (+0.1719, 95% CI [0.0625, 0.3125]), semantic invariant preservation (+0.0781, 95% CI [0.0156, 0.1719]), and relationship accuracy (+0.0187, 95% CI [0.0000, 0.0437]).
-* **Full Scientific Report:** Documented in [`research/me-res-001/report/ME-RES-001-REPORT.md`](file:///Users/studiobe/development/github/lynnmedia/machine-edition-devkit/research/me-res-001/report/ME-RES-001-REPORT.md).
+ME-BENCH-001 is a frozen research benchmark comparing **PDF**, **EPUB**, **Naive RAG**, and **Machine Edition** across 40 tasks (8 calibration, 32 evaluation across 8 task families) over a 16-fact source corpus under guaranteed 100% information parity.
 
+```bash
+# Verify artifact integrity and 16/16 information parity
+python -m machine_edition_devkit.benchmark verify
 
-
----
-
-## 2. Specification Binding
-
-This Developer Kit implements the public contract defined in:
-* **Specification:** `Machine Edition Specification v0.1`
-* **Canonical URI:** `https://winmedia.com/machine-editions/specification/v0.1`
-* **Authority Commit:** `c18dea5f378265cad37c0acf0c80f3969617876f` (`winmedia`)
+# Run synthetic offline scorer test fixtures
+python -m machine_edition_devkit.benchmark test-scorer
+```
 
 ---
 
-## 3. Architecture Roadmap
+## 7. Read Research
 
-* `MEDK-001`: Initial 5-responsibility architecture scaffold & reference interfaces.
-* `MEDK-002`: Governed reference specimen expansion (`specimen/srow/package`).
-* `MEDK-003`: Public schemas + full reference validator engine (C1-C7 conformance).
-* `MEDK-003A`: Schema authority commit identity reconciliation.
-* `MEDK-004`: Complete parser abstractions & TypeScript consumer example.
-* `MEDK-005`: 20-query deterministic reference query pack & CLI runner.
-* `MEDK-006`: Executable representation comparison benchmarks (PDF, EPUB, RAG, Machine Edition).
-* `ME-BENCH-001`: Frozen Machine Edition Representation Benchmark v0.1 (40 tasks, 8 families, offline scorer, integrity manifest).
-* `ME-BENCH-001A`: Benchmark freeze commit identity reconciliation.
-* `ME-RES-001`: Controlled single-model representation trial across PDF, EPUB, RAG, and Machine Edition (384 evaluation runs, paired bootstrap analysis, and research report).
+### ME-RES-001: Deterministic Reference-Harness Qualification Trial
+* **Purpose**: Methodological qualification of the benchmark harness, 4 representation adapters, offline scoring engine, and 10,000-resample paired bootstrap pipeline.
+* **Classification**: `deterministic reference-harness trial` (`ME_RES_V01_REFERENCE_HARNESS_CONFIRMED`).
+* **Report**: [`research/me-res-001/report/ME-RES-001-REPORT.md`](file:///Users/studiobe/development/github/lynnmedia/machine-edition-devkit/research/me-res-001/report/ME-RES-001-REPORT.md)
+
+### ME-RES-002: Real Generative Model Representation Trial
+* **Purpose**: Controlled empirical evaluation using a genuine pretrained neural language model (`qwen2.5:0.5b`, Qwen 2.5 0.5B Instruct, 490M parameters via local Ollama) across 384 evaluation calls.
+* **Key Findings**:
+  * Machine Edition produced the highest provenance-completeness point estimate (0.8490 vs 0.7812 for RAG, paired delta +0.0677, 95% CI [-0.0573, +0.1927]) and reduced provenance omissions from 21 to 12.
+  * Machine Edition produced 5x more clean error-free responses than RAG (15 passes vs 3).
+  * PDF full-text extraction achieved the highest factual correctness point estimate (0.2969 vs 0.2656 EPUB, 0.2344 ME, 0.2188 RAG).
+  * Machine Edition packages required higher token volume (~2,789 tokens vs ~415 for RAG).
+* **Report**: [`research/me-res-002/report/ME-RES-002-REPORT.md`](file:///Users/studiobe/development/github/lynnmedia/machine-edition-devkit/research/me-res-002/report/ME-RES-002-REPORT.md)
+
+```bash
+# Verify ME-RES-002 research integrity
+python -m machine_edition_devkit.research.me_res_002 verify
+
+# Display statistical contrast tables and calibrated hypothesis conclusions
+python -m machine_edition_devkit.research.me_res_002 analyze
+```
 
 ---
 
-## 4. License
+## 8. Citation
+
+```bibtex
+@software{lynnmedia_medk_2026,
+  author = {{Lynn Media}},
+  title = {Machine Edition Developer Kit (v0.1)},
+  year = {2026},
+  url = {https://github.com/lynnmedia/machine-edition-devkit},
+  note = {Implementing Machine Edition Specification v0.1, WinMedia}
+}
+```
+
+---
+
+## 9. License
 
 MIT License (c) 2026 Lynn Media.
