@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Branch**: `main`
 * **Status**: Initialized
 * **Remote**: Local git repo initialized; publication withheld per batch posture

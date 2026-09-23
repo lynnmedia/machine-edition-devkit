@@ -1,184 +1,52 @@
-# Machine Edition Developer Kit (v0.1)
+# Machine Edition Developer Kit v0.1.0
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+## What this is
 
-Reference developer kit, validation engine, parser, query suite, evaluation benchmark (`ME-BENCH-001`), and research trial execution packages implementing the 5 core responsibilities defined in **Machine Edition Specification v0.1**:
+A small, public implementation of [Machine Edition Specification v0.1](https://winmedia.com/machine-editions/specification/v0.1). It contains a complete SROW reference specimen derived from the authorized public companion, JSON Schemas, a validator, a parser, and query examples. A Machine Edition makes meaning units, relationships, boundaries, and provenance addressable for software.
 
-```text
-inspect → validate → parse → query → compare
-```
+The kit runs locally with Python 3.10+ and the declared `jsonschema` dependency. Its [GitHub v0.1.0 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0) identifies the published files and checksums.
 
----
+## When to use it
 
-## 1. What is this?
+Use it to inspect a package, check its structural conformance, trace a specimen claim to its public source, or prototype a small query. Start with the three [sample queries](examples/queries.md). The [SROW specimen](specimen/srow/README.md) is synthetic and intentionally small enough to inspect in full.
 
-A **Machine Edition** is a structured, computable publication package designed for reliable, auditable, and multi-resolution consumption by automated AI agents and software systems alongside human readers.
+## What it does not claim
 
-This Developer Kit serves as the canonical open reference implementation of the public **Machine Edition Specification v0.1**, demonstrating that Machine Edition packages can be inspected, validated, queried, and evaluated without proprietary dependencies.
+Schema validation does not establish truth, eliminate model error, or grant rights over the governed SROW edition. The specimen is not the manuscript or full SROW meaning-unit database. The comparison describes representation affordances, not universal performance superiority. Research and benchmark materials in this repository are separate follow-on work; they are not required to use the kit.
 
-* **Conceptual Authority**: [WinMedia](https://winmedia.com) (`https://winmedia.com/machine-editions/specification/v0.1`)
-* **Executable Implementation**: [GitHub](https://github.com/lynnmedia/machine-edition-devkit) (`lynnmedia/machine-edition-devkit`)
-* **Evaluation Benchmark**: `ME-BENCH-001` (`winmedia.machine-edition-representation-benchmark.v0.1`)
-* **Research Trials**:
-  * `ME-RES-001`: Deterministic reference-harness qualification trial
-  * `ME-RES-002`: Controlled real generative model trial (`qwen2.5:0.5b`)
+## Five-minute validation
 
----
-
-## 2. Quick Start
-
-### Installation
+From a clean checkout, install the package in a local environment, then run the one validation command:
 
 ```bash
-git clone https://github.com/lynnmedia/machine-edition-devkit.git
-cd machine-edition-devkit
-pip install -e ".[dev]"
+python3 -m venv .venv
+.venv/bin/python -m pip install -e .
+.venv/bin/python -m machine_edition_devkit.validate specimen/srow/package
 ```
 
-### Reference Specimen
+Expected final line: `All schemas and invariants verified successfully (ME_CONFORMANT).` The command exits nonzero for a nonconformant package. Run the test suite with `.venv/bin/python -m pip install -e '.[dev]'` followed by `.venv/bin/python -m pytest -q`. Three persistent malformed fixtures in `tests/fixtures/` demonstrate rejection by the manifest, meaning-unit, and provenance schemas.
 
-An authoritative public reference specimen derived from authorized public companion material is located at:
+For a bounded parser result, run `.venv/bin/python examples/parse.py`. It emits the package ID, version, and at most three meaning-unit IDs with their provenance IDs in stable ID order. The dependency-free TypeScript version is [`examples/parse.ts`](examples/parse.ts); with Node.js 22.18+ run `node examples/parse.ts`.
 
-```text
-specimen/
-  srow/
-    package/                     <-- Normative Machine Edition Package
-      manifest.json
-      meaning-units.jsonl
-      provenance.jsonl
-      definitions.jsonl
-      boundaries.jsonl
-      relationships.jsonl
-      full-preview.md
-      LICENSE.txt
-    SOURCE.json                  <-- Authority provenance & archive SHA-256
-    DERIVATION.json              <-- Normalization log
-    CONFORMANCE-CROSSWALK.md     <-- Audit crosswalk against Spec v0.1 C1-C7
-```
+## Normative specification
 
----
+[Machine Edition Specification v0.1](https://winmedia.com/machine-editions/specification/v0.1) is the versioned, normative definition. This repository implements it; the [WinMedia reference page](https://winmedia.com/reference/machine-edition) provides canonical context. The kit's local schemas are in [`schemas/`](schemas/), with SHA-256 values in [`schema-manifest.json`](schemas/schema-manifest.json).
 
-## 3. Validate Specimen
+## Explore the kit
 
-Inspect and validate package compliance against Machine Edition Specification v0.1 JSON schemas (C1-C7) and structural invariants:
+- [Three example queries](examples/queries.md) show exact lookup, relationship traversal, and provenance resolution. The 20-query pack is in [`queries/sample_queries.json`](queries/sample_queries.json); run it with `.venv/bin/python -m machine_edition_devkit.queries run-all`.
+- [PDF, EPUB, RAG chunks, knowledge graphs, and Machine Editions](comparison/pdf-epub-rag-knowledge-graph-machine-edition.md) gives a concise format comparison.
+- [SROW source and derivation](specimen/srow/README.md) records the rights-cleared source archive and transformation into the v0.1 specimen.
+- [Changelog](CHANGELOG.md), [rights](RIGHTS.md), [MIT code license](LICENSE), and [citation record](CITATION.cff) document release identity and reuse terms.
 
-```python
-from pathlib import Path
-from machine_edition_devkit.inspect import inspect_package
-from machine_edition_devkit.validate import MachineEditionValidator
+## Release integrity and citation
 
-specimen_dir = Path("specimen/srow/package")
+The published [v0.1.0 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0) includes the SROW specimen ZIP (SHA-256 `ebe193fca0609de8e957d8e88e2a26bddb5fe6490e41a5be44f6bf05cad26151`). The release also contains optional benchmark and research bundles. All three published asset hashes are pinned in [`RELEASE-CHECKSUMS.sha256`](RELEASE-CHECKSUMS.sha256). If those files are downloaded into `dist/`, run `cd dist && shasum -a 256 -c ../RELEASE-CHECKSUMS.sha256` to verify the exact bytes. Changes on `main` after the v0.1.0 tag do not alter that release.
 
-# 1. Inspect
-summary = inspect_package(specimen_dir)
-print(f"INSPECT: {summary.package_id} v{summary.version} ({summary.meaning_units_count} units)")
+Cite the stable [specification](https://winmedia.com/machine-editions/specification/v0.1) when referring to the format. Cite the [v0.1.0 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0) when referring to this implementation or specimen. The machine-readable citation is [`CITATION.cff`](CITATION.cff). No Zenodo DOI is claimed until the exact release has been archived and verified.
 
-# 2. Validate against C1-C7 schemas and invariants
-validator = MachineEditionValidator()
-report = validator.validate_package(specimen_dir)
-print(f"VALIDATE: {report.outcome} (Errors: {len(report.errors)})")
-```
+The software, schemas, examples, and kit documentation are MIT licensed. The SROW specimen and derived comparison data and benchmark content have the separately documented CC BY 4.0 source scope. See [`RIGHTS.md`](RIGHTS.md) before redistribution.
 
----
+## Further research
 
-## 4. Parse & Query Specimen
-
-Load the edition into a structured entity model and perform deterministic queries with provenance tracking:
-
-```python
-from machine_edition_devkit.parse import MachineEdition
-
-edition = MachineEdition.load("specimen/srow/package", validate=True)
-unit = edition.get_unit("srow.ref.mu.003")
-print(f"PARSE: Loaded '{unit.title}' [Resolution Level L{unit.resolution_level}]")
-
-# Provenance tracing
-prov = edition.provenance(unit)
-print(f"PROVENANCE: {prov.source_title} ({prov.source_url})")
-
-# Typed relationships
-rels = edition.relationships_for(unit)
-for r in rels:
-    print(f"RELATIONSHIP: {r.subject} --[{r.predicate}]--> {r.object}")
-```
-
-CLI Interface:
-```bash
-# Run the 20-query reference pack
-python -m machine_edition_devkit.queries run-all
-```
-
----
-
-## 5. Run Representation Comparison
-
-Compare Machine Edition against PDF, EPUB, and Naive RAG representation formats across a 16-task representation matrix:
-
-```bash
-# Run comparison trial
-python -m machine_edition_devkit.comparison run
-
-# Display representation property matrix
-python -m machine_edition_devkit.comparison matrix
-```
-
----
-
-## 6. Reproduce Benchmark (ME-BENCH v0.1)
-
-ME-BENCH-001 is a frozen research benchmark comparing **PDF**, **EPUB**, **Naive RAG**, and **Machine Edition** across 40 tasks (8 calibration, 32 evaluation across 8 task families) over a 16-fact source corpus under guaranteed 100% information parity.
-
-```bash
-# Verify artifact integrity and 16/16 information parity
-python -m machine_edition_devkit.benchmark verify
-
-# Run synthetic offline scorer test fixtures
-python -m machine_edition_devkit.benchmark test-scorer
-```
-
----
-
-## 7. Read Research
-
-### ME-RES-001: Deterministic Reference-Harness Qualification Trial
-* **Purpose**: Methodological qualification of the benchmark harness, 4 representation adapters, offline scoring engine, and 10,000-resample paired bootstrap pipeline.
-* **Classification**: `deterministic reference-harness trial` (`ME_RES_V01_REFERENCE_HARNESS_CONFIRMED`).
-* **Report**: [`research/me-res-001/report/ME-RES-001-REPORT.md`](file:///Users/studiobe/development/github/lynnmedia/machine-edition-devkit/research/me-res-001/report/ME-RES-001-REPORT.md)
-
-### ME-RES-002: Real Generative Model Representation Trial
-* **Purpose**: Controlled empirical evaluation using a genuine pretrained neural language model (`qwen2.5:0.5b`, Qwen 2.5 0.5B Instruct, 490M parameters via local Ollama) across 384 evaluation calls.
-* **Key Findings**:
-  * Machine Edition produced the highest provenance-completeness point estimate (0.8490 vs 0.7812 for RAG, paired delta +0.0677, 95% CI [-0.0573, +0.1927]) and reduced provenance omissions from 21 to 12.
-  * Machine Edition produced 5x more clean error-free responses than RAG (15 passes vs 3).
-  * PDF full-text extraction achieved the highest factual correctness point estimate (0.2969 vs 0.2656 EPUB, 0.2344 ME, 0.2188 RAG).
-  * Machine Edition packages required higher token volume (~2,789 tokens vs ~415 for RAG).
-* **Report**: [`research/me-res-002/report/ME-RES-002-REPORT.md`](file:///Users/studiobe/development/github/lynnmedia/machine-edition-devkit/research/me-res-002/report/ME-RES-002-REPORT.md)
-
-```bash
-# Verify ME-RES-002 research integrity
-python -m machine_edition_devkit.research.me_res_002 verify
-
-# Display statistical contrast tables and calibrated hypothesis conclusions
-python -m machine_edition_devkit.research.me_res_002 analyze
-```
-
----
-
-## 8. Citation
-
-```bibtex
-@software{lynnmedia_medk_2026,
-  author = {{Lynn Media}},
-  title = {Machine Edition Developer Kit (v0.1)},
-  year = {2026},
-  url = {https://github.com/lynnmedia/machine-edition-devkit},
-  note = {Implementing Machine Edition Specification v0.1, WinMedia}
-}
-```
-
----
-
-## 9. License
-
-MIT License (c) 2026 Lynn Media.
+The repository also contains [ME-BENCH](benchmark/README.md), [representation comparison](docs/rag-comparison.md), and the [ME-RES-001](research/me-res-001/report/ME-RES-001-REPORT.md) and [ME-RES-002](research/me-res-002/report/ME-RES-002-REPORT.md) reports. Their methods, limitations, and evidence are documented separately from the five-minute kit path.

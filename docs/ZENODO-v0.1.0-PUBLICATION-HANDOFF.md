@@ -2,7 +2,7 @@
 
 * **Repository**: [`lynnmedia/machine-edition-devkit`](https://github.com/lynnmedia/machine-edition-devkit)
 * **Release Tag**: `v0.1.0` ([GitHub Release URL](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0))
-* **Effective Metadata Authority**: `.zenodo.json` (takes precedence over `CITATION.cff` for automated archiving)
+* **Metadata Starting Point**: `.zenodo.json`; its single MIT license field describes the software and is insufficient for a mixed-license deposit. The specimen and derived benchmark content are CC BY 4.0 within the public-companion scope (see `RIGHTS.md` and `benchmark/RIGHTS.md` on the current branch).
 
 ---
 
@@ -64,7 +64,8 @@ Because GitHub `v0.1.0` was tagged before Zenodo integration was activated, manu
    * **Title**: `Machine Edition Developer Kit (v0.1.0)`
    * **Creator**: Lynn Media (Affiliation: Lynn Media / WinMedia)
    * **Version**: `0.1.0`
-   * **License**: MIT License
+   * **Licenses**: Declare both MIT for code/schemas/kit documentation and CC BY 4.0 for the public specimen and derived benchmark content. State the file scopes in the record description; a blanket MIT designation for all uploaded files would be inaccurate.
+   * **Integrity**: Match the three release ZIP files to `RELEASE-CHECKSUMS.sha256` before uploading. Do not mix files from the current default branch with the frozen `v0.1.0` tag and label them as the same archive.
    * **Related Identifiers**:
      * URL `https://winmedia.com/machine-editions/specification/v0.1` (isDocumentedBy)
      * URL `https://github.com/lynnmedia/machine-edition-devkit` (isSupplementTo)
@@ -74,7 +75,7 @@ Because GitHub `v0.1.0` was tagged before Zenodo integration was activated, manu
 1. In Zenodo, navigate to **Profile → GitHub** (`https://zenodo.org/account/settings/github/`).
 2. Sync GitHub repositories.
 3. Locate `lynnmedia/machine-edition-devkit` and toggle the switch to **ON**.
-4. Future release tags published on GitHub will automatically trigger Zenodo archival ingestion.
+4. Before enabling automated archival for a future tag, verify that the resulting record can declare both licenses and their file scopes. The current `.zenodo.json` has only one license field.
 
 ---
 

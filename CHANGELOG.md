@@ -5,6 +5,15 @@ All notable changes to the Machine Edition Developer Kit will be documented in t
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+- Added the repository MIT license and a clear rights boundary for the CC BY 4.0 SROW specimen and derived data.
+- Pinned and verified SHA-256 checksums for the three published v0.1.0 assets.
+- Added persistent malformed fixtures for the manifest, meaning-unit, and provenance schemas.
+- Added bounded Python and TypeScript parser examples, three documented queries, and a working query module CLI.
+- Added the requested concise comparison covering PDF, EPUB, RAG chunks, knowledge graphs, and Machine Editions.
+- Reordered the README around the five-minute validation path and corrected local report links. The published `v0.1.0` release assets are unchanged.
+
 ## [0.1.0] - 2026-08-29
 
 ### Added

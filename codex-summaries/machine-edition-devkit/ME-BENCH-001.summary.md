@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Precursor**: `MEDK_V01_FUNCTIONAL_SCOPE_COMPLETE`
 * **Execution Class**: `BENCHMARK_CORPUS_AND_SCORING_FREEZE`
 

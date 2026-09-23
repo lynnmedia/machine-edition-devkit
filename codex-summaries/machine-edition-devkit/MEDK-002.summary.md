@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Branch**: `main`
 * **Status**: Clean
 * **HEAD / main**: `1628a32d5c68dda63977bc0461b44eb2e823a6ce`

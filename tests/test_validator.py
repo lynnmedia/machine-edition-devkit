@@ -196,3 +196,22 @@ def test_negative_fixture_missing_license(base_valid_package):
     report = validator.validate_package(base_valid_package)
     assert report.outcome == "ME_NONCONFORMANT"
     assert any("Declared license file 'LICENSE.txt' not found" in e for e in report.errors)
+
+
+@pytest.mark.parametrize(
+    ("fixture_name", "package_file", "error_fragment"),
+    [
+        ("invalid-manifest.json", "manifest.json", "Manifest schema validation error"),
+        ("invalid-meaning-unit.json", "meaning-units.jsonl", "meaning-units.jsonl line 1 schema error"),
+        ("invalid-provenance.json", "provenance.jsonl", "provenance.jsonl line 1 schema error"),
+    ],
+)
+def test_persistent_core_schema_fixtures(base_valid_package, fixture_name, package_file, error_fragment):
+    fixture = Path(__file__).parent / "fixtures" / fixture_name
+    content = fixture.read_text(encoding="utf-8")
+    (base_valid_package / package_file).write_text(content + "\n", encoding="utf-8")
+
+    report = MachineEditionValidator().validate_package(base_valid_package)
+
+    assert report.outcome == "ME_NONCONFORMANT"
+    assert any(error_fragment in error for error in report.errors)

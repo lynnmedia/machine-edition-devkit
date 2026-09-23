@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Branch**: `main`
 * **Precursor**: `MEDK_V01_QUERY_PACK_EXECUTABLE`
 

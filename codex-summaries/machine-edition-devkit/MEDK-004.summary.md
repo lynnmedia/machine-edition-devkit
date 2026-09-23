@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Branch**: `main`
 * **Precursors**: `MEDK_SCHEMA_AUTHORITY_IDENTITY_RECONCILED`, `MEDK_V01_REFERENCE_SPECIMEN_ESTABLISHED`, `MEDK_V01_SCHEMAS_AND_VALIDATOR_CONFORMANT`
 

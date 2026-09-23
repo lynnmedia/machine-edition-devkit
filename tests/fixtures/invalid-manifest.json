@@ -1,0 +1,1 @@
+{"package_id":"winmedia.test.package","title":"Test Package","version":"0.1","status":"developer_preview","scope":"Test Scope","formats":["markdown","jsonl"],"license":"LICENSE.txt","human_readable_entrypoint":"full-preview.md","provenance_file":"provenance.jsonl"}

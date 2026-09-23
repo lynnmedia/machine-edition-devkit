@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Branch**: `main`
 * **Precursor Determination**: `MEDK_V01_REFERENCE_SPECIMEN_ESTABLISHED`
 * **Authority Spec Commitment**: `winmedia` commit `c18dea52074ba278ec6bc4a544c80300df6d8882`

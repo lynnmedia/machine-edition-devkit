@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Branch**: `main`
 * **Authority Repository**: `winmedia`
 * **Reported SHA in Batch 2**: `c18dea52074ba278ec6bc4a544c80300df6d8882`

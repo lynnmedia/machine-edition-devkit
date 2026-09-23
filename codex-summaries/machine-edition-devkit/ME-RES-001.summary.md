@@ -9,7 +9,7 @@
 * **Branch**: `main`
 
 ## Opening Evidence
-* **CWD**: `/Users/studiobe/development/github/lynnmedia/machine-edition-devkit`
+* **CWD**: `machine-edition-devkit/` (repository root)
 * **Precursor**: `ME_BENCH_FREEZE_IDENTITY_RECONCILED`
 * **Execution Class**: `FROZEN_BENCHMARK_CONTROLLED_MODEL_TRIAL`
 

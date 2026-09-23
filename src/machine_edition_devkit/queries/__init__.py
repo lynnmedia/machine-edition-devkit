@@ -136,18 +136,24 @@ class SampleQueryRunner:
         return "\n".join(lines)
 
 
-if __name__ == "__main__":
+def main(argv: Optional[List[str]] = None) -> int:
     import sys
+    args = sys.argv[1:] if argv is None else argv
     specimen = Path(__file__).resolve().parent.parent.parent.parent / "specimen" / "srow" / "package"
     ed = MachineEdition.load(specimen)
     runner = SampleQueryRunner()
 
-    if len(sys.argv) > 1 and sys.argv[1] == "list":
+    if args == ["list"]:
         for q in runner.list_queries():
             print(f"{q['query_id']}: [{q['category']}] {q['question']}")
-    elif len(sys.argv) > 2 and sys.argv[1] == "run":
-        res = runner.run_query(ed, sys.argv[2])
+        return 0
+    if len(args) == 2 and args[0] == "run":
+        res = runner.run_query(ed, args[1])
         print(f"{res.query_id} [{res.status}]: {res.question} -> {res.actual}")
-    else:
+        return 0 if res.status == "PASS" else 1
+    if args in ([], ["run-all"]):
         results = runner.run_all(ed)
         print(runner.render_matrix(results))
+        return 0 if all(result.status == "PASS" for result in results) else 1
+    print("Usage: python -m machine_edition_devkit.queries [list | run <ID> | run-all]", file=sys.stderr)
+    return 2
