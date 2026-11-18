@@ -1,10 +1,10 @@
-# Machine Edition Developer Kit v0.1.0
+# Machine Edition Developer Kit v0.1.1
 
 ## What this is
 
 A small, public implementation of [Machine Edition Specification v0.1](https://winmedia.com/machine-editions/specification/v0.1). It contains a complete SROW reference specimen derived from the authorized public companion, JSON Schemas, a validator, a parser, and query examples. A Machine Edition makes meaning units, relationships, boundaries, and provenance addressable for software.
 
-The kit runs locally with Python 3.10+ and the declared `jsonschema` dependency. Its [GitHub v0.1.0 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0) identifies the published files and checksums.
+The kit runs locally with Python 3.10+ and the declared `jsonschema` dependency. Its [GitHub v0.1.1 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.1) records the source and documentation update. The [v0.1.0 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0) identifies the published specimen files and checksums.
 
 ## When to use it
 
@@ -43,7 +43,7 @@ For a bounded parser result, run `.venv/bin/python examples/parse.py`. It emits 
 
 The published [v0.1.0 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0) includes the SROW specimen ZIP (SHA-256 `ebe193fca0609de8e957d8e88e2a26bddb5fe6490e41a5be44f6bf05cad26151`). The release also contains optional benchmark and research bundles. All three published asset hashes are pinned in [`RELEASE-CHECKSUMS.sha256`](RELEASE-CHECKSUMS.sha256). If those files are downloaded into `dist/`, run `cd dist && shasum -a 256 -c ../RELEASE-CHECKSUMS.sha256` to verify the exact bytes. Changes on `main` after the v0.1.0 tag do not alter that release.
 
-Cite the stable [specification](https://winmedia.com/machine-editions/specification/v0.1) when referring to the format. Cite the [v0.1.0 release](https://github.com/lynnmedia/machine-edition-devkit/releases/tag/v0.1.0) when referring to this implementation or specimen. The machine-readable citation is [`CITATION.cff`](CITATION.cff). No Zenodo DOI is claimed until the exact release has been archived and verified.
+Cite the stable [Machine Edition Specification v0.1](https://winmedia.com/machine-editions/specification/v0.1) when referring to the format. Cite [Machine Edition Developer Kit v0.1.1](https://doi.org/10.5281/zenodo.22923622) when referring to this software. Its registered version DOI is `10.5281/zenodo.22923622`, and the machine-readable citation is [`CITATION.cff`](CITATION.cff). The specimen download remains the published v0.1.0 asset identified above.
 
 The software, schemas, examples, and kit documentation are MIT licensed. The SROW specimen and derived comparison data and benchmark content have the separately documented CC BY 4.0 source scope. See [`RIGHTS.md`](RIGHTS.md) before redistribution.
 
